@@ -11,8 +11,6 @@ lineas:
       - "Diseño sismorresistente y métodos de balance energético"
       - "Monitorización del daño estructural mediante técnicas dinámicas"
       - "Estructuras con sistemas de control pasivo"
-      - "Simulación numérica del comportamiento dinámico y ensayos en mesa sísmica"
-      - "Cuantificación de incertidumbre y calibración bayesiana de modelos"
     grupos: ["GI Ingeniería Sísmica: Dinámica de Suelos y Estructuras", "GI Modelado y Simulación en Ingeniería Mecánica"]
   - titulo: "Ingeniería acústica"
     corto: "Acústica"
