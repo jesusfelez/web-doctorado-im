@@ -1,7 +1,7 @@
 # HOME PAGE content in English (editable from the panel: Portada (English))
 etiqueta: "Universidad Politécnica de Madrid · School of Industrial Engineering"
 titulo: "PhD Programme in Mechanical Engineering"
-lema: "We train high-level researchers in Mechanical Engineering, in fields such as autonomous vehicles, next-generation railways and sustainable mobility, additive manufacturing and Industry 4.0, lasers and photonics, biomedical engineering, acoustics, computational simulation and digital twins, and seismic protection of structures, in one of the most highly rated mechanical engineering environments in Europe."
+lema: "We train high-level researchers in Mechanical Engineering, in fields such as autonomous vehicles, next-generation railways and sustainable mobility, additive manufacturing and Industry 4.0, lasers and photonics, biomedical engineering, acoustics, computational simulation, digital twins and seismic protection of structures, in one of the most highly rated mechanical engineering environments in Europe."
 botones:
   - texto: "How to apply"
     enlace: "/admision/"
