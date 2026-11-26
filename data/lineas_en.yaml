@@ -40,8 +40,7 @@ lineas:
       - "Advanced driver assistance systems (ADAS) and autonomous vehicles"
       - "Alternative propulsion systems and emissions"
       - "Mobility of people with reduced mobility"
-      - "Railway rolling stock"
-      - "Vehicle-infrastructure interaction"
+      - "Railway rolling stock and vehicle-infrastructure interaction"
       - "Intelligent railway control, command and signalling systems"
       - "Railway electrification"
     grupos: ["INSIA – GI Seguridad e Impacto Medioambiental de Vehículos y Transportes (GIVET)", "CITEF", "GI Modelado y Simulación en Ingeniería Mecánica"]

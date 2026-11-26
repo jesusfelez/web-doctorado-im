@@ -40,8 +40,7 @@ lineas:
       - "Sistemas de ayuda a la conducción (ADAS) y vehículo autónomo"
       - "Sistemas de propulsión alternativos y emisiones"
       - "Movilidad de personas con movilidad reducida"
-      - "Material rodante ferroviario"
-      - "Interacción vehículo-infraestructura"
+      - "Material rodante ferroviario e interacción vehículo-infraestructura"
       - "Sistemas inteligentes de control, mando y señalización ferroviaria"
       - "Electrificación ferroviaria"
     grupos: ["INSIA – GI Seguridad e Impacto Medioambiental de Vehículos y Transportes (GIVET)", "CITEF", "GI Modelado y Simulación en Ingeniería Mecánica"]
