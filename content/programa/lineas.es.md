@@ -8,4 +8,4 @@ actualizado: "noviembre de 2026"
 
 {{< lineas >}}
 
-¿Te interesa una línea? Consulta el [profesorado](/programa/profesorado/) y contacta con un investigador antes de solicitar la admisión.
+¿Te interesa una línea? Consulta los [investigadores](/programa/investigadores/) y contacta con un investigador antes de solicitar la admisión.

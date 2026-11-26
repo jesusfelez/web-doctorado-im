@@ -1,5 +1,5 @@
 ---
-title: "Profesorado"
+title: "Investigadores"
 description: "Investigadores que participan en el Programa de Doctorado en Ingeniería Mecánica."
 resumen: "Investigadores doctores que pueden dirigir o codirigir tesis en el programa. Busca por nombre, institución o línea."
 weight: 30

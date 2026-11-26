@@ -111,7 +111,7 @@ Conviene concretarlo con el servicio de informática de la ETSII.
 web-doctorado/
 ├── hugo.toml              Configuración y menú
 ├── content/               Textos de las páginas (Markdown): *.es.md y *.en.md
-│   ├── programa/          Presentación, líneas, profesorado, internacionalización
+│   ├── programa/          Presentación, líneas, investigadores, internacionalización
 │   ├── admision/          Requisitos, perfiles, criterios, matrícula
 │   ├── doctorandos/       Permanencia, seguimiento, formación, movilidad, industrial, ayudas
 │   ├── tesis/             Dirección, requisitos, depósito, mención, defendidas, normativa

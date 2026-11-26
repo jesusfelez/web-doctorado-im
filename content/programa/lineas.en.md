@@ -8,4 +8,4 @@ actualizado: "November 2026"
 
 {{< lineas >}}
 
-Interested in a line? Browse the [faculty](/en/programa/profesorado/) and contact a researcher before applying.
+Interested in a line? Browse the [researchers](/en/programa/investigadores/) and contact a researcher before applying.

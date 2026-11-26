@@ -75,8 +75,8 @@ relativeURLs = true
 
 [[languages.es.menus.main]]
   parent = "programa"
-  name = "Profesorado"
-  pageRef = "/programa/profesorado"
+  name = "Investigadores"
+  pageRef = "/programa/investigadores"
   weight = 3
 
 [[languages.es.menus.main]]
@@ -255,8 +255,8 @@ relativeURLs = true
 
 [[languages.en.menus.main]]
   parent = "programa"
-  name = "Faculty"
-  pageRef = "/programa/profesorado"
+  name = "Researchers"
+  pageRef = "/programa/investigadores"
   weight = 3
 
 [[languages.en.menus.main]]

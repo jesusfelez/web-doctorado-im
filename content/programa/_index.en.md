@@ -36,6 +36,6 @@ On completing the doctorate you will be able to conceive, design and carry out a
 ## Find out more
 
 - [Research lines](/en/programa/lineas/)
-- [Faculty](/en/programa/profesorado/)
+- [Researchers](/en/programa/investigadores/)
 - [Internationalisation](/en/programa/internacionalizacion/)
 - [How to apply](/en/admision/)

@@ -35,7 +35,7 @@ accesos:
     texto: "Quality requirements, pre-assessment, submission and defence."
     enlace: "/tesis/"
   - titulo: "Researchers"
-    texto: "Programme faculty and collaborating researchers."
-    enlace: "/programa/profesorado/"
+    texto: "Programme researchers and collaborators from other institutions."
+    enlace: "/programa/investigadores/"
 internacional:
   texto: "Between 40 % and 60 % of the theses defended each year obtain the international mention. Our PhD students carry out research stays at universities and centres in Europe, the Americas and Asia."

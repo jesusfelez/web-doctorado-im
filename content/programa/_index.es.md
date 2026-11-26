@@ -40,6 +40,6 @@ Al terminar el doctorado serás capaz de concebir, diseñar y llevar a cabo un p
 ## Conoce más
 
 - [Líneas de investigación](/programa/lineas/)
-- [Profesorado](/programa/profesorado/)
+- [Investigadores](/programa/investigadores/)
 - [Internacionalización](/programa/internacionalizacion/)
 - [Cómo acceder](/admision/)

@@ -1,5 +1,5 @@
 ---
-title: "Faculty"
+title: "Researchers"
 description: "Researchers taking part in the PhD Programme in Mechanical Engineering."
 resumen: "Researchers holding a doctorate who can supervise or co-supervise theses in the programme. Search by name, institution or research line."
 weight: 30

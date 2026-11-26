@@ -10,7 +10,7 @@ actualizado: "noviembre de 2026"
 
 ## El proceso en 5 pasos
 
-1. **Elige línea y busca director/a.** Revisa las [líneas de investigación](/programa/lineas/) y contacta con un [investigador del programa](/programa/profesorado/) que avale tu candidatura como posible director/a de tesis.
+1. **Elige línea y busca director/a.** Revisa las [líneas de investigación](/programa/lineas/) y contacta con un [investigador del programa](/programa/investigadores/) que avale tu candidatura como posible director/a de tesis.
 2. **Comprueba que cumples los requisitos de acceso.** Normalmente basta con tener grado y máster que sumen 300 ECTS. Mira los [requisitos](/admision/requisitos/).
 3. **Solicita la admisión en la UPM** en los plazos de la EID. Hay un primer periodo cada curso y un segundo si quedan plazas. Consulta el [calendario de la UPM](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/informacion).
 4. **La Comisión Académica valora tu solicitud** con los [criterios de admisión](/admision/criterios/) y te indica si necesitas [complementos formativos](/admision/perfiles/).

@@ -35,7 +35,7 @@ accesos:
     texto: "Requisitos de calidad, evaluación previa, depósito y defensa."
     enlace: "/tesis/"
   - titulo: "Investigadores"
-    texto: "Profesorado del programa e investigadores colaboradores."
-    enlace: "/programa/profesorado/"
+    texto: "Investigadores del programa y colaboradores de otras instituciones."
+    enlace: "/programa/investigadores/"
 internacional:
   texto: "Entre el 40 % y el 60 % de las tesis defendidas cada año obtienen la mención internacional. Nuestros doctorandos hacen estancias de investigación en universidades y centros de Europa, América y Asia."
