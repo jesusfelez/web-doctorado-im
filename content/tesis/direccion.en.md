@@ -1,6 +1,6 @@
 ---
 title: "Tutors and supervisors"
-description: "Assignment of tutor and supervisor, and the UPM co-supervision procedure."
+description: "Roles of the tutor and thesis supervisor, and the UPM co-supervision procedure."
 resumen: "When admitted you will have a programme **tutor** and **supervisor**, who may be the same person. A thesis may have **at most two supervisors**. Co-supervision must be **justified** and is authorised by the **Doctoral Area Committee** on a proposal from the Academic Committee."
 weight: 10
 leyenda: true
@@ -11,11 +11,14 @@ actualizado: "November 2026"
 
 {{< plataforma p="thesis" >}}Assignment and change of supervisor{{< /plataforma >}}
 
-{{< plataforma p="tramites" >}}Tutor assignment{{< /plataforma >}}
-
 {{< general fuente="RD 99/2011, art. 11 and 12" enlace="https://www.boe.es/buscar/act.php?id=BOE-A-2011-2541" >}}
-- **Tutor:** a doctor with proven research experience who looks after your relationship with the Academic Committee.
-- **Supervisor:** the person ultimately responsible for your research training and for the coherence of the thesis.
+- **Tutor:** a doctor with proven research experience. Their duties are:
+  - to look after the PhD candidate's relationship with the Academic Committee;
+  - to review the activity record regularly, together with the supervisor;
+  - to endorse the research plan and report on the annual plan;
+  - to sign the supervision agreement.
+- **Supervisor:** ultimately responsible for the candidate's research training, for the coherence and suitability of the training activities, for the impact and novelty of the thesis, and for guiding its planning and fit with other projects and activities. The supervisor also reviews the activity record, endorses the research plan, issues the annual report and signs the supervision agreement.
+- The tutor and the supervisor **may be the same person**.
 - The Academic Committee may change the tutor or supervisor at any time for justified reasons, after hearing the PhD student.
 {{< /general >}}
 

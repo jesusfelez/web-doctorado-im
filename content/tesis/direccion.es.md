@@ -1,6 +1,6 @@
 ---
 title: "Tutela y dirección"
-description: "Asignación de tutor/a y director/a, y procedimiento de codirección de la UPM."
+description: "Funciones del tutor/a y del director/a de tesis, y procedimiento de codirección de la UPM."
 resumen: "Al ser admitido/a tendrás un **tutor/a** y un **director/a** del programa, que pueden ser la misma persona. La tesis puede tener **como máximo dos directores**. La codirección debe estar **justificada** y la autoriza el **Comité del Área Doctoral**, a propuesta de la Comisión Académica."
 weight: 10
 leyenda: true
@@ -11,11 +11,14 @@ actualizado: "noviembre de 2026"
 
 {{< plataforma p="thesis" >}}Asignación y cambio de director/a{{< /plataforma >}}
 
-{{< plataforma p="tramites" >}}Asignación de tutor/a{{< /plataforma >}}
-
 {{< general fuente="RD 99/2011, art. 11 y 12" enlace="https://www.boe.es/buscar/act.php?id=BOE-A-2011-2541" >}}
-- **Tutor/a:** doctor/a con experiencia investigadora acreditada. Vela por tu relación con la Comisión Académica.
-- **Director/a:** máximo responsable de tu formación investigadora y de la coherencia de la tesis.
+- **Tutor/a:** doctor/a con experiencia investigadora acreditada. Sus funciones son:
+  - velar por la interacción del doctorando/a con la Comisión Académica;
+  - revisar regularmente, junto con el director/a, el documento de actividades;
+  - avalar el plan de investigación y emitir informe sobre el plan anual;
+  - firmar el compromiso de supervisión.
+- **Director/a:** máximo responsable de la formación investigadora del doctorando/a, de la coherencia e idoneidad de las actividades de formación, del impacto y novedad de la tesis, y de guiar la planificación y su adecuación a otros proyectos y actividades. También revisa el documento de actividades, avala el plan de investigación, emite informe anual y firma el compromiso de supervisión.
+- Tutor/a y director/a **pueden ser la misma persona**.
 - La Comisión Académica puede cambiar al tutor/a o al director/a en cualquier momento si hay razones justificadas, oído el doctorando.
 {{< /general >}}
 

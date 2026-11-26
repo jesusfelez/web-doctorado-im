@@ -12,7 +12,7 @@ resumen: "What the programme expects from you as a **supervisor or tutor**, in t
 
 <li><span class="r-cuando">Before admission</span>
 <h3>Sign the applicant's commitment letter</h3>
-<p>By agreement of the Academic Committee, every application must include the <a href="/documentos/Carta_compromiso_direccion_tesis_IM.docx">supervision commitment letter</a>, or the <a href="/documentos/Carta_compromiso_tutorizacion_tesis_IM.docx">tutoring letter</a> if the supervisor is not in the programme. It states the research line, provisional title and planned funding.</p>
+<p>By agreement of the Academic Committee, every application must include the supervision and tutoring commitment letter: <a href="/documentos/Carta_compromiso_director_tutor_misma_persona_IM.docx">template if you are both supervisor and tutor</a> or <a href="/documentos/Carta_compromiso_director_tutor_distintos_IM.docx">if they are different people</a> (both sign). It states the research line, provisional title and planned funding.</p>
 <p class="r-enl"><a href="/en/admision/requisitos/">Requirements</a> · <a href="/en/admision/criterios/">Admission criteria</a> · <a href="/en/doctorandos/ayudas/">Grants and contracts</a></p></li>
 
 <li><span class="r-cuando">First 6 months</span>
@@ -44,8 +44,8 @@ resumen: "What the programme expects from you as a **supervisor or tutor**, in t
 ## Documents and templates
 
 <div class="rejilla r2 descargas">
-<a class="tarjeta tarjeta-acceso" href="/documentos/Carta_compromiso_direccion_tesis_IM.docx"><h3>Supervision commitment letter</h3><p>Word · bilingual · signed by the supervisor</p></a>
-<a class="tarjeta tarjeta-acceso" href="/documentos/Carta_compromiso_tutorizacion_tesis_IM.docx"><h3>Tutoring commitment letter</h3><p>Word · bilingual · signed by the tutor</p></a>
+<a class="tarjeta tarjeta-acceso" href="/documentos/Carta_compromiso_director_tutor_misma_persona_IM.docx"><h3>Commitment letter · same person</h3><p>Word · bilingual · supervisor is also tutor</p></a>
+<a class="tarjeta tarjeta-acceso" href="/documentos/Carta_compromiso_director_tutor_distintos_IM.docx"><h3>Commitment letter · different people</h3><p>Word · bilingual · signed by supervisor and tutor</p></a>
 <a class="tarjeta tarjeta-acceso" href="/documentos/Plan_investigacion_inicial_IM.docx"><h3>Initial research plan</h3><p>Word · bilingual · endorsed by supervisor and tutor</p></a>
 <a class="tarjeta tarjeta-acceso" href="/documentos/Registro_actividades_doctorando_IM.xlsx"><h3>Activity log</h3><p>Excel (in Spanish) · signed by the supervisor every year</p></a>
 </div>

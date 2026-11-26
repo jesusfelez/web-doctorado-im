@@ -7,7 +7,7 @@ resumen: "Everything you need on one page, **in the order you will need it**. Ea
 <ol class="ruta">
 <li><span class="r-cuando">Before applying</span>
 <h3>Find a supervisor and get their commitment letter</h3>
-<p>Choose a <a href="/en/programa/lineas/">research line</a> and contact a <a href="/en/programa/investigadores/">programme researcher</a>. Ask them to sign the <a href="/documentos/Carta_compromiso_direccion_tesis_IM.docx">supervision commitment letter</a> (or the <a href="/documentos/Carta_compromiso_tutorizacion_tesis_IM.docx">tutoring letter</a>). <strong>It is compulsory and must be attached to your application.</strong></p>
+<p>Choose a <a href="/en/programa/lineas/">research line</a> and contact a <a href="/en/programa/investigadores/">programme researcher</a>. Ask them to sign the supervision and tutoring commitment letter: <a href="/documentos/Carta_compromiso_director_tutor_misma_persona_IM.docx">template if supervisor and tutor are the same person</a> or <a href="/documentos/Carta_compromiso_director_tutor_distintos_IM.docx">if they are different people</a>. <strong>It is compulsory and must be attached to your application.</strong></p>
 <p class="r-enl"><a href="/en/admision/requisitos/">Requirements</a> · <a href="/en/admision/criterios/">Criteria</a> · <a href="/en/admision/">How to apply</a></p></li>
 
 <li><span class="r-cuando">Once admitted</span>
@@ -51,8 +51,8 @@ resumen: "Everything you need on one page, **in the order you will need it**. Ea
 <div class="rejilla r2 descargas">
 <a class="tarjeta tarjeta-acceso" href="/documentos/Plan_investigacion_inicial_IM.docx"><h3>Initial research plan</h3><p>Word · bilingual · before the end of year one</p></a>
 <a class="tarjeta tarjeta-acceso" href="/documentos/Registro_actividades_doctorando_IM.xlsx"><h3>Activity log</h3><p>Excel (in Spanish) · submitted with each annual plan</p></a>
-<a class="tarjeta tarjeta-acceso" href="/documentos/Carta_compromiso_direccion_tesis_IM.docx"><h3>Supervision commitment letter</h3><p>Word · bilingual · with the admission application</p></a>
-<a class="tarjeta tarjeta-acceso" href="/documentos/Carta_compromiso_tutorizacion_tesis_IM.docx"><h3>Tutoring commitment letter</h3><p>Word · bilingual · if the supervisor is not in the programme</p></a>
+<a class="tarjeta tarjeta-acceso" href="/documentos/Carta_compromiso_director_tutor_misma_persona_IM.docx"><h3>Commitment letter · same person</h3><p>Word · bilingual · supervisor is also tutor</p></a>
+<a class="tarjeta tarjeta-acceso" href="/documentos/Carta_compromiso_director_tutor_distintos_IM.docx"><h3>Commitment letter · different people</h3><p>Word · bilingual · signed by supervisor and tutor</p></a>
 </div>
 
 ## Where is each procedure done?

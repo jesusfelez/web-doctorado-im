@@ -28,7 +28,7 @@ actualizado: "November 2026"
 
 | Procedure | Platform |
 |---|---|
-| Access and admission, tutor assignment | [UPM student procedures](https://tramitesestudiantes.upm.es/login) |
+| Access and admission | [UPM student procedures](https://tramitesestudiantes.upm.es/login) |
 | Annual enrolment (academic supervision) | [Online enrolment (UXXI-AC)](https://www.upm.es/UPM/ServiciosTecnologicos/Automatricula) |
 | Research plan, extension, change of study mode, temporary leave | [THESIS](https://www.upm.es/thesis/) |
 | Change of thesis title, change of supervisor, adding or removing a co-supervisor | [THESIS](https://www.upm.es/thesis/) |

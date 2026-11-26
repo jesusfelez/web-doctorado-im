@@ -31,7 +31,7 @@ La **Escuela Internacional de Doctorado** fija el procedimiento y los plazos, y 
 
 {{< programa >}}
 - **Inglés de nivel B2** o superior.
-- **Aval de un investigador o investigadora del programa** como posible director/a de la tesis, acreditado con la **[carta de compromiso de dirección](/documentos/Carta_compromiso_direccion_tesis_IM.docx)** firmada (o la [de tutorización](/documentos/Carta_compromiso_tutorizacion_tesis_IM.docx), si el director/a no es del programa). **Debes adjuntarla a la solicitud de admisión**: sin ella, la Comisión Académica no puede tramitar la admisión.
+- **Aval de un investigador o investigadora del programa** como posible director/a de la tesis, acreditado con la **carta de compromiso de dirección y tutoría** firmada: [modelo si director/a y tutor/a son la misma persona](/documentos/Carta_compromiso_director_tutor_misma_persona_IM.docx) o [modelo si son personas distintas](/documentos/Carta_compromiso_director_tutor_distintos_IM.docx). **Debes adjuntarla a la solicitud de admisión**: sin ella, la Comisión Académica no puede tramitar la admisión.
 {{< /programa >}}
 
-{{< clave >}}**Consejo:** contacta con tu posible director/a **antes** de presentar la solicitud. Sin su aval y su carta de compromiso firmada, la solicitud no podrá admitirse.{{< /clave >}}
+{{< clave >}}**Consejo:** contacta con tu posible director/a **antes** de presentar la solicitud. Sin su aval y la carta de compromiso firmada, la solicitud no podrá admitirse.{{< /clave >}}

@@ -7,7 +7,7 @@ resumen: "Todo lo que necesitas en una página, **en el orden en que lo vas a ne
 <ol class="ruta">
 <li><span class="r-cuando">Antes de solicitar</span>
 <h3>Busca director/a y consigue su carta de compromiso</h3>
-<p>Elige una <a href="/programa/lineas/">línea de investigación</a> y contacta con un <a href="/programa/investigadores/">investigador del programa</a>. Pídele que firme la <a href="/documentos/Carta_compromiso_direccion_tesis_IM.docx">carta de compromiso de dirección</a> (o la <a href="/documentos/Carta_compromiso_tutorizacion_tesis_IM.docx">de tutorización</a>). <strong>Es obligatoria y se adjunta a la solicitud.</strong></p>
+<p>Elige una <a href="/programa/lineas/">línea de investigación</a> y contacta con un <a href="/programa/investigadores/">investigador del programa</a>. Pídele que firme la carta de compromiso de dirección y tutoría: <a href="/documentos/Carta_compromiso_director_tutor_misma_persona_IM.docx">modelo si director/a y tutor/a son la misma persona</a> o <a href="/documentos/Carta_compromiso_director_tutor_distintos_IM.docx">si son personas distintas</a>. <strong>Es obligatoria y se adjunta a la solicitud.</strong></p>
 <p class="r-enl"><a href="/admision/requisitos/">Requisitos</a> · <a href="/admision/criterios/">Criterios</a> · <a href="/admision/">Cómo solicitar</a></p></li>
 
 <li><span class="r-cuando">Al ser admitido/a</span>
@@ -51,8 +51,8 @@ resumen: "Todo lo que necesitas en una página, **en el orden en que lo vas a ne
 <div class="rejilla r2 descargas">
 <a class="tarjeta tarjeta-acceso" href="/documentos/Plan_investigacion_inicial_IM.docx"><h3>Plan de investigación inicial</h3><p>Word · bilingüe · antes del primer año</p></a>
 <a class="tarjeta tarjeta-acceso" href="/documentos/Registro_actividades_doctorando_IM.xlsx"><h3>Registro de actividades</h3><p>Excel · se entrega con cada plan anual</p></a>
-<a class="tarjeta tarjeta-acceso" href="/documentos/Carta_compromiso_direccion_tesis_IM.docx"><h3>Carta de compromiso de dirección</h3><p>Word · bilingüe · con la solicitud de admisión</p></a>
-<a class="tarjeta tarjeta-acceso" href="/documentos/Carta_compromiso_tutorizacion_tesis_IM.docx"><h3>Carta de compromiso de tutorización</h3><p>Word · bilingüe · si el director/a no es del programa</p></a>
+<a class="tarjeta tarjeta-acceso" href="/documentos/Carta_compromiso_director_tutor_misma_persona_IM.docx"><h3>Carta de compromiso · misma persona</h3><p>Word · bilingüe · director/a y tutor/a coinciden</p></a>
+<a class="tarjeta tarjeta-acceso" href="/documentos/Carta_compromiso_director_tutor_distintos_IM.docx"><h3>Carta de compromiso · personas distintas</h3><p>Word · bilingüe · firman director/a y tutor/a</p></a>
 </div>
 
 ## ¿Dónde se tramita cada cosa?

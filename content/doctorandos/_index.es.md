@@ -28,7 +28,7 @@ actualizado: "noviembre de 2026"
 
 | Trámite | Plataforma |
 |---|---|
-| Acceso y admisión, asignación de tutor/a | [Trámites de estudiantes UPM](https://tramitesestudiantes.upm.es/login) |
+| Acceso y admisión | [Trámites de estudiantes UPM](https://tramitesestudiantes.upm.es/login) |
 | Matrícula anual (tutela académica) | [Automatrícula (UXXI-AC)](https://www.upm.es/UPM/ServiciosTecnologicos/Automatricula) |
 | Plan de investigación, prórroga, cambio de dedicación, bajas temporales | [THESIS](https://www.upm.es/thesis/) |
 | Cambio de título, cambio de director/a, alta y baja de codirector/a | [THESIS](https://www.upm.es/thesis/) |

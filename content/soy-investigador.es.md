@@ -12,7 +12,7 @@ resumen: "Lo que el programa espera de ti como **director/a o tutor/a**, en el o
 
 <li><span class="r-cuando">Antes de la admisión</span>
 <h3>Firma la carta de compromiso del candidato/a</h3>
-<p>Por acuerdo de la Comisión Académica, toda solicitud debe llevar la <a href="/documentos/Carta_compromiso_direccion_tesis_IM.docx">carta de compromiso de dirección</a>, o la <a href="/documentos/Carta_compromiso_tutorizacion_tesis_IM.docx">de tutorización</a> si el director/a no es del programa. En ella indicas la línea, el título provisional y la financiación prevista.</p>
+<p>Por acuerdo de la Comisión Académica, toda solicitud debe llevar la carta de compromiso de dirección y tutoría: <a href="/documentos/Carta_compromiso_director_tutor_misma_persona_IM.docx">modelo si eres director/a y tutor/a a la vez</a> o <a href="/documentos/Carta_compromiso_director_tutor_distintos_IM.docx">si son personas distintas</a> (la firman ambos). En ella indicas la línea, el título provisional y la financiación prevista.</p>
 <p class="r-enl"><a href="/admision/requisitos/">Requisitos</a> · <a href="/admision/criterios/">Criterios de admisión</a> · <a href="/doctorandos/ayudas/">Ayudas y contratos</a></p></li>
 
 <li><span class="r-cuando">Primeros 6 meses</span>
@@ -44,8 +44,8 @@ resumen: "Lo que el programa espera de ti como **director/a o tutor/a**, en el o
 ## Documentos y plantillas
 
 <div class="rejilla r2 descargas">
-<a class="tarjeta tarjeta-acceso" href="/documentos/Carta_compromiso_direccion_tesis_IM.docx"><h3>Carta de compromiso de dirección</h3><p>Word · bilingüe · la firma el director/a</p></a>
-<a class="tarjeta tarjeta-acceso" href="/documentos/Carta_compromiso_tutorizacion_tesis_IM.docx"><h3>Carta de compromiso de tutorización</h3><p>Word · bilingüe · la firma el tutor/a</p></a>
+<a class="tarjeta tarjeta-acceso" href="/documentos/Carta_compromiso_director_tutor_misma_persona_IM.docx"><h3>Carta de compromiso · misma persona</h3><p>Word · bilingüe · director/a y tutor/a coinciden</p></a>
+<a class="tarjeta tarjeta-acceso" href="/documentos/Carta_compromiso_director_tutor_distintos_IM.docx"><h3>Carta de compromiso · personas distintas</h3><p>Word · bilingüe · firman director/a y tutor/a</p></a>
 <a class="tarjeta tarjeta-acceso" href="/documentos/Plan_investigacion_inicial_IM.docx"><h3>Plan de investigación inicial</h3><p>Word · bilingüe · lo avalan director/a y tutor/a</p></a>
 <a class="tarjeta tarjeta-acceso" href="/documentos/Registro_actividades_doctorando_IM.xlsx"><h3>Registro de actividades</h3><p>Excel · lo firma el director/a cada curso</p></a>
 </div>

@@ -12,7 +12,7 @@ actualizado: "noviembre de 2026"
 
 {{< plataforma p="tramites" >}}Solicitud de acceso y admisión{{< /plataforma >}}
 
-1. **Elige línea y busca director/a.** Revisa las [líneas de investigación](/programa/lineas/) y contacta con un [investigador del programa](/programa/investigadores/) que avale tu candidatura como posible director/a de tesis y te firme la [carta de compromiso de dirección](/documentos/Carta_compromiso_direccion_tesis_IM.docx) (o [de tutorización](/documentos/Carta_compromiso_tutorizacion_tesis_IM.docx)). **La carta es obligatoria y se adjunta a la solicitud.**
+1. **Elige línea y busca director/a.** Revisa las [líneas de investigación](/programa/lineas/) y contacta con un [investigador del programa](/programa/investigadores/) que avale tu candidatura como posible director/a de tesis y te firme la carta de compromiso de dirección y tutoría ([misma persona](/documentos/Carta_compromiso_director_tutor_misma_persona_IM.docx) o [personas distintas](/documentos/Carta_compromiso_director_tutor_distintos_IM.docx)). **La carta es obligatoria y se adjunta a la solicitud.**
 2. **Comprueba que cumples los requisitos de acceso.** Normalmente basta con tener grado y máster que sumen 300 ECTS. Mira los [requisitos](/admision/requisitos/).
 3. **Solicita la admisión en la UPM** en los plazos de la EID. Hay un primer periodo cada curso y un segundo si quedan plazas. Consulta el [calendario de la UPM](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/informacion).
 4. **La Comisión Académica valora tu solicitud** con los [criterios de admisión](/admision/criterios/) y te indica si necesitas [complementos formativos](/admision/perfiles/).
