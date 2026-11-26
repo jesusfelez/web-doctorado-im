@@ -52,4 +52,4 @@ resumen: "What the programme expects from you as a **supervisor or tutor**, in t
 
 ## Programme quality
 
-See the [committees](/en/calidad/comisiones/), [quality assurance system](/en/calidad/sgic/) and [results](/en/calidad/resultados/). For any questions, write to the [programme office](/en/contacto/).
+Programme quality is managed within the [ETSII quality system](https://www.industriales.upm.es/estudios/doctorados/ingenieria-mecanica/calidad-y-empleabilidad/). See the [committees](/en/calidad/comisiones/). For any questions, write to the [programme office](/en/contacto/).

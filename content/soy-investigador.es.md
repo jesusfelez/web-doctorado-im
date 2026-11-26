@@ -52,4 +52,4 @@ resumen: "Lo que el programa espera de ti como **director/a o tutor/a**, en el o
 
 ## Calidad del programa
 
-Composición de las [comisiones](/calidad/comisiones/), [sistema de garantía de calidad](/calidad/sgic/) y [resultados](/calidad/resultados/). Para cualquier duda, escribe a la [secretaría del programa](/contacto/).
+La calidad del programa se gestiona en el [SGIC de la ETSII](https://www.industriales.upm.es/estudios/doctorados/ingenieria-mecanica/calidad-y-empleabilidad/). Composición de las [comisiones](/calidad/comisiones/). Para cualquier duda, escribe a la [secretaría del programa](/contacto/).

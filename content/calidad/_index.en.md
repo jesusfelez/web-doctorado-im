@@ -1,26 +1,11 @@
 ---
 title: "Quality"
-subtitulo: "Monitoring, accreditation and continuous improvement of the programme"
-description: "Quality assurance system, Academic Committee, verification, accreditation, modification and results of the programme."
-resumen: "Programme **verified in 2014** and **accredited** (ETSII institutional accreditation in 2019 and 2025). In 2026 it was **modified and adapted to Royal Decree 576/2023**."
+subtitulo: "Programme quality and employability"
+description: "Programme quality is managed within the Internal Quality Assurance System of ETSI Industriales."
+resumen: "The programme is part of the **Internal Quality Assurance System (SGIC) of ETSI Industriales**. Monitoring reports, indicators, satisfaction surveys and employability data are published on the School's website (in Spanish)."
 weight: 50
-actualizado: "November 2026"
 ---
 
-## Degree history
+<p><a class="btn btn-azul" href="https://www.industriales.upm.es/estudios/doctorados/ingenieria-mecanica/calidad-y-empleabilidad/" target="_blank" rel="noopener">Programme quality and employability on the ETSII website ↗</a></p>
 
-<div class="tabla-env"><table>
-<thead><tr><th>Milestone</th><th>Date</th></tr></thead>
-<tbody>
-<tr><td>Verification (Royal Decree 99/2011)</td><td>27/02/2014</td></tr>
-<tr><td>Authorisation by the Community of Madrid</td><td>24/07/2014</td></tr>
-<tr><td>Publication in the BOE</td><td>18/10/2014</td></tr>
-<tr><td>Renewal of accreditation (ETSII institutional accreditation)</td><td>19/07/2019</td></tr>
-<tr><td>Renewal of accreditation (ETSII institutional accreditation)</td><td>26/05/2025</td></tr>
-<tr><td>Favourable report from Madri+d on the modification (Royal Decree 576/2023)</td><td>07/09/2026</td></tr>
-<tr><td>Registration of the modification in the RUCT</td><td>24/11/2026</td></tr>
-</tbody></table></div>
-
-All documents are linked in [Regulations → Official programme documents](/en/tesis/normativa/#official-programme-documents).
-
-{{< enlaces grupo="calidad" >}}
+The programme's [Academic Committee](/en/calidad/comisiones/) is responsible for quality. The official programme documents (verified report, modification and accreditations) are in [Regulations](/en/tesis/normativa/).
