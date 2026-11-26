@@ -51,8 +51,8 @@ enlaces:
     url: "https://www.upm.es/gsfs/SFS12778"
     fuente: "UPM"
   - grupo: doctorandos
-    titulo: "Doctoral and postdoctoral grants"
-    url: "https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/ayudas"
+    titulo: "Research calls and predoctoral contracts (UPM)"
+    url: "https://www.upm.es/investigacion/convocatorias"
     fuente: "UPM"
   # --- Tesis
   - grupo: tesis

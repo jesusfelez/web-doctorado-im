@@ -8,7 +8,9 @@ actualizado: "November 2026"
 
 ## Predoctoral contracts
 
-- **UPM:** grants from the UPM R&D&I Programme and other doctoral grants. See [Doctoral and postdoctoral grants](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/ayudas).
+{{< clave >}}**Open calls:** see all calls for predoctoral contracts and research funding at [upm.es/investigacion/convocatorias](https://www.upm.es/investigacion/convocatorias) (in Spanish).{{< /clave >}}
+
+- **UPM:** grants from the UPM R&D&I Programme and other doctoral grants. See the [UPM calls](https://www.upm.es/investigacion/convocatorias).
 - **Spanish Ministry:** University Teacher Training (**FPU**) and Research Staff Training (**FPI**, linked to projects).
 - **Community of Madrid:** grants for hiring predoctoral researchers.
 - **Industrial doctorates:** national and regional calls. See [Industrial doctorate](/en/doctorandos/doctorado-industrial/).

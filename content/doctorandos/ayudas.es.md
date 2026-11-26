@@ -8,7 +8,9 @@ actualizado: "noviembre de 2026"
 
 ## Contratos predoctorales
 
-- **UPM:** ayudas del Programa Propio de I+D+i y otras ayudas de doctorado. Consulta [Ayudas para doctorado y postdoctorado](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/ayudas).
+{{< clave >}}**Convocatorias abiertas:** consulta todas las convocatorias de contratos predoctorales e investigación en [upm.es/investigacion/convocatorias](https://www.upm.es/investigacion/convocatorias).{{< /clave >}}
+
+- **UPM:** ayudas del Programa Propio de I+D+i y otras ayudas de doctorado. Consulta las [convocatorias de la UPM](https://www.upm.es/investigacion/convocatorias).
 - **Ministerio:** Formación de Profesorado Universitario (**FPU**) y Formación de Personal Investigador (**FPI**, asociadas a proyectos).
 - **Comunidad de Madrid:** ayudas para la contratación de investigadores predoctorales.
 - **Doctorados industriales:** convocatorias estatales y autonómicas. Mira [Doctorado industrial](/doctorandos/doctorado-industrial/).
@@ -20,4 +22,3 @@ Ayudas de movilidad de la UPM, ayudas complementarias para estancias de contrata
 
 {{< clave >}}**Contacta con tu futuro director/a:** muchos contratos están ligados a proyectos de investigación del grupo y no se publican en convocatorias generales.{{< /clave >}}
 
-{{< revisar >}}Añadir enlaces a las convocatorias abiertas del curso (FPU, FPI, CAM, Programa Propio UPM).{{< /revisar >}}
