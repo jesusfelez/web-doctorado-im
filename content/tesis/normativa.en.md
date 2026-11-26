@@ -35,11 +35,12 @@ actualizado: "November 2026"
 <tbody>
 <tr><td><a href="https://www.educacion.gob.es/ruct/estudio.action?codigoCiclo=SC&codigoTipo=D&CodigoEstudio=5600706&actual=estudios">Programme record in the RUCT (code 5600706)</a></td><td>—</td></tr>
 <tr><td><a href="https://www.educacion.gob.es/ruct/solicitud/detalles.action?cod=56007062013121901&sit=A&actual=menu.solicitud.basicos">Initial verification report (RUCT)</a></td><td>Verified 27/02/2014</td></tr>
-<tr><td><a href="http://dimec.etsii.upm.es/doctorado/wp-content/uploads/2021/03/INGENIERIA-MECANICA-99-2011-Memoria-verificada-final.pdf">Verified report (PDF, in Spanish)</a></td><td>2014</td></tr>
+<tr><td><a href="/documentos/Memoria_verificada_PD_Ingenieria_Mecanica_2014.pdf">Verified report (PDF, in Spanish)</a></td><td>2014</td></tr>
 <tr><td><a href="http://www.bocm.es/boletin/CM_Orden_BOCM/2014/08/12/BOCM-20140812-4.PDF">Authorisation by the Community of Madrid (BOCM)</a></td><td>24/07/2014</td></tr>
 <tr><td><a href="http://www.boe.es/boe/dias/2014/10/18/pdfs/BOE-A-2014-10575.pdf">Council of Ministers agreement (BOE)</a></td><td>18/10/2014</td></tr>
 <tr><td><a href="https://sede.educacion.gob.es/cid/consultaCID?cid=341137057701546826279334">Renewal of accreditation (institutional accreditation)</a></td><td>19/07/2019</td></tr>
 <tr><td><a href="https://sede.educacion.gob.es/cid/consultaCID?cid=872068271493418019672960">Renewal of accreditation (institutional accreditation)</a></td><td>26/05/2025</td></tr>
 <tr><td><a href="https://www.educacion.gob.es/ruct/solicitud/detalles.action?cod=56007062026070301&sit=A&actual=menu.solicitud.basicos">Modification of the report and adaptation to Royal Decree 576/2023 (RUCT)</a></td><td>Effective: 24/11/2026</td></tr>
+<tr><td><a href="/documentos/Memoria_modificada_PD_Ingenieria_Mecanica_2026.pdf">Modified report (PDF, in Spanish)</a></td><td>16/07/2026</td></tr>
 <tr><td><a href="/documentos/Informe_favorable_Madrimasd_modificacion_2026.pdf">Favourable report from Fundación Madri+d on the modification (PDF, in Spanish)</a></td><td>07/09/2026</td></tr>
 </tbody></table></div>
