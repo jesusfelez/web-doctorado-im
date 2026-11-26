@@ -14,8 +14,8 @@ cifras:
     texto: "research lines"
   - valor: "25"
     texto: "new places per year"
-  - valor: "40–60 %"
-    texto: "theses with international mention"
+  - valor: "39%"
+    texto: "theses with international mention since 2022"
   - valor: "4 years"
     texto: "maximum full-time duration"
   - valor: "100 %"
@@ -38,4 +38,4 @@ accesos:
     texto: "Programme researchers and collaborators from other institutions."
     enlace: "/programa/investigadores/"
 internacional:
-  texto: "Between 40 % and 60 % of the theses defended each year obtain the international mention. Our PhD students carry out research stays at universities and centres in Europe, the Americas and Asia."
+  texto: "Since 2022, 22 of the 56 theses defended (39%) have obtained the international mention. Our PhD students carry out research stays at universities and centres in Europe, the Americas and Asia."

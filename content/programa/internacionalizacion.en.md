@@ -1,7 +1,7 @@
 ---
 title: "Internationalisation"
 description: "Research stays of the programme's PhD students at institutions abroad, by country."
-resumen: "Between **40 % and 60 %** of our theses obtain the **international mention** every year. A stay abroad is an optional training activity of the programme, but it is compulsory if you want that mention."
+resumen: "Since 2022, **39%** of our theses (22 of 56) have obtained the **international mention**. A stay abroad is an optional training activity of the programme, but it is compulsory if you want that mention."
 weight: 40
 leyenda: true
 actualizado: "November 2026"

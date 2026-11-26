@@ -14,8 +14,8 @@ cifras:
     texto: "líneas de investigación"
   - valor: "25"
     texto: "plazas de nuevo ingreso al año"
-  - valor: "40–60 %"
-    texto: "tesis con mención internacional"
+  - valor: "39 %"
+    texto: "tesis con mención internacional desde 2022"
   - valor: "4 años"
     texto: "duración máxima a tiempo completo"
   - valor: "100 %"
@@ -38,4 +38,4 @@ accesos:
     texto: "Investigadores del programa y colaboradores de otras instituciones."
     enlace: "/programa/investigadores/"
 internacional:
-  texto: "Entre el 40 % y el 60 % de las tesis defendidas cada año obtienen la mención internacional. Nuestros doctorandos hacen estancias de investigación en universidades y centros de Europa, América y Asia."
+  texto: "Desde 2022, 22 de las 56 tesis defendidas (39 %) han obtenido la mención internacional. Nuestros doctorandos hacen estancias de investigación en universidades y centros de Europa, América y Asia."
