@@ -9,7 +9,7 @@ actualizado: "noviembre de 2026"
 
 ## El programa en pocas palabras
 
-El Programa de Doctorado en Ingeniería Mecánica forma investigadores capaces de generar conocimiento original en máquinas, fabricación, vehículos y transportes, acústica, dinámica estructural y tecnologías láser. Lo imparte principalmente el **Departamento de Ingeniería Mecánica** de la ETSI Industriales, con participación del **Departamento de Física Aplicada e Ingeniería de Materiales**, institutos y centros de la UPM (INSIA, CITEF, Centro Láser, CAEND) e investigadores de otras instituciones.
+El Programa de Doctorado en Ingeniería Mecánica forma investigadores capaces de generar conocimiento original en máquinas, fabricación, vehículos y transportes, acústica, dinámica estructural y tecnologías láser. Lo imparte principalmente el **Departamento de Ingeniería Mecánica** de la ETSI Industriales, con participación del **Departamento de Física Aplicada e Ingeniería de Materiales**, institutos y centros de la UPM (INSIA y Centro Láser) e investigadores de otras instituciones.
 
 <div class="tabla-env"><table>
 <tbody>

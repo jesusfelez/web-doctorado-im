@@ -9,7 +9,7 @@ actualizado: "November 2026"
 
 ## The programme at a glance
 
-The PhD Programme in Mechanical Engineering trains researchers who can generate original knowledge in machines, manufacturing, vehicles and transport, acoustics, structural dynamics and laser technologies. It is run mainly by the **Department of Mechanical Engineering** of the School of Industrial Engineering (ETSII), with the participation of the **Department of Applied Physics and Materials Engineering**, UPM institutes and centres (INSIA, CITEF, Laser Centre, CAEND) and researchers from other institutions.
+The PhD Programme in Mechanical Engineering trains researchers who can generate original knowledge in machines, manufacturing, vehicles and transport, acoustics, structural dynamics and laser technologies. It is run mainly by the **Department of Mechanical Engineering** of the School of Industrial Engineering (ETSII), with the participation of the **Department of Applied Physics and Materials Engineering**, UPM institutes and centres (INSIA and the Laser Centre) and researchers from other institutions.
 
 <div class="tabla-env"><table>
 <tbody>
