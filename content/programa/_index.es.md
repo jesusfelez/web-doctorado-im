@@ -29,9 +29,9 @@ Al terminar el doctorado serás capaz de concebir, diseñar y llevar a cabo un p
 
 ## Resultados
 
-- **Empleabilidad cercana al 100 %** de los doctores a los seis meses, en universidades, centros de investigación y empresas.
+- **Inserción laboral del 100 %** de los doctores, en universidades, centros de investigación y empresas.
 - **20 tesis defendidas** en 2023-24, 18 con *cum laude*.
-- Desde 2022, el **39 %** de las tesis defendidas (22 de 56) ha obtenido la **mención internacional**.
+- Desde 2022, el **40 %** de las tesis defendidas (22 de 56) ha obtenido la **mención internacional**.
 - El área de Ingeniería Mecánica de la UPM figura de forma habitual entre las mejores del mundo en el *QS World University Rankings by Subject*.
 
 

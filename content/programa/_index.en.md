@@ -29,8 +29,8 @@ On completing the doctorate you will be able to conceive, design and carry out a
 
 ## Outcomes
 
-- **Close to 100% employability** of our doctors six months after graduating, in universities, research centres and companies.
-- Since 2022, **39%** of the theses defended (22 of 56) have obtained the **international mention**.
+- **100% employment** of our doctors, in universities, research centres and companies.
+- Since 2022, **40%** of the theses defended (22 of 56) have obtained the **international mention**.
 - **20 theses defended** in 2023-24, 18 with *cum laude*.
 - Mechanical Engineering at UPM regularly ranks among the world's best in the *QS World University Rankings by Subject*.
 

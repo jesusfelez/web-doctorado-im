@@ -1,7 +1,7 @@
 ---
 title: "Internacionalización"
 description: "Estancias de investigación de los doctorandos del programa en centros extranjeros, por países."
-resumen: "Desde 2022, el **39 %** de nuestras tesis (22 de 56) ha obtenido la **mención internacional**. La estancia en el extranjero es una actividad formativa optativa del programa, pero obligatoria si quieres esa mención."
+resumen: "Desde 2022, el **40 %** de nuestras tesis (22 de 56) ha obtenido la **mención internacional**. La estancia en el extranjero es una actividad formativa optativa del programa, pero obligatoria si quieres esa mención."
 weight: 40
 leyenda: true
 actualizado: "noviembre de 2026"
