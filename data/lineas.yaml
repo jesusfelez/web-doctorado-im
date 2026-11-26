@@ -21,7 +21,7 @@ lineas:
       - "Electroacústica y metrología acústica"
       - "Instrumentación e instrumentación virtual"
       - "Procesado de señales de audio"
-    grupos: ["GI Instrumentación y Acústica Aplicada (i2a2)", "CAEND (UPM-CSIC)"]
+    grupos: ["GI Instrumentación y Acústica Aplicada (i2a2)"]
   - titulo: "Ingeniería de fabricación"
     corto: "Fabricación"
     temas:
