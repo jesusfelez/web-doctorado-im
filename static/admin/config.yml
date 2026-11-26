@@ -19,63 +19,8 @@ collections:
   # ------------------------------------------------------------------
   - name: "datos"
     label: "Datos del programa"
-    description: "Listados que cambian con frecuencia: investigadores, tesis, comisiones, portada…"
+    description: "Comisiones, líneas, portada y enlaces. Investigadores, tesis, cursos y estancias se editan en el Excel excel/Datos_web_doctorado_IM.xlsx."
     files:
-      - name: "investigadores"
-        label: "Investigadores (altas y bajas)"
-        file: "data/investigadores.yaml"
-        fields:
-          - name: "investigadores"
-            label: "Investigadores"
-            label_singular: "investigador/a"
-            widget: "list"
-            summary: "{{fields.apellidos}}, {{fields.nombre}} · {{fields.afiliacion}}"
-            fields:
-              - { name: "nombre", label: "Nombre", widget: "string" }
-              - { name: "apellidos", label: "Apellidos", widget: "string" }
-              - name: "grupo"
-                label: "Grupo"
-                widget: "select"
-                options:
-                  - { label: "UPM", value: "nucleo" }
-                  - { label: "Otras instituciones", value: "colab" }
-              - { name: "afiliacion", label: "Institución", widget: "string", required: false }
-              - name: "lineas"
-                label: "Líneas de investigación"
-                widget: "select"
-                multiple: true
-                required: false
-                options:
-                  - { label: "1 · Mecánica computacional e ingeniería sísmica", value: 1 }
-                  - { label: "2 · Ingeniería acústica", value: 2 }
-                  - { label: "3 · Ingeniería de fabricación", value: 3 }
-                  - { label: "4 · Ingeniería de vehículos y transportes", value: 4 }
-                  - { label: "5 · Ingeniería de máquinas y desarrollo de productos", value: 5 }
-                  - { label: "6 · Ingeniería y aplicaciones del láser", value: 6 }
-              - { name: "perfil", label: "Perfil en el Portal Científico UPM (URL)", widget: "string", required: false }
-              - { name: "orcid", label: "Perfil ORCID (URL, p. ej. https://orcid.org/0000-0002-...)", widget: "string", required: false }
-
-      - name: "tesis"
-        label: "Tesis defendidas"
-        file: "data/tesis.yaml"
-        fields:
-          - name: "tesis"
-            label: "Tesis"
-            label_singular: "tesis"
-            widget: "list"
-            summary: "{{fields.anio}} · {{fields.autor}}"
-            fields:
-              - { name: "anio", label: "Año de defensa", widget: "number", value_type: "int" }
-              - { name: "autor", label: "Doctorando/a (Apellidos, Nombre)", widget: "string" }
-              - { name: "titulo", label: "Título", widget: "text" }
-              - { name: "direccion", label: "Director/es", widget: "string", required: false }
-              - name: "mencion"
-                label: "Mención"
-                widget: "select"
-                required: false
-                options: ["", "Internacional", "Industrial", "Cotutela", "Internacional e Industrial"]
-              - { name: "enlace", label: "Enlace (Archivo Digital UPM)", widget: "string", required: false }
-
       - name: "comisiones"
         label: "Comisión Académica (CAPD)"
         file: "data/comisiones.yaml"
@@ -153,18 +98,6 @@ collections:
             fields:
               - { name: "texto", label: "Texto", widget: "text" }
 
-      - name: "estancias"
-        label: "Centros de estancias (por país)"
-        file: "data/estancias.yaml"
-        fields:
-          - name: "paises"
-            label: "Países"
-            widget: "list"
-            summary: "{{fields.pais}}"
-            fields:
-              - { name: "pais", label: "País", widget: "string" }
-              - { name: "centros", label: "Centros", widget: "list", field: { name: "centro", label: "Centro", widget: "string" } }
-
       - name: "enlaces"
         label: "Enlaces útiles"
         file: "data/enlaces.yaml"
@@ -182,24 +115,6 @@ collections:
               - { name: "url", label: "Dirección (URL)", widget: "string" }
               - { name: "fuente", label: "Fuente", widget: "string", required: false }
 
-      - name: "cursos"
-        label: "Cursos recomendados (actividades formativas)"
-        file: "data/cursos.yaml"
-        fields:
-          - name: "cursos"
-            label: "Cursos"
-            widget: "list"
-            summary: "[{{fields.actividad}}] {{fields.nombre}}"
-            fields:
-              - { name: "actividad", label: "Actividad(es) (1, 2, 3 o 5)", widget: "list", field: { name: "a", label: "Actividad", widget: "number", value_type: "int" } }
-              - { name: "nombre", label: "Curso o seminario", widget: "string" }
-              - { name: "organiza", label: "Organiza / plataforma", widget: "string" }
-              - { name: "horas", label: "Horas (castellano)", widget: "string" }
-              - { name: "horas_en", label: "Horas (inglés)", widget: "string" }
-              - { name: "completa", label: "Cubre la actividad completa (≥ 25 h)", widget: "boolean", required: false }
-              - { name: "url", label: "Enlace", widget: "string" }
-
-      # ---------- Versiones en inglés de los datos con texto ----------
       - name: "portada_en"
         label: "Portada (inglés)"
         file: "data/portada_en.yaml"
@@ -277,18 +192,6 @@ collections:
                   - { name: "cargo", label: "Role", widget: "string" }
                   - { name: "nombre", label: "Name", widget: "string" }
                   - { name: "categoria", label: "Position", widget: "string", required: false }
-
-      - name: "estancias_en"
-        label: "Centros de estancias (inglés)"
-        file: "data/estancias_en.yaml"
-        fields:
-          - name: "paises"
-            label: "Countries"
-            widget: "list"
-            summary: "{{fields.pais}}"
-            fields:
-              - { name: "pais", label: "Country", widget: "string" }
-              - { name: "centros", label: "Institutions", widget: "list", field: { name: "centro", label: "Institution", widget: "string" } }
 
       - name: "enlaces_en"
         label: "Enlaces útiles (inglés)"

@@ -44,13 +44,16 @@ Los cambios que guardes en el panel se escriben directamente en los archivos de 
 
 ## 2. Tareas habituales
 
+> **Investigadores, tesis, cursos y estancias se mantienen en el Excel `excel/Datos_web_doctorado_IM.xlsx`.** Al subirlo a GitHub, la publicación automática lo convierte en `data/*.yaml` (`scripts/datos_excel.py importar`). No edites esos `.yaml` a mano: se sobrescriben.
+
 | Quiero… | Panel (/admin) | O editando el archivo |
 |---|---|---|
-| **Dar de alta o de baja a un investigador** | Datos del programa → Investigadores | `data/investigadores.yaml` |
-| Añadir una tesis defendida | Datos del programa → Tesis defendidas | `data/tesis.yaml` |
+| **Dar de alta o de baja a un investigador** | — | Excel `excel/Datos_web_doctorado_IM.xlsx`, hoja «Investigadores» |
+| Añadir una tesis defendida | — | Excel, hoja «Tesis» |
 | Cambiar la composición de la CAPD | Datos del programa → Comisión Académica | `data/comisiones.yaml` |
-| Añadir centros de estancias | Datos del programa → Centros de estancias | `data/estancias.yaml` |
-| Añadir enlaces a Portal Científico y ORCID | Datos del programa → Investigadores | `data/investigadores.yaml` (campos `perfil` y `orcid`) |
+| Añadir centros de estancias | — | Excel, hoja «Estancias» |
+| Cambiar los cursos recomendados | — | Excel, hoja «Cursos» |
+| Añadir enlaces a Portal Científico y ORCID | — | Excel, hoja «Investigadores» |
 | Publicar una noticia | Noticias (castellano) y Noticias (inglés), con el mismo «Identificador común» | `content/noticias/AAAA-MM-DD-titulo.es.md` y `.en.md` |
 | Cambiar cifras, aviso o botones de la portada | Datos del programa → Portada | `data/portada.yaml` |
 | Editar el texto de una página | Páginas (castellano) / Páginas (inglés) | `content/…/*.es.md` y `*.en.md` |

@@ -1,10 +1,4 @@
-# INVESTIGADORES DEL PROGRAMA (fuente: Thesis 26/11/2026; líneas validadas por la coordinación)
-# ALTA: añade un bloque en su posición alfabética. BAJA: borra su bloque.
-# La web muestra los investigadores en el mismo orden que este archivo.
-# grupo: nucleo = UPM | colab = otras instituciones
-# lineas: hasta 2 números (1 Mecánica computacional, 2 Acústica, 3 Fabricación,
-#         4 Vehículos, 5 Máquinas y producto, 6 Láser)
-# perfil: URL del Portal Científico UPM · orcid: URL de ORCID (opcionales)
+# GENERADO AUTOMÁTICAMENTE desde excel/Datos_web_doctorado_IM.xlsx (hoja Investigadores). No editar aquí.
 investigadores:
   - nombre: "Enrique"
     apellidos: "Alcalá Fazio"

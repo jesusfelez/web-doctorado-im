@@ -1,7 +1,4 @@
-# CURSOS RECOMENDADOS para las actividades formativas (validados por la coordinación, nov. 2026)
-# actividad: lista de actividades (1, 2, 3 obligatorias; 5 específica)
-# completa: true si por sí solo cubre 1 ECTS (25–30 h)
-# Para añadir un curso, copia un bloque.
+# GENERADO AUTOMÁTICAMENTE desde excel/Datos_web_doctorado_IM.xlsx (hoja Cursos). No editar aquí.
 cursos:
   - {actividad: [1], nombre: "Bases Metodológicas y de Documentación para la Investigación Científica (MOOC UPM)", organiza: "UPM En Abierto", horas: "55 h", horas_en: "55 h", completa: true, url: "https://www.innovacioneducativa.upm.es/sites/default/files/moocs/2025_catalogo_mooc.pdf"}
   - {actividad: [1], nombre: "Seminario de postgrado de la Biblioteca ETSII", organiza: "Biblioteca ETSII", horas: "según edición", horas_en: "varies by edition", completa: false, url: "https://biblioteca.industriales.upm.es/wp-content/uploads/2025/11/PROGRAMA_Seminario_postgrado_nov2025-3.pdf"}

@@ -1,6 +1,4 @@
-# CENTROS DE ESTANCIAS DE INVESTIGACIÓN de los doctorandos del programa
-# (estancias registradas en Thesis por doctorandos actuales y egresados; base de la mención internacional)
-# Agrupados por país. Para añadir un centro, copia una línea en el país que corresponda.
+# GENERADO AUTOMÁTICAMENTE desde excel/Datos_web_doctorado_IM.xlsx (hoja Estancias). No editar aquí.
 paises:
   - pais: "Alemania"
     centros: ["Karlsruher Institut für Technologie – KIT (Karlsruhe)", "Laserzentrum, Hochschule München (Múnich)"]
