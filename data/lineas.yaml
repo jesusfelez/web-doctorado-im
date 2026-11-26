@@ -4,6 +4,8 @@ lineas:
   - titulo: "Mecánica computacional e ingeniería sísmica"
     corto: "Mecánica computacional e ing. sísmica"
     temas:
+      - "Métodos numéricos avanzados para mecánica de sólidos y fluidos: elementos finitos mixtos, campo de fase y Lattice Boltzmann"
+      - "Micromecánica computacional de materiales heterogéneos y fractura"
       - "Ingeniería sísmica y sismología"
       - "Dinámica de suelos y estructuras"
       - "Diseño sismorresistente y métodos de balance energético"
@@ -11,6 +13,8 @@ lineas:
       - "Monitorización del daño estructural mediante técnicas dinámicas"
       - "Estructuras con sistemas de control pasivo"
       - "Simulación numérica del comportamiento dinámico y ensayos en mesa sísmica"
+      - "Cuantificación de incertidumbre y calibración bayesiana de modelos"
+      - "Inteligencia artificial, gemelos digitales y control avanzado para la gestión del tráfico ferroviario"
     grupos: ["GI Ingeniería Sísmica: Dinámica de Suelos y Estructuras", "GI Modelado y Simulación en Ingeniería Mecánica"]
   - titulo: "Ingeniería acústica"
     corto: "Acústica"
