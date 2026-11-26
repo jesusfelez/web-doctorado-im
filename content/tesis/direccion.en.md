@@ -9,6 +9,10 @@ actualizado: "November 2026"
 
 ## Tutor and supervisor
 
+{{< plataforma p="thesis" >}}Assignment and change of supervisor{{< /plataforma >}}
+
+{{< plataforma p="tramites" >}}Tutor assignment{{< /plataforma >}}
+
 {{< general fuente="RD 99/2011, art. 11 and 12" enlace="https://www.boe.es/buscar/act.php?id=BOE-A-2011-2541" >}}
 - **Tutor:** a doctor with proven research experience who looks after your relationship with the Academic Committee.
 - **Supervisor:** the person ultimately responsible for your research training and for the coherence of the thesis.
@@ -21,6 +25,8 @@ actualizado: "November 2026"
 {{< /programa >}}
 
 ## Co-supervision
+
+{{< plataforma p="thesis" >}}Adding or removing a co-supervisor{{< /plataforma >}}
 
 {{< clave >}}**A thesis may have at most two supervisors.** Co-supervision is **not automatic**: it must be requested, justified and authorised.{{< /clave >}}
 

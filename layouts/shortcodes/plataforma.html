@@ -1,0 +1,9 @@
+{{/* Indica en qué plataforma UPM se hace un trámite, con enlace.
+   Uso: {{< plataforma p="thesis" >}}Plan de investigación, prórroga…{{< /plataforma >}}
+   p: thesis | tramites | uxxi  (las URL están en data/plataformas.yaml) */}}
+{{ $p := index site.Data.plataformas (.Get "p") }}
+<div class="plataforma">
+  <span class="pl-etq">{{ i18n "seTramita" }}</span>
+  <a href="{{ $p.url }}" target="_blank" rel="noopener"><strong>{{ $p.nombre }}</strong> ↗</a>
+  {{ with .Inner }}<span class="pl-que">· {{ . | $.Page.RenderString }}</span>{{ end }}
+</div>

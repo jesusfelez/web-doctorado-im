@@ -9,6 +9,8 @@ actualizado: "November 2026"
 
 ## "International Doctorate" mention
 
+{{< plataforma p="thesis" >}}Mentions: pre-stay request (before the stay) and post-stay request (with the certificate){{< /plataforma >}}
+
 {{< general fuente="RD 99/2011, art. 15.1 (amended by RD 576/2023)" enlace="https://www.boe.es/buscar/act.php?id=BOE-A-2011-2541" >}}
 **All four conditions** must be met:
 

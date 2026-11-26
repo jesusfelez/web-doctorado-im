@@ -269,3 +269,8 @@ li > input[type="checkbox"]{margin-right:8px;accent-color:var(--verde)}
 .barra-sup .idioma b{background:#fff;color:var(--azul-osc)}
 .barra-sup .idioma a:hover{background:rgba(255,255,255,.15);text-decoration:none}
 @media (max-width:640px){.barra-sup .contenedor{justify-content:flex-end}.barra-sup .enlaces{gap:12px;font-size:12px}}
+/* Plataforma donde se hace el trámite */
+.plataforma{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 8px;border:1px solid var(--azul-claro);border-left:4px solid var(--azul);border-radius:var(--radio);padding:9px 14px;margin:14px 0;font-size:15px;background:#fff}
+.plataforma .pl-etq{font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:#5b6b7b;font-weight:600}
+.plataforma a{color:var(--azul)}
+.plataforma .pl-que p{display:inline;margin:0}

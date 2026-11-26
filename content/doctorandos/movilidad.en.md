@@ -7,6 +7,8 @@ leyenda: true
 actualizado: "November 2026"
 ---
 
+{{< plataforma p="thesis" >}}Stay for the international mention: pre-stay and post-stay requests{{< /plataforma >}}
+
 {{< programa titulo="Stays in the programme" >}}
 - **Duration:** at least 480 h (≈ 3 months). Ideally in a single period, although it can be split.
 - **When:** preferably from the **second year** onwards, once the thesis objectives are defined.

@@ -19,6 +19,8 @@ Fírmalo **cuanto antes** y, en todo caso, en los **6 meses** siguientes a tu pr
 
 ## 2. Plan de investigación y plan de formación personal
 
+{{< plataforma p="thesis" >}}Plan de investigación anual{{< /plataforma >}}
+
 {{< general fuente="RD 99/2011, art. 11 (modificado por RD 576/2023)" >}}
 **Antes de cumplir el primer año** desde la matrícula, y con la ayuda de tu director/a y tu tutor/a, presentarás un documento con:
 

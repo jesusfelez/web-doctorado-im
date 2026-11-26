@@ -9,6 +9,8 @@ actualizado: "November 2026"
 
 ## Before requesting submission
 
+{{< plataforma p="thesis" >}}Thesis submission, authorisation of the defence and proposed examination committee{{< /plataforma >}}
+
 {{< general fuente="UPM" enlace="https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/Tesis" textoenlace="Thesis procedures and forms (UPM)" >}}
 1. **Pay the thesis examination fee.**
 2. **Start registering** the thesis in [TESEO](https://aplicaciones.ciencia.gob.es/teseo/).

@@ -21,4 +21,15 @@ actualizado: "noviembre de 2026"
 <tr><td>Antes de 4 años (TC) o 7 años (TP)</td><td><strong>Depósito de la tesis</strong>, con un posible año de prórroga.</td></tr>
 </tbody></table></div>
 
+## ¿Dónde se hace cada trámite?
+
+| Trámite | Plataforma |
+|---|---|
+| Acceso y admisión, asignación de tutor/a | [Trámites de estudiantes UPM](https://tramitesestudiantes.upm.es/login) |
+| Matrícula anual (tutela académica) | [Automatrícula (UXXI-AC)](https://www.upm.es/UPM/ServiciosTecnologicos/Automatricula) |
+| Plan de investigación, prórroga, cambio de dedicación, bajas temporales | [THESIS](https://www.upm.es/thesis/) |
+| Cambio de título, cambio de director/a, alta y baja de codirector/a | [THESIS](https://www.upm.es/thesis/) |
+| Menciones (internacional, industrial), estancias, evaluación previa | [THESIS](https://www.upm.es/thesis/) |
+| Depósito, autorización de defensa y propuesta de tribunal | [THESIS](https://www.upm.es/thesis/) |
+
 {{< enlaces grupo="doctorandos" >}}

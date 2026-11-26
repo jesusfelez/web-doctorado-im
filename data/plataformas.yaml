@@ -1,0 +1,11 @@
+# PLATAFORMAS UPM en las que se hacen los trámites de doctorado
+# (según la portada de Thesis: «Proyecto de Digitalización del Doctorado de la UPM THESIS + UXXI-AC»)
+thesis:
+  nombre: "THESIS"
+  url: "https://www.upm.es/thesis/"
+tramites:
+  nombre: "Trámites de estudiantes UPM"
+  url: "https://tramitesestudiantes.upm.es/login"
+uxxi:
+  nombre: "Automatrícula (UXXI-AC)"
+  url: "https://www.upm.es/UPM/ServiciosTecnologicos/Automatricula"

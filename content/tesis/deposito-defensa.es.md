@@ -9,6 +9,8 @@ actualizado: "noviembre de 2026"
 
 ## Antes de solicitar el depósito
 
+{{< plataforma p="thesis" >}}Depósito de tesis, autorización de defensa y propuesta de tribunal{{< /plataforma >}}
+
 {{< general fuente="UPM" enlace="https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/Tesis" textoenlace="Trámites e impresos de tesis (UPM)" >}}
 1. **Paga los derechos de examen** de la tesis.
 2. **Inicia el registro** de la tesis en [TESEO](https://aplicaciones.ciencia.gob.es/teseo/).

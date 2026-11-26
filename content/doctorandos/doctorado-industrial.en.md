@@ -7,6 +7,8 @@ leyenda: true
 actualizado: "November 2026"
 ---
 
+{{< plataforma p="thesis" >}}Industrial Doctorate mention request{{< /plataforma >}}
+
 {{< general fuente="RD 99/2011, art. 15 bis · UPM regulations" enlace="https://www.boe.es/buscar/act.php?id=BOE-A-2011-2541" >}}
 The degree may carry the **"Industrial Doctorate"** mention if **all** of the following conditions are met:
 

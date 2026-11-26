@@ -15,6 +15,8 @@ Puedes presentar la tesis como **monografía** o como **compendio de publicacion
 
 ## ¿Cuándo puedo pedir la evaluación previa?
 
+{{< plataforma p="thesis" >}}Solicitud de evaluación previa{{< /plataforma >}}
+
 {{< programa >}}
 Cuando hayan pasado **al menos 12 meses** desde tu primera matrícula, hayas presentado **todos los planes anuales** y **todos tengan evaluación positiva**.
 {{< /programa >}}

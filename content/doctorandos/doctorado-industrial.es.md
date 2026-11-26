@@ -7,6 +7,8 @@ leyenda: true
 actualizado: "noviembre de 2026"
 ---
 
+{{< plataforma p="thesis" >}}Solicitud de la mención de Doctorado Industrial{{< /plataforma >}}
+
 {{< general fuente="RD 99/2011, art. 15 bis · Normativa UPM" enlace="https://www.boe.es/buscar/act.php?id=BOE-A-2011-2541" >}}
 El título puede incluir la mención **«Doctorado Industrial»** si se cumplen **todas** estas condiciones:
 

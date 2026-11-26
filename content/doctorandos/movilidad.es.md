@@ -7,6 +7,8 @@ leyenda: true
 actualizado: "noviembre de 2026"
 ---
 
+{{< plataforma p="thesis" >}}Estancia para la mención internacional: solicitud de pre-estancia y post-estancia{{< /plataforma >}}
+
 {{< programa titulo="Estancias en el programa" >}}
 - **Duración:** al menos 480 h (≈ 3 meses). Mejor en un solo periodo, aunque puede dividirse.
 - **Cuándo:** preferiblemente desde el **segundo curso**, con los objetivos de la tesis ya definidos.

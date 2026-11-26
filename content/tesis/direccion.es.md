@@ -9,6 +9,10 @@ actualizado: "noviembre de 2026"
 
 ## Tutor/a y director/a
 
+{{< plataforma p="thesis" >}}Asignación y cambio de director/a{{< /plataforma >}}
+
+{{< plataforma p="tramites" >}}Asignación de tutor/a{{< /plataforma >}}
+
 {{< general fuente="RD 99/2011, art. 11 y 12" enlace="https://www.boe.es/buscar/act.php?id=BOE-A-2011-2541" >}}
 - **Tutor/a:** doctor/a con experiencia investigadora acreditada. Vela por tu relación con la Comisión Académica.
 - **Director/a:** máximo responsable de tu formación investigadora y de la coherencia de la tesis.
@@ -21,6 +25,8 @@ actualizado: "noviembre de 2026"
 {{< /programa >}}
 
 ## Codirección
+
+{{< plataforma p="thesis" >}}Alta y baja de codirector/a{{< /plataforma >}}
 
 {{< clave >}}**Una tesis puede tener como máximo dos directores.** La codirección **no es automática**: hay que solicitarla, justificarla y esperar su autorización.{{< /clave >}}
 

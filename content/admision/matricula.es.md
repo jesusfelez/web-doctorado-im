@@ -17,6 +17,8 @@ actualizado: "noviembre de 2026"
 
 ## Matrícula
 
+{{< plataforma p="uxxi" >}}Matrícula anual de tutela académica{{< /plataforma >}}
+
 {{< general fuente="UPM" enlace="http://www.upm.es/sfs/Rectorado/Vicerrectorado%20de%20Investigacion/Doctorado/Admision%20y%20Calendario/NORMATIVA%20MATRICULA%20DOCTORADO2.pdf" textoenlace="Normativa de matrícula y admisión" >}}
 - Primera matrícula en el plazo indicado en la resolución de admisión.
 - **Matrícula anual de tutela académica** mientras sigas en el programa. Si no pagas la tutela, causas baja.
@@ -24,6 +26,8 @@ actualizado: "noviembre de 2026"
 {{< /general >}}
 
 ## Tiempo completo o tiempo parcial
+
+{{< plataforma p="thesis" >}}Cambio de dedicación{{< /plataforma >}}
 
 {{< general fuente="RD 99/2011, art. 3 · RD 576/2023" enlace="https://www.upm.es/gsfs/SFS12775" textoenlace="Procedimiento de cambio de dedicación (UPM)" >}}
 Al solicitar la admisión indicas la dedicación. El tiempo parcial requiere la **autorización de la Comisión Académica**. Puedes pedir el cambio de dedicación más adelante. Mira las duraciones en [Duración y permanencia](/doctorandos/permanencia/).

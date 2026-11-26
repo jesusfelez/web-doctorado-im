@@ -6,6 +6,8 @@ weight: 30
 actualizado: "noviembre de 2026"
 ---
 
+{{< plataforma p="thesis" >}}Alta y baja de investigadores en el programa{{< /plataforma >}}
+
 {{< profesorado >}}
 
 {{< general fuente="UPM" enlace="https://www.upm.es/gsfs/SFS57188" textoenlace="Procedimiento de altas y bajas de investigadores" >}}

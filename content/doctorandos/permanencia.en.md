@@ -29,6 +29,8 @@ actualizado: "November 2026"
 
 ## UPM regulations and procedures
 
+{{< plataforma p="thesis" >}}Extension requests, temporary leave and change of study mode{{< /plataforma >}}
+
 {{< general fuente="UPM" enlace="https://www.upm.es/gsfs/SFS12774" textoenlace="Regulations on continuation in doctoral studies (consolidated text, in Spanish)" >}}
 UPM's continuation regulations set out how to request extensions, temporary leave and changes of study mode, and the grounds for permanent withdrawal:
 

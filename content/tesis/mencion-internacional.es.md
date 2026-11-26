@@ -9,6 +9,8 @@ actualizado: "noviembre de 2026"
 
 ## Mención «Doctorado Internacional»
 
+{{< plataforma p="thesis" >}}Menciones: solicitud de pre-estancia (antes de la estancia) y post-estancia (con el certificado){{< /plataforma >}}
+
 {{< general fuente="RD 99/2011, art. 15.1 (modificado por RD 576/2023)" enlace="https://www.boe.es/buscar/act.php?id=BOE-A-2011-2541" >}}
 Se deben cumplir **las cuatro condiciones**:
 

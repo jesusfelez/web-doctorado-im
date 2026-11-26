@@ -10,6 +10,8 @@ actualizado: "November 2026"
 
 ## The process in 5 steps
 
+{{< plataforma p="tramites" >}}Access and admission application{{< /plataforma >}}
+
 1. **Choose a research line and find a supervisor.** Look at the [research lines](/en/programa/lineas/) and contact a [programme researcher](/en/programa/investigadores/) willing to endorse your application as your potential thesis supervisor.
 2. **Check that you meet the entry requirements.** Usually a bachelor's and a master's degree adding up to 300 ECTS are enough. See the [requirements](/en/admision/requisitos/).
 3. **Apply for admission at UPM** within the EID deadlines. There is a first application period each year and a second one if places remain. See the [UPM calendar](https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/informacion).

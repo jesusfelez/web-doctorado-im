@@ -21,4 +21,15 @@ actualizado: "November 2026"
 <tr><td>Within 4 years (FT) or 7 years (PT)</td><td><strong>Thesis submission</strong>, with a possible one-year extension.</td></tr>
 </tbody></table></div>
 
+## Where is each procedure done?
+
+| Procedure | Platform |
+|---|---|
+| Access and admission, tutor assignment | [UPM student procedures](https://tramitesestudiantes.upm.es/login) |
+| Annual enrolment (academic supervision) | [Online enrolment (UXXI-AC)](https://www.upm.es/UPM/ServiciosTecnologicos/Automatricula) |
+| Research plan, extension, change of study mode, temporary leave | [THESIS](https://www.upm.es/thesis/) |
+| Change of thesis title, change of supervisor, adding or removing a co-supervisor | [THESIS](https://www.upm.es/thesis/) |
+| Mentions (international, industrial), stays, pre-assessment | [THESIS](https://www.upm.es/thesis/) |
+| Thesis submission, authorisation of the defence and proposed examination committee | [THESIS](https://www.upm.es/thesis/) |
+
 {{< enlaces grupo="doctorandos" >}}

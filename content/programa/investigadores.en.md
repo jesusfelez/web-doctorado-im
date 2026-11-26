@@ -6,6 +6,8 @@ weight: 30
 actualizado: "November 2026"
 ---
 
+{{< plataforma p="thesis" >}}Adding and removing researchers in the programme{{< /plataforma >}}
+
 {{< profesorado >}}
 
 {{< general fuente="UPM" enlace="https://www.upm.es/gsfs/SFS57188" textoenlace="Procedure for adding and removing researchers (in Spanish)" >}}

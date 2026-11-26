@@ -19,6 +19,8 @@ Sign it **as soon as possible** and in any case within **6 months** of your firs
 
 ## 2. Research plan and personal training plan
 
+{{< plataforma p="thesis" >}}Annual research plan{{< /plataforma >}}
+
 {{< general fuente="RD 99/2011, art. 11 (amended by RD 576/2023)" >}}
 **Before your first year** from enrolment is up, and with help from your supervisor and tutor, you will submit a document containing:
 

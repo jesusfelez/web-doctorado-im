@@ -31,6 +31,8 @@ actualizado: "noviembre de 2026"
 
 ## Normativa y procedimientos de la UPM
 
+{{< plataforma p="thesis" >}}Solicitud de prórroga, bajas temporales y cambio de dedicación{{< /plataforma >}}
+
 {{< general fuente="UPM" enlace="https://www.upm.es/gsfs/SFS12774" textoenlace="Normativa de permanencia en estudios de doctorado (texto consolidado)" >}}
 La UPM regula en su normativa de permanencia cómo se solicitan las prórrogas, las bajas temporales y los cambios de dedicación, y cuáles son las causas de baja definitiva:
 

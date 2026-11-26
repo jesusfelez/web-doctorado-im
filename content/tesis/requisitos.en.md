@@ -15,6 +15,8 @@ You can present the thesis as a **monograph** or as a **compendium of publicatio
 
 ## When can I request the pre-assessment?
 
+{{< plataforma p="thesis" >}}Pre-assessment request{{< /plataforma >}}
+
 {{< programa >}}
 When **at least 12 months** have passed since your first enrolment, you have submitted **all your annual plans** and **all have been assessed positively**.
 {{< /programa >}}
