@@ -9,9 +9,7 @@ actualizado: "noviembre de 2026"
 
 ## Modalidades de tesis
 
-{{< general fuente="UPM" enlace="https://www.upm.es/gsfs/SFS57196" textoenlace="Normativa de tesis por compendio" >}}
-Puedes presentar la tesis como **monografía** o como **compendio de publicaciones**, según la normativa de la UPM.
-{{< /general >}}
+Puedes presentar la tesis **por monografía** o **por compendio de publicaciones**. Los requisitos de cada una están en [Modalidades de tesis](/tesis/modalidades/).
 
 ## ¿Cuándo puedo pedir la evaluación previa?
 

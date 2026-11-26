@@ -9,9 +9,7 @@ actualizado: "November 2026"
 
 ## Thesis formats
 
-{{< general fuente="UPM" enlace="https://www.upm.es/gsfs/SFS57196" textoenlace="Regulations on theses by compendium" >}}
-You can present the thesis as a **monograph** or as a **compendium of publications**, according to UPM regulations.
-{{< /general >}}
+You can present the thesis **as a monograph** or **as a compendium of publications**. The requirements for each are in [Thesis formats](/en/tesis/modalidades/).
 
 ## When can I request the pre-assessment?
 

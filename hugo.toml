@@ -171,33 +171,39 @@ relativeURLs = true
 
 [[languages.es.menus.main]]
   parent = "tesis"
+  name = "Modalidades de tesis"
+  pageRef = "/tesis/modalidades"
+  weight = 2
+
+[[languages.es.menus.main]]
+  parent = "tesis"
   name = "Requisitos de calidad"
   pageRef = "/tesis/requisitos"
-  weight = 2
+  weight = 3
 
 [[languages.es.menus.main]]
   parent = "tesis"
   name = "Depósito y defensa"
   pageRef = "/tesis/deposito-defensa"
-  weight = 3
+  weight = 4
 
 [[languages.es.menus.main]]
   parent = "tesis"
   name = "Mención internacional y cotutela"
   pageRef = "/tesis/mencion-internacional"
-  weight = 4
+  weight = 5
 
 [[languages.es.menus.main]]
   parent = "tesis"
   name = "Tesis defendidas"
   pageRef = "/tesis/defendidas"
-  weight = 5
+  weight = 6
 
 [[languages.es.menus.main]]
   parent = "tesis"
   name = "Normativa"
   pageRef = "/tesis/normativa"
-  weight = 6
+  weight = 7
 
 [[languages.es.menus.main]]
   identifier = "calidad"
@@ -345,33 +351,39 @@ relativeURLs = true
 
 [[languages.en.menus.main]]
   parent = "tesis"
+  name = "Thesis formats"
+  pageRef = "/tesis/modalidades"
+  weight = 2
+
+[[languages.en.menus.main]]
+  parent = "tesis"
   name = "Quality requirements"
   pageRef = "/tesis/requisitos"
-  weight = 2
+  weight = 3
 
 [[languages.en.menus.main]]
   parent = "tesis"
   name = "Submission and defence"
   pageRef = "/tesis/deposito-defensa"
-  weight = 3
+  weight = 4
 
 [[languages.en.menus.main]]
   parent = "tesis"
   name = "International mention and cotutelle"
   pageRef = "/tesis/mencion-internacional"
-  weight = 4
+  weight = 5
 
 [[languages.en.menus.main]]
   parent = "tesis"
   name = "Defended theses"
   pageRef = "/tesis/defendidas"
-  weight = 5
+  weight = 6
 
 [[languages.en.menus.main]]
   parent = "tesis"
   name = "Regulations"
   pageRef = "/tesis/normativa"
-  weight = 6
+  weight = 7
 
 [[languages.en.menus.main]]
   identifier = "calidad"
