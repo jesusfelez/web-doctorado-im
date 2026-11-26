@@ -27,7 +27,7 @@ El Programa de Doctorado en Ingeniería Mecánica forma investigadores capaces d
 
 ## ¿Qué se consigue?
 
-Al terminar el doctorado serás capaz de concebir, diseñar y llevar a cabo un proyecto de investigación original, analizar críticamente ideas complejas, comunicar tus resultados a la comunidad científica internacional y a la sociedad, y **fomentar la ciencia abierta y la ciencia ciudadana** (competencia CB17, incorporada con el RD 576/2023).
+Al terminar el doctorado serás capaz de concebir, diseñar y llevar a cabo un proyecto de investigación original, analizar críticamente ideas complejas, comunicar tus resultados a la comunidad científica internacional y a la sociedad, y **fomentar la ciencia abierta y la ciencia ciudadana**.
 
 ## Resultados
 

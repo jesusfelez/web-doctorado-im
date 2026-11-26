@@ -35,7 +35,7 @@ Búsqueda y evaluación de información científica, bases de datos, gestores de
 Planificación y financiación de la investigación, metodologías ágiles, vigilancia tecnológica, transferencia, propiedad intelectual e industrial, protección de datos y ética de la investigación.
 
 ### 3. Difusión de resultados y promoción de la ciencia abierta
-Principios FAIR, publicación en abierto y repositorios (Zenodo, GitHub, GrabCAD…), licencias abiertas, impacto social y ciencia ciudadana. Corresponde a la nueva competencia **CB17** del RD 576/2023.
+Principios FAIR, publicación en abierto y repositorios (Zenodo, GitHub, GrabCAD…), licencias abiertas, impacto social y ciencia ciudadana.
 
 {{< programa titulo="Cómo se acreditan" >}}
 - Sirven los cursos de la **Escuela Internacional de Doctorado**, de centros, departamentos y bibliotecas de la UPM, y los **cursos online de instituciones de prestigio** con certificado de aprovechamiento o dedicación.

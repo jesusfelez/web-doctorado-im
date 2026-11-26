@@ -25,7 +25,7 @@ The PhD Programme in Mechanical Engineering trains researchers who can generate 
 
 ## What you will achieve
 
-On completing the doctorate you will be able to conceive, design and carry out an original research project, critically analyse complex ideas, communicate your results to the international scientific community and to society, and **promote open science and citizen science** (competence CB17, added by Royal Decree 576/2023).
+On completing the doctorate you will be able to conceive, design and carry out an original research project, critically analyse complex ideas, communicate your results to the international scientific community and to society, and **promote open science and citizen science**.
 
 ## Outcomes
 

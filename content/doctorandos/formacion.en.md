@@ -35,7 +35,7 @@ Searching for and assessing scientific information, databases, reference manager
 Research planning and funding, agile methodologies, technology watch, knowledge transfer, intellectual and industrial property, data protection and research ethics.
 
 ### 3. Dissemination of results and promotion of open science
-FAIR principles, open-access publishing and repositories (Zenodo, GitHub, GrabCAD…), open licences, social impact and citizen science. This corresponds to the new competence **CB17** of Royal Decree 576/2023.
+FAIR principles, open-access publishing and repositories (Zenodo, GitHub, GrabCAD…), open licences, social impact and citizen science.
 
 {{< programa titulo="How they are certified" >}}
 - Courses from the **International Doctoral School**, UPM schools, departments and libraries are valid, as are **online courses from reputable institutions** with a certificate of achievement or hours.
