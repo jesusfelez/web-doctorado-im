@@ -21,6 +21,5 @@ Más información en [Movilidad](/doctorandos/movilidad/) y en [Mención interna
 
 Centros extranjeros en los que han hecho estancias de investigación los doctorandos del programa, agrupados por país.
 
-{{< revisar >}}Centros obtenidos de los históricos de Thesis (noviembre de 2026). Validar con la hoja «Estancias» del Excel.{{< /revisar >}}
 
 {{< estancias >}}

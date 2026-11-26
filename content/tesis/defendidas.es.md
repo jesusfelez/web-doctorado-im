@@ -6,7 +6,6 @@ weight: 50
 actualizado: "noviembre de 2026"
 ---
 
-{{< revisar >}}Tabla generada con Thesis, el catálogo de la Biblioteca UPM y TESEO (noviembre de 2026). La mención internacional solo se marca si TESEO la recoge. Validar con la hoja «Tesis defendidas» del Excel.{{< /revisar >}}
 
 {{< tesis-defendidas >}}
 
