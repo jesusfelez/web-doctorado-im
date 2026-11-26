@@ -12,7 +12,7 @@ resumen: "What the programme expects from you as a **supervisor or tutor**, in t
 
 <li><span class="r-cuando">Before admission</span>
 <h3>Sign the applicant's commitment letter</h3>
-<p>By agreement of the Academic Committee, every application must include the supervision and tutoring commitment letter: <a href="/documentos/Carta_compromiso_director_tutor_misma_persona_IM.docx">template if you are both supervisor and tutor</a> or <a href="/documentos/Carta_compromiso_director_tutor_distintos_IM.docx">if they are different people</a> (both sign). It states the research line, provisional title and planned funding.</p>
+<p>By agreement of the Academic Committee, every application must include the supervision and tutoring commitment letter: <a href="/documentos/Carta_compromiso_director_tutor_misma_persona_IM.docx">template if you are both supervisor and tutor</a> or <a href="/documentos/Carta_compromiso_director_tutor_distintos_IM.docx">if they are different people</a> (both sign). It states the research line, the provisional title and that the necessary resources are available.</p>
 <p class="r-enl"><a href="/en/admision/requisitos/">Requirements</a> · <a href="/en/admision/criterios/">Admission criteria</a> · <a href="/en/doctorandos/ayudas/">Grants and contracts</a></p></li>
 
 <li><span class="r-cuando">First 6 months</span>
