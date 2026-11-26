@@ -30,11 +30,19 @@ Fírmalo **cuanto antes** y, en todo caso, en los **6 meses** siguientes a tu pr
 Puedes mejorarlo durante el doctorado. Debe estar avalado por tu director/a y tu tutor/a. Si aspiras a la mención de doctorado industrial, aplica además su normativa específica.
 {{< /general >}}
 
+{{< programa titulo="Plantilla del programa" >}}
+Usa la **[plantilla de plan de investigación inicial](/documentos/Plan_investigacion_inicial_IM.docx)** (Word, bilingüe). Recoge los apartados que pide la Comisión Académica y tu plan de formación personal por actividades.
+{{< /programa >}}
+
 ## 3. Documento de actividades
 
 {{< general fuente="RD 99/2011, art. 2.7" >}}
 Desde el inicio de la tesis anotarás todas tus actividades formativas y de interés para la tesis. Lo revisan periódicamente tu director/a y tu tutor/a. El tribunal lo valora de forma cualitativa, no con nota.
 {{< /general >}}
+
+{{< programa titulo="Registro de actividades en Excel" >}}
+Lleva tus actividades en el **[registro de actividades](/documentos/Registro_actividades_doctorando_IM.xlsx)**. Calcula solo las horas y los ECTS de cada actividad y te dice cuáles tienes pendientes. Entrégalo con cada plan anual, firmado por tu director/a y con los certificados.
+{{< /programa >}}
 
 ## 4. Evaluación anual
 

@@ -31,7 +31,7 @@ The **International Doctoral School** sets the procedure and deadlines and check
 
 {{< programa >}}
 - **English at B2 level** or higher.
-- **Endorsement from a programme researcher** as your potential thesis supervisor.
+- **Endorsement from a programme researcher** as your potential thesis supervisor, shown by the signed **[supervision commitment letter](/documentos/Carta_compromiso_direccion_tesis_IM.docx)** (or the [tutoring commitment letter](/documentos/Carta_compromiso_tutorizacion_tesis_IM.docx) if the supervisor does not belong to the programme). **Attach it to your admission application**: without it, the Academic Committee cannot process the admission.
 {{< /programa >}}
 
-{{< clave >}}**Tip:** contact your potential supervisor **before** you apply. Without their endorsement, your application cannot be accepted.{{< /clave >}}
+{{< clave >}}**Tip:** contact your potential supervisor **before** you apply. Without their endorsement and signed commitment letter, your application cannot be accepted.{{< /clave >}}

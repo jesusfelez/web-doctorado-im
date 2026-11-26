@@ -18,6 +18,15 @@
 <div class="banda-aviso"><div class="contenedor"><strong>{{ .titulo }}</strong> {{ .texto | markdownify }}</div></div>
 {{ end }}{{ end }}
 
+<section class="bloque perfiles-bloque">
+  <div class="contenedor">
+    <div class="rejilla r2">
+      <a class="perfil" href="{{ "soy-doctorando/" | relLangURL }}"><span class="p-etq">{{ i18n "guiaPasos" }}</span><h3>{{ i18n "soyDoctorando" }}</h3><p>{{ i18n "soyDoctorandoTxt" }}</p></a>
+      <a class="perfil" href="{{ "soy-investigador/" | relLangURL }}"><span class="p-etq">{{ i18n "guiaPasos" }}</span><h3>{{ i18n "soyInvestigador" }}</h3><p>{{ i18n "soyInvestigadorTxt" }}</p></a>
+    </div>
+  </div>
+</section>
+
 <section class="bloque">
   <div class="contenedor">
     <div class="cab-sec"><h2>{{ i18n "accesos" }}</h2></div>

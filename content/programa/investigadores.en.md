@@ -6,6 +6,9 @@ weight: 30
 actualizado: "November 2026"
 ---
 
+{{< clave >}}Supervising or tutoring a thesis? See the **[step-by-step guide for researchers](/en/soy-investigador/)**.{{< /clave >}}
+
+
 {{< plataforma p="thesis" >}}Adding and removing researchers in the programme{{< /plataforma >}}
 
 {{< profesorado >}}

@@ -282,3 +282,23 @@ details.cursos ul{margin:0;padding:8px 14px 12px 32px}
 details.cursos li{margin:6px 0;line-height:1.4}
 details.cursos .c-meta{display:block;font-size:13px;color:#5b6b7b}
 details.cursos .c-comp{color:#1a7f37;font-weight:600}
+
+/* Perfiles (portada) */
+.perfiles-bloque{padding-bottom:0}
+.perfil{display:block;text-decoration:none;color:#fff;background:linear-gradient(135deg,var(--azul),var(--azul-osc));border-radius:var(--radio);padding:28px 30px;transition:transform .2s,box-shadow .2s}
+.perfil:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(0,43,78,.25)}
+.perfil .p-etq{font-size:12px;text-transform:uppercase;letter-spacing:.08em;opacity:.8}
+.perfil h3{font-size:26px;margin:6px 0 8px;color:#fff}
+.perfil h3::after{content:" →";color:#7FD0F5}
+.perfil p{margin:0;opacity:.92;font-size:15.5px}
+/* Ruta paso a paso */
+.ruta{list-style:none;counter-reset:paso;margin:8px 0 32px;padding:0}
+.ruta>li{counter-increment:paso;position:relative;padding:0 0 26px 62px;border-left:2px solid var(--linea);margin-left:20px}
+.ruta>li:last-child{border-left-color:transparent}
+.ruta>li::before{content:counter(paso);position:absolute;left:-21px;top:0;width:40px;height:40px;border-radius:50%;background:var(--azul);color:#fff;display:grid;place-items:center;font-weight:800}
+.ruta .r-cuando{display:inline-block;font-size:12.5px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--acento)}
+.ruta h3{margin:2px 0 6px;font-size:19px}
+.ruta p{margin:0 0 6px}
+.ruta .r-enl{font-size:14px;color:var(--gris)}
+.descargas .tarjeta{margin:0}
+@media (max-width:640px){.ruta>li{padding-left:42px;margin-left:16px}.ruta>li::before{width:32px;height:32px;left:-17px}.perfil h3{font-size:22px}}

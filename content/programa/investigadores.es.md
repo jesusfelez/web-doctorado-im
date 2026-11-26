@@ -6,6 +6,9 @@ weight: 30
 actualizado: "noviembre de 2026"
 ---
 
+{{< clave >}}¿Diriges o tutorizas tesis? Consulta la **[guía paso a paso del investigador/a](/soy-investigador/)**.{{< /clave >}}
+
+
 {{< plataforma p="thesis" >}}Alta y baja de investigadores en el programa{{< /plataforma >}}
 
 {{< profesorado >}}

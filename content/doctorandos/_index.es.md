@@ -7,6 +7,9 @@ weight: 30
 actualizado: "noviembre de 2026"
 ---
 
+{{< clave >}}¿Prefieres verlo todo en orden? Consulta la **[guía paso a paso del doctorando/a](/soy-doctorando/)**.{{< /clave >}}
+
+
 ## Calendario de tu doctorado
 
 <div class="tabla-env"><table>

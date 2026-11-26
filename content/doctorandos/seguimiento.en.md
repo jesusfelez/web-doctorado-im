@@ -30,11 +30,19 @@ Sign it **as soon as possible** and in any case within **6 months** of your firs
 You can improve it during the doctorate. It must be endorsed by your supervisor and tutor. If you are aiming for the industrial doctorate mention, its specific regulations also apply.
 {{< /general >}}
 
+{{< programa titulo="Programme template" >}}
+Use the **[initial research plan template](/documentos/Plan_investigacion_inicial_IM.docx)** (Word, bilingual). It includes the sections the Academic Committee asks for and your personal training plan by activity.
+{{< /programa >}}
+
 ## 3. Activity record
 
 {{< general fuente="RD 99/2011, art. 2.7" >}}
 From the start of your thesis you will log all your training activities and anything relevant to the thesis. Your supervisor and tutor review it regularly. The examination committee assesses it qualitatively, not with a mark.
 {{< /general >}}
+
+{{< programa titulo="Activity log in Excel" >}}
+Keep your activities in the **[activity log](/documentos/Registro_actividades_doctorando_IM.xlsx)**. It adds up the hours and ECTS of each activity and shows which are still pending. Submit it with each annual plan, signed by your supervisor and with the certificates. (The spreadsheet is in Spanish.)
+{{< /programa >}}
 
 ## 4. Annual assessment
 

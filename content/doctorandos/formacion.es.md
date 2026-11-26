@@ -47,7 +47,7 @@ Principios FAIR, publicación en abierto y repositorios (Zenodo, GitHub, GrabCAD
 - Sirven los cursos de la **Escuela Internacional de Doctorado**, de centros, departamentos y bibliotecas de la UPM, y los **cursos online de instituciones de prestigio** con certificado de aprovechamiento o dedicación.
 - Aporta el **certificado** y una **breve memoria** sobre el contenido y su relación con tu tesis. En la actividad 3, añade las evidencias: depósito en repositorios, plan de gestión de datos, etc.
 - Debajo de cada actividad tienes **cursos y seminarios recomendados**, gratuitos y en línea. Son orientativos: puedes proponer otros equivalentes. Los MOOC de la UPM dan un diploma gratuito; en Coursera y edX el certificado suele ser de pago.
-- Inclúyelas en tu **plan de investigación anual**. Tu director/a las avala y la Comisión Académica las evalúa.
+- Anótalas en el **[registro de actividades en Excel](/documentos/Registro_actividades_doctorando_IM.xlsx)** e inclúyelas en tu **plan de investigación anual**. Tu director/a las avala y la Comisión Académica las evalúa.
 {{< /programa >}}
 
 ## Actividades optativas

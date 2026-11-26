@@ -7,6 +7,9 @@ weight: 30
 actualizado: "November 2026"
 ---
 
+{{< clave >}}Prefer to see it all in order? See the **[step-by-step guide for PhD candidates](/en/soy-doctorando/)**.{{< /clave >}}
+
+
 ## Your doctorate timeline
 
 <div class="tabla-env"><table>
