@@ -4,7 +4,7 @@ lineas:
   - titulo: "Mecánica computacional e ingeniería sísmica"
     corto: "Mecánica computacional e ing. sísmica"
     temas:
-      - "Métodos numéricos avanzados para mecánica de sólidos y fluidos: elementos finitos mixtos, campo de fase y Lattice Boltzmann"
+      - "Métodos numéricos avanzados para mecánica de sólidos y fluidos"
       - "Micromecánica computacional de materiales heterogéneos y fractura"
       - "Ingeniería sísmica y sismología"
       - "Dinámica de suelos y estructuras"

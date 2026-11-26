@@ -4,7 +4,7 @@ lineas:
   - titulo: "Computational mechanics and earthquake engineering"
     corto: "Comput. mechanics & earthquake eng."
     temas:
-      - "Advanced numerical methods for solid and fluid mechanics: mixed finite elements, phase field and lattice Boltzmann"
+      - "Advanced numerical methods for solid and fluid mechanics"
       - "Computational micromechanics of heterogeneous materials and fracture"
       - "Earthquake engineering and seismology"
       - "Soil and structural dynamics"
