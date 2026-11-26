@@ -53,8 +53,5 @@ Lleva tus actividades en el **[registro de actividades](/documentos/Registro_act
 {{< /general >}}
 
 {{< programa >}}
-- Presentarás tus resultados del año en las **sesiones anuales de seguimiento** del programa.
 - El plazo de entrega lo fija la UPM cada curso, normalmente en **junio y julio**. **No presentar el plan en plazo supone la baja.**
 {{< /programa >}}
-
-{{< revisar >}}Confirmar las fechas de la convocatoria anual del curso actual y el formato de las sesiones de presentación del programa.{{< /revisar >}}

@@ -12,7 +12,7 @@ resumen: "Lo que el programa espera de ti como **director/a o tutor/a**, en el o
 
 <li><span class="r-cuando">Antes de la admisión</span>
 <h3>Firma la carta de compromiso del candidato/a</h3>
-<p>Por acuerdo de la Comisión Académica, toda solicitud debe llevar la carta de compromiso de dirección y tutoría: <a href="/documentos/Carta_compromiso_director_tutor_misma_persona_IM.docx">modelo si eres director/a y tutor/a a la vez</a> o <a href="/documentos/Carta_compromiso_director_tutor_distintos_IM.docx">si son personas distintas</a> (la firman ambos). En ella indicas la línea, el título provisional y que dispones de los medios necesarios.</p>
+<p>Por acuerdo de la Comisión Académica, toda solicitud debe llevar la carta de compromiso de dirección y tutoría: <a href="/documentos/Carta_compromiso_director_tutor_misma_persona_IM.docx">modelo si eres director/a y tutor/a a la vez</a> o <a href="/documentos/Carta_compromiso_director_tutor_distintos_IM.docx">si son personas distintas</a> (la firman ambos). En ella indicas la temática de la tesis y que dispones de los medios necesarios.</p>
 <p class="r-enl"><a href="/admision/requisitos/">Requisitos</a> · <a href="/admision/criterios/">Criterios de admisión</a> · <a href="/doctorandos/ayudas/">Ayudas y contratos</a></p></li>
 
 <li><span class="r-cuando">Primeros 6 meses</span>

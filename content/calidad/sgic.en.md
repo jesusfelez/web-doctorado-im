@@ -18,6 +18,14 @@ The [programme's Academic Committee (CAPD)](/en/calidad/comisiones/) is responsi
 - Handling complaints, suggestions and claims.
 - Preparing the **annual monitoring report** with improvement proposals, which feeds into the ETSII quality system.
 
+## ETSII quality assurance documents
+
+- [ETSII Annual Quality Plan 2026](https://www.industriales.upm.es/wp-content/uploads/2026/03/PAC_2026_V1.pdf) (in Spanish)
+- [Final report on the 2025 Annual Quality Plan](https://www.industriales.upm.es/wp-content/uploads/2026/03/IFPAC_2025-CE.pdf) (in Spanish)
+- [Certification report of the ETSII quality system (Fundación Madri+d, SISCAL model, 2025)](https://www.madrimasd.org/sites/default/files/2025%2001%2027%20Informe%20de%20Certificaci%C3%B3n%20Final%20ETSII%20-%20UPM_firm.pdf) (in Spanish)
+
+The programme is covered by the ETSII **institutional accreditation**, renewed by resolution of the Spanish Council of Universities of 26 May 2025 for six years.
+
 ## Complaints and suggestions
 
-You can send complaints, suggestions or compliments to the programme office ([ingenieriamecanica.industriales@upm.es](mailto:ingenieriamecanica.industriales@upm.es)) or through the general UPM mailbox.
+You can send complaints, suggestions or compliments to the programme office ([ingenieriamecanica.industriales@upm.es](mailto:ingenieriamecanica.industriales@upm.es)) or through the [UPM complaints, suggestions and compliments mailbox](https://www.upm.es/UPM/Calidad/BQSF).

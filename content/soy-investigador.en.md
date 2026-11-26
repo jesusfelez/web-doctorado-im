@@ -12,7 +12,7 @@ resumen: "What the programme expects from you as a **supervisor or tutor**, in t
 
 <li><span class="r-cuando">Before admission</span>
 <h3>Sign the applicant's commitment letter</h3>
-<p>By agreement of the Academic Committee, every application must include the supervision and tutoring commitment letter: <a href="/documentos/Carta_compromiso_director_tutor_misma_persona_IM.docx">template if you are both supervisor and tutor</a> or <a href="/documentos/Carta_compromiso_director_tutor_distintos_IM.docx">if they are different people</a> (both sign). It states the research line, the provisional title and that the necessary resources are available.</p>
+<p>By agreement of the Academic Committee, every application must include the supervision and tutoring commitment letter: <a href="/documentos/Carta_compromiso_director_tutor_misma_persona_IM.docx">template if you are both supervisor and tutor</a> or <a href="/documentos/Carta_compromiso_director_tutor_distintos_IM.docx">if they are different people</a> (both sign). It states the thesis topic and that the necessary resources are available.</p>
 <p class="r-enl"><a href="/en/admision/requisitos/">Requirements</a> · <a href="/en/admision/criterios/">Admission criteria</a> · <a href="/en/doctorandos/ayudas/">Grants and contracts</a></p></li>
 
 <li><span class="r-cuando">First 6 months</span>
@@ -27,7 +27,7 @@ resumen: "What the programme expects from you as a **supervisor or tutor**, in t
 
 <li><span class="r-cuando">Every year</span>
 <h3>Report on the annual plan and review activities</h3>
-<p>Issue your report on the annual plan (usually June–July) and sign the <a href="/documentos/Registro_actividades_doctorando_IM.xlsx">activity log</a>. Check that the three compulsory activities are completed on time.</p>
+<p>Issue your report on the annual plan (usually June–July) and sign the <a href="/documentos/Activity_log_PhD_IM_EN.xlsx">activity log</a>. Check that the three compulsory activities are completed on time.</p>
 <p class="r-enl"><a href="/en/doctorandos/seguimiento/">Annual assessment</a> · <a href="/en/doctorandos/formacion/">Training activities and recommended courses</a> · <a href="/en/doctorandos/permanencia/">Deadlines and extensions</a></p></li>
 
 <li><span class="r-cuando">During the thesis</span>
@@ -47,7 +47,7 @@ resumen: "What the programme expects from you as a **supervisor or tutor**, in t
 <a class="tarjeta tarjeta-acceso" href="/documentos/Carta_compromiso_director_tutor_misma_persona_IM.docx"><h3>Commitment letter · same person</h3><p>Word · bilingual · supervisor is also tutor</p></a>
 <a class="tarjeta tarjeta-acceso" href="/documentos/Carta_compromiso_director_tutor_distintos_IM.docx"><h3>Commitment letter · different people</h3><p>Word · bilingual · signed by supervisor and tutor</p></a>
 <a class="tarjeta tarjeta-acceso" href="/documentos/Plan_investigacion_inicial_IM.docx"><h3>Initial research plan</h3><p>Word · bilingual · endorsed by supervisor and tutor</p></a>
-<a class="tarjeta tarjeta-acceso" href="/documentos/Registro_actividades_doctorando_IM.xlsx"><h3>Activity log</h3><p>Excel (in Spanish) · signed by the supervisor every year</p></a>
+<a class="tarjeta tarjeta-acceso" href="/documentos/Activity_log_PhD_IM_EN.xlsx"><h3>Activity log</h3><p>Excel · signed by the supervisor every year</p></a>
 </div>
 
 ## Programme quality

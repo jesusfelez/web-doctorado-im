@@ -25,9 +25,7 @@ actualizado: "noviembre de 2026"
 - **Baja temporal:** puedes pedir bajas temporales de **hasta dos años en total**, justificadas ante la Comisión Académica.
 {{< /general >}}
 
-{{< clave >}}**Atención:** la web anterior indicaba 3 años (TC) y 5 años (TP). Esas duraciones corresponden a la regulación anterior al RD 576/2023 y ya no se aplican a los doctorandos que empiezan ahora.{{< /clave >}}
-
-{{< revisar >}}Indicar el régimen transitorio para doctorandos matriculados antes de 2023-24 según la normativa de permanencia UPM vigente.{{< /revisar >}}
+{{< clave >}}**¿Empezaste antes del 19 de julio de 2023?** El RD 576/2023 establece que a quienes ya habían iniciado el doctorado cuando entró en vigor se les aplica la regulación vigente al empezar (por ejemplo, 3 años a tiempo completo y 5 a tiempo parcial, con sus prórrogas). La excepción es el régimen de **tribunal, defensa y evaluación de la tesis**, que se aplica a todos desde el curso **2024-25**. Si tienes dudas sobre tu caso, escribe a la secretaría del programa.{{< /clave >}}
 
 ## Normativa y procedimientos de la UPM
 

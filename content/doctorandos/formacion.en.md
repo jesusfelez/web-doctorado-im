@@ -47,7 +47,7 @@ FAIR principles, open-access publishing and repositories (Zenodo, GitHub, GrabCA
 - Courses from the **International Doctoral School**, UPM schools, departments and libraries are valid, as are **online courses from reputable institutions** with a certificate of achievement or hours.
 - Provide the **certificate** and a **short report** on the content and how it relates to your thesis. For activity 3, add the evidence: repository deposits, data management plan, etc.
 - Under each activity you will find **recommended courses and seminars**, free and online. They are only suggestions: you may propose equivalent ones. UPM MOOCs give a free diploma; on Coursera and edX the certificate is usually paid.
-- Log them in the **[Excel activity log](/documentos/Registro_actividades_doctorando_IM.xlsx)** and include them in your **annual research plan**. Your supervisor endorses them and the Academic Committee assesses them.
+- Log them in the **[Excel activity log](/documentos/Activity_log_PhD_IM_EN.xlsx)** and include them in your **annual research plan**. Your supervisor endorses them and the Academic Committee assesses them.
 {{< /programa >}}
 
 ## Optional activities

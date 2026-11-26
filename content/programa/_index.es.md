@@ -23,19 +23,17 @@ El Programa de Doctorado en Ingeniería Mecánica forma investigadores capaces d
 </tbody>
 </table></div>
 
-{{< revisar >}}La modificación de 2026 figura con «Responsable del programa: Andrés Díaz Lantada», pero el apartado 5.1 nombra coordinador a Jesús Félez Mindán. Confirmar quién figura como coordinador en la web.{{< /revisar >}}
-
 ## ¿Qué se consigue?
 
 Al terminar el doctorado serás capaz de concebir, diseñar y llevar a cabo un proyecto de investigación original, analizar críticamente ideas complejas, comunicar tus resultados a la comunidad científica internacional y a la sociedad, y **fomentar la ciencia abierta y la ciencia ciudadana**.
 
 ## Resultados
 
-- **Empleabilidad del 100 %** de los doctores, que trabajan en I+D, ingeniería o docencia.
+- **Empleabilidad cercana al 100 %** de los doctores a los seis meses, en universidades, centros de investigación y empresas.
+- **20 tesis defendidas** en 2023-24, 18 con *cum laude*.
 - Entre el **40 % y el 60 %** de las tesis defendidas cada año obtienen la **mención internacional**.
 - El área de Ingeniería Mecánica de la UPM figura de forma habitual entre las mejores del mundo en el *QS World University Rankings by Subject*.
 
-{{< revisar >}}Actualizar con la posición QS más reciente y los indicadores del último informe de seguimiento (tesis por curso, duración media).{{< /revisar >}}
 
 ## Conoce más
 

@@ -25,5 +25,3 @@ weight: 70
 <p><a href="https://www.openstreetmap.org/search?query=Jos%C3%A9%20Guti%C3%A9rrez%20Abascal%202%20Madrid">Ver en el mapa</a></p>
 </div>
 </div>
-
-{{< revisar >}}Añadir teléfono y horario de secretaría.{{< /revisar >}}

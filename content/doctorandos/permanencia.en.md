@@ -25,7 +25,7 @@ actualizado: "November 2026"
 - **Temporary leave:** you can request temporary leave of **up to two years in total**, justified to the Academic Committee.
 {{< /general >}}
 
-{{< clave >}}**Note:** the former website stated 3 years (FT) and 5 years (PT). Those durations belong to the rules prior to Royal Decree 576/2023 and no longer apply to students starting now.{{< /clave >}}
+{{< clave >}}**Did you start before 19 July 2023?** Royal Decree 576/2023 provides that candidates who had already started their doctorate when it came into force keep the rules in force when they started (for example, 3 years full time and 5 part time, with their extensions). The exception is the rules on the **examination committee, defence and assessment of the thesis**, which apply to everyone from the **2024-25** academic year. If you are unsure about your case, write to the programme office.{{< /clave >}}
 
 ## UPM regulations and procedures
 

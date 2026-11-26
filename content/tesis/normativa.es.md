@@ -35,11 +35,11 @@ actualizado: "noviembre de 2026"
 <tbody>
 <tr><td><a href="https://www.educacion.gob.es/ruct/estudio.action?codigoCiclo=SC&codigoTipo=D&CodigoEstudio=5600706&actual=estudios">Ficha del programa en el RUCT (código 5600706)</a></td><td>—</td></tr>
 <tr><td><a href="https://www.educacion.gob.es/ruct/solicitud/detalles.action?cod=56007062013121901&sit=A&actual=menu.solicitud.basicos">Memoria de verificación inicial (RUCT)</a></td><td>Verificada el 27/02/2014</td></tr>
+<tr><td><a href="http://dimec.etsii.upm.es/doctorado/wp-content/uploads/2021/03/INGENIERIA-MECANICA-99-2011-Memoria-verificada-final.pdf">Memoria verificada (PDF)</a></td><td>2014</td></tr>
 <tr><td><a href="http://www.bocm.es/boletin/CM_Orden_BOCM/2014/08/12/BOCM-20140812-4.PDF">Autorización de la Comunidad de Madrid (BOCM)</a></td><td>24/07/2014</td></tr>
 <tr><td><a href="http://www.boe.es/boe/dias/2014/10/18/pdfs/BOE-A-2014-10575.pdf">Acuerdo del Consejo de Ministros (BOE)</a></td><td>18/10/2014</td></tr>
 <tr><td><a href="https://sede.educacion.gob.es/cid/consultaCID?cid=341137057701546826279334">Renovación de la acreditación (acreditación institucional)</a></td><td>19/07/2019</td></tr>
 <tr><td><a href="https://sede.educacion.gob.es/cid/consultaCID?cid=872068271493418019672960">Renovación de la acreditación (acreditación institucional)</a></td><td>26/05/2025</td></tr>
 <tr><td><a href="https://www.educacion.gob.es/ruct/solicitud/detalles.action?cod=56007062026070301&sit=A&actual=menu.solicitud.basicos">Modificación de la memoria y adaptación al RD 576/2023 (RUCT)</a></td><td>Efectos: 24/11/2026</td></tr>
+<tr><td><a href="/documentos/Informe_favorable_Madrimasd_modificacion_2026.pdf">Informe favorable de la Fundación Madri+d sobre la modificación (PDF)</a></td><td>07/09/2026</td></tr>
 </tbody></table></div>
-
-{{< revisar >}}Subir a static/documentos/ los PDF de la memoria modificada (2026) y del informe favorable de Madri+d (07/09/2026), y enlazarlos aquí.{{< /revisar >}}

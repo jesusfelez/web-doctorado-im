@@ -41,7 +41,7 @@ From the start of your thesis you will log all your training activities and anyt
 {{< /general >}}
 
 {{< programa titulo="Activity log in Excel" >}}
-Keep your activities in the **[activity log](/documentos/Registro_actividades_doctorando_IM.xlsx)**. It adds up the hours and ECTS of each activity and shows which are still pending. Submit it with each annual plan, signed by your supervisor and with the certificates. (The spreadsheet is in Spanish.)
+Keep your activities in the **[activity log](/documentos/Activity_log_PhD_IM_EN.xlsx)**. It adds up the hours and ECTS of each activity and shows which are still pending. Submit it with each annual plan, signed by your supervisor and with the certificates.
 {{< /programa >}}
 
 ## 4. Annual assessment
@@ -53,6 +53,5 @@ Keep your activities in the **[activity log](/documentos/Registro_actividades_do
 {{< /general >}}
 
 {{< programa >}}
-- You will present your results for the year at the programme's **annual monitoring sessions**.
 - UPM sets the submission deadline each year, usually in **June and July**. **Failing to submit the plan on time means withdrawal.**
 {{< /programa >}}

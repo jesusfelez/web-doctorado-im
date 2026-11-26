@@ -27,7 +27,7 @@ resumen: "Everything you need on one page, **in the order you will need it**. Ea
 
 <li><span class="r-cuando">From day one</span>
 <h3>Do the training activities and log them</h3>
-<p>Three compulsory activities of 1 ECTS and two optional ones, with free recommended courses. Keep the <a href="/documentos/Registro_actividades_doctorando_IM.xlsx">Excel activity log</a>: it adds up your hours and shows what is pending.</p>
+<p>Three compulsory activities of 1 ECTS and two optional ones, with free recommended courses. Keep the <a href="/documentos/Activity_log_PhD_IM_EN.xlsx">Excel activity log</a>: it adds up your hours and shows what is pending.</p>
 <p class="r-enl"><a href="/en/doctorandos/formacion/">Training activities</a></p></li>
 
 <li><span class="r-cuando">Every year</span>
@@ -50,7 +50,7 @@ resumen: "Everything you need on one page, **in the order you will need it**. Ea
 
 <div class="rejilla r2 descargas">
 <a class="tarjeta tarjeta-acceso" href="/documentos/Plan_investigacion_inicial_IM.docx"><h3>Initial research plan</h3><p>Word · bilingual · before the end of year one</p></a>
-<a class="tarjeta tarjeta-acceso" href="/documentos/Registro_actividades_doctorando_IM.xlsx"><h3>Activity log</h3><p>Excel (in Spanish) · submitted with each annual plan</p></a>
+<a class="tarjeta tarjeta-acceso" href="/documentos/Activity_log_PhD_IM_EN.xlsx"><h3>Activity log</h3><p>Excel · submitted with each annual plan</p></a>
 <a class="tarjeta tarjeta-acceso" href="/documentos/Carta_compromiso_director_tutor_misma_persona_IM.docx"><h3>Commitment letter · same person</h3><p>Word · bilingual · supervisor is also tutor</p></a>
 <a class="tarjeta tarjeta-acceso" href="/documentos/Carta_compromiso_director_tutor_distintos_IM.docx"><h3>Commitment letter · different people</h3><p>Word · bilingual · signed by supervisor and tutor</p></a>
 </div>
