@@ -3,7 +3,7 @@
     <div class="pie-cols">
       <div>
         <h4>{{ site.Title }}</h4>
-        <p>{{ site.Params.departamento }}<br>{{ site.Params.centro }} · UPM<br>{{ site.Params.direccion }}</p>
+        <p>{{ site.Params.centro }} · UPM<br>{{ site.Params.direccion }}</p>
         <p><a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></p>
       </div>
       {{ range first 3 (where site.Menus.main "HasChildren" true) }}
