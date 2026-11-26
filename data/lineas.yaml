@@ -13,7 +13,6 @@ lineas:
       - "Estructuras con sistemas de control pasivo"
       - "Simulación numérica del comportamiento dinámico y ensayos en mesa sísmica"
       - "Cuantificación de incertidumbre y calibración bayesiana de modelos"
-      - "Inteligencia artificial, gemelos digitales y control avanzado para la gestión del tráfico ferroviario"
     grupos: ["GI Ingeniería Sísmica: Dinámica de Suelos y Estructuras", "GI Modelado y Simulación en Ingeniería Mecánica"]
   - titulo: "Ingeniería acústica"
     corto: "Acústica"

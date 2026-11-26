@@ -13,7 +13,6 @@ lineas:
       - "Structures with passive control systems"
       - "Numerical simulation of dynamic behaviour and shaking-table tests"
       - "Uncertainty quantification and Bayesian model calibration"
-      - "Artificial intelligence, digital twins and advanced control for railway traffic management"
     grupos: ["GI Ingeniería Sísmica: Dinámica de Suelos y Estructuras", "GI Modelado y Simulación en Ingeniería Mecánica"]
   - titulo: "Acoustic engineering"
     corto: "Acoustics"
