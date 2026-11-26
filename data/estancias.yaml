@@ -1,0 +1,28 @@
+# CENTROS DE ESTANCIAS DE INVESTIGACIÓN de los doctorandos del programa
+# (estancias registradas en Thesis por doctorandos actuales y egresados; base de la mención internacional)
+# Agrupados por país. Para añadir un centro, copia una línea en el país que corresponda.
+paises:
+  - pais: "Alemania"
+    centros: ["Laserzentrum, Hochschule München (Múnich)"]
+  - pais: "Austria"
+    centros: ["TU Wien (Viena)", "Medical University of Vienna (Viena)", "AIT Austrian Institute of Technology (Viena)", "PROFACTOR GmbH (Steyr)"]
+  - pais: "Corea del Sur"
+    centros: ["KAIST (Daejeon)"]
+  - pais: "Estados Unidos"
+    centros: ["Georgia Institute of Technology – Manufacturing Institute (Atlanta)", "Princeton University (Princeton)"]
+  - pais: "Francia"
+    centros: ["ParisTech (París)", "Institut Laue-Langevin (Grenoble)"]
+  - pais: "Irlanda"
+    centros: ["University of Galway (Galway)"]
+  - pais: "Italia"
+    centros: ["Politecnico di Torino (Turín)", "Istituto di Ricerca sui Motori – CNR (Nápoles)"]
+  - pais: "Japón"
+    centros: ["Institute of Science Tokyo, antes Tokyo Institute of Technology (Tokio)"]
+  - pais: "Noruega"
+    centros: ["Simula Research Laboratory (Oslo)"]
+  - pais: "Países Bajos"
+    centros: ["University of Twente (Enschede)"]
+  - pais: "Portugal"
+    centros: ["Universidade de Lisboa – Instituto Superior Técnico (Lisboa)"]
+  - pais: "Reino Unido"
+    centros: ["University of Sheffield (Sheffield)", "University of Hull (Hull)"]

@@ -40,7 +40,7 @@
         g.classList.toggle('oculto', !g.querySelector('[data-item]:not(.oculto)'));
       });
       if (contador) {
-        var nombre = tipo === 'tesis' ? (n === 1 ? 'tesis' : 'tesis') : (n === 1 ? 'investigador/a' : 'investigadores/as');
+        var nombre = contador.getAttribute(n === 1 ? 'data-uno' : 'data-varios') || '';
         contador.textContent = n + ' ' + nombre;
       }
     }

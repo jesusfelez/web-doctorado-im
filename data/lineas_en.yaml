@@ -1,0 +1,67 @@
+# RESEARCH LINES – English version of data/lineas.yaml
+# The order must be the same as in lineas.yaml (line numbers are used in investigadores.yaml)
+lineas:
+  - titulo: "Computational mechanics and earthquake engineering"
+    corto: "Comput. mechanics & earthquake eng."
+    temas:
+      - "Earthquake engineering and seismology"
+      - "Soil and structural dynamics"
+      - "Earthquake-resistant design and energy-balance methods"
+      - "Characterisation of seismic action"
+      - "Structural damage monitoring using dynamic techniques"
+      - "Structures with passive control systems"
+      - "Numerical simulation of dynamic behaviour and shaking-table tests"
+    grupos: ["GI Ingeniería Sísmica: Dinámica de Suelos y Estructuras", "GI Modelado y Simulación en Ingeniería Mecánica"]
+  - titulo: "Acoustic engineering"
+    corto: "Acoustics"
+    temas:
+      - "Applied acoustics"
+      - "Industrial, environmental and occupational noise"
+      - "Architectural acoustics"
+      - "Electroacoustics and acoustic metrology"
+      - "Instrumentation and virtual instrumentation"
+      - "Audio signal processing"
+    grupos: ["GI Instrumentación y Acústica Aplicada (i2a2)", "CAEND (UPM-CSIC)"]
+  - titulo: "Manufacturing engineering"
+    corto: "Manufacturing"
+    temas:
+      - "Cyber-physical systems and IIoT for manufacturing, quality and maintenance"
+      - "Process analysis, development and automation; microfabrication"
+      - "Collaborative and applied robotics"
+      - "Metal additive manufacturing"
+      - "Concurrent engineering, information modelling and CAD/CAM/CAE/PLM integration"
+      - "Lean manufacturing, MES, productivity and KPIs"
+    grupos: ["GI Ingeniería de Fabricación"]
+  - titulo: "Vehicle and transport engineering"
+    corto: "Vehicles and transport"
+    temas:
+      - "Transport safety and accident investigation"
+      - "Impact biomechanics and passive safety"
+      - "Advanced driver assistance systems (ADAS) and autonomous vehicles"
+      - "Alternative propulsion systems and emissions"
+      - "Mobility of people with reduced mobility"
+      - "Railway rolling stock"
+      - "Vehicle-infrastructure interaction"
+      - "Intelligent railway control, command and signalling systems"
+      - "Railway electrification"
+    grupos: ["INSIA – GI Seguridad e Impacto Medioambiental de Vehículos y Transportes (GIVET)", "CITEF", "GI Modelado y Simulación en Ingeniería Mecánica"]
+  - titulo: "Machine engineering and product development"
+    corto: "Machines and product"
+    temas:
+      - "Product development and biomedical engineering"
+      - "Tribology"
+      - "Machine safety, vibrations and vibroacoustics"
+      - "Design and manufacturing with plastics"
+      - "Biomechanics and maintenance"
+      - "Mechanical energy storage and history of machines"
+    grupos: ["GI Ingeniería de Máquinas (GI-IM)", "GI Análisis Biomecánico"]
+  - titulo: "Laser engineering and applications"
+    corto: "Laser"
+    temas:
+      - "Laser-matter interaction and laser-produced plasmas"
+      - "Industrial applications: welding, surface treatments and shock waves"
+      - "Laser microfabrication and micromachining"
+      - "Laser processing for photovoltaic devices"
+      - "Micro/nanophotonics, biophotonics and biosensors"
+      - "Advanced optical characterisation and remote sensing"
+    grupos: ["Centro Láser UPM", "GI Óptica, Fotónica y Biofotónica"]

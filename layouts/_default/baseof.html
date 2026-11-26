@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="{{ site.LanguageCode | default "es" }}">
+<html lang="{{ site.Language.Lang }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ if .IsHome }}{{ site.Title }} | UPM{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Summary }}{{ . | plainify | truncate 160 }}{{ else }}{{ site.Params.descripcion }}{{ end }}{{ end }}">
   <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
-  <link rel="icon" href="{{ "img/favicon.svg" | relURL }}" type="image/svg+xml">
+  {{ range .AllTranslations }}<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+  {{ end }}<link rel="icon" href="{{ "img/favicon.svg" | relURL }}" type="image/svg+xml">
 </head>
 <body>
-  <a class="saltar" href="#main">Pasar al contenido principal</a>
+  <a class="saltar" href="#main">{{ i18n "saltar" }}</a>
   {{ partial "cabecera.html" . }}
   <main id="main">
     {{ block "main" . }}{{ end }}

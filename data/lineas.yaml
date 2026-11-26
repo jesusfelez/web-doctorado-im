@@ -1,8 +1,8 @@
 # LÍNEAS DE INVESTIGACIÓN (memoria verificada, apartado 6.1)
 # El orden importa: el número de cada línea (1, 2, 3...) se usa en investigadores.yaml
 lineas:
-  - titulo: "Dinámica computacional e ingeniería sísmica"
-    corto: "Dinámica e ing. sísmica"
+  - titulo: "Mecánica computacional e ingeniería sísmica"
+    corto: "Mecánica computacional e ing. sísmica"
     temas:
       - "Ingeniería sísmica y sismología"
       - "Dinámica de suelos y estructuras"
@@ -40,8 +40,11 @@ lineas:
       - "Sistemas de ayuda a la conducción (ADAS) y vehículo autónomo"
       - "Sistemas de propulsión alternativos y emisiones"
       - "Movilidad de personas con movilidad reducida"
-      - "Ferrocarriles: dinámica, vía, catenaria, señalización y simulación"
-    grupos: ["INSIA – GI Seguridad e Impacto Medioambiental de Vehículos y Transportes (GIVET)", "CITEF – GI Tecnologías Ferroviarias y Simulación Avanzada"]
+      - "Material rodante ferroviario"
+      - "Interacción vehículo-infraestructura"
+      - "Sistemas inteligentes de control, mando y señalización ferroviaria"
+      - "Electrificación ferroviaria"
+    grupos: ["INSIA – GI Seguridad e Impacto Medioambiental de Vehículos y Transportes (GIVET)", "CITEF", "GI Modelado y Simulación en Ingeniería Mecánica"]
   - titulo: "Ingeniería de máquinas y desarrollo de productos"
     corto: "Máquinas y producto"
     temas:

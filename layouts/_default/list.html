@@ -4,11 +4,11 @@
   {{ partial "lateral.html" . }}
   <article class="contenido">
     {{ with .Params.resumen }}<div class="resumen">{{ . | markdownify }}</div>{{ end }}
-    {{ if .Params.leyenda }}<div class="leyenda"><span class="lg">Normativa general (Real Decreto y UPM)</span><span class="lp">Específico de nuestro programa</span></div>{{ end }}
+    {{ if .Params.leyenda }}<div class="leyenda"><span class="lg">{{ i18n "leyGeneral" }}</span><span class="lp">{{ i18n "leyPrograma" }}</span></div>{{ end }}
     {{ .Content }}
     {{ $hijas := .Pages.ByWeight }}
     {{ if $hijas }}
-    <h2>En esta sección</h2>
+    <h2>{{ i18n "enSeccion" }}</h2>
     <div class="rejilla r2">
       {{ range $hijas }}
       <a class="tarjeta tarjeta-acceso" href="{{ .RelPermalink }}">

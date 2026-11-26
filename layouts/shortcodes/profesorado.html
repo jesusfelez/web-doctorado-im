@@ -1,21 +1,21 @@
 {{/* Listado de investigadores a partir de data/investigadores.yaml (editable desde el panel) */}}
 {{/* Se respeta el orden del archivo (alfabético); en el panel se puede reordenar arrastrando */}}
 {{ $inv := site.Data.investigadores.investigadores }}
-{{ $lineas := site.Data.lineas.lineas }}
+{{ $lineas := (partial "dato.html" "lineas").lineas }}
 <div class="filtros" data-filtro="inv">
-  <input type="search" placeholder="Buscar por nombre o institución…" aria-label="Buscar investigador" data-busca>
-  <select aria-label="Filtrar por línea" data-sel="linea">
-    <option value="">Todas las líneas</option>
+  <input type="search" placeholder="{{ i18n "buscarInv" }}" aria-label="{{ i18n "buscarInv" }}" data-busca>
+  <select aria-label="{{ i18n "filtrarLinea" }}" data-sel="linea">
+    <option value="">{{ i18n "todasLineas" }}</option>
     {{ range $i, $l := $lineas }}<option value="{{ add $i 1 }}">{{ $l.titulo }}</option>{{ end }}
   </select>
-  <select aria-label="Filtrar por grupo" data-sel="grupo">
-    <option value="">Todos</option>
-    <option value="nucleo">Profesorado UPM (ETSII)</option>
-    <option value="colab">Otros investigadores participantes</option>
+  <select aria-label="{{ i18n "filtrarGrupo" }}" data-sel="grupo">
+    <option value="">{{ i18n "todos" }}</option>
+    <option value="nucleo">UPM</option>
+    <option value="colab">{{ i18n "otrasInst" }}</option>
   </select>
 </div>
-<p class="contador" data-contador></p>
-{{ range slice (dict "id" "nucleo" "tit" "Profesorado del Dpto. de Ingeniería Mecánica y del Dpto. de Física Aplicada e Ingeniería de Materiales (ETSII-UPM)") (dict "id" "colab" "tit" "Otros investigadores participantes") }}
+<p class="contador" data-contador data-uno="{{ i18n "invUno" }}" data-varios="{{ i18n "invVarios" }}"></p>
+{{ range slice (dict "id" "nucleo" "tit" (i18n "invUPM")) (dict "id" "colab" "tit" (i18n "invOtras")) }}
 {{ $g := .id }}
 {{ $lista := where $inv "grupo" $g }}
 <section class="grupo-inv" data-grupo="{{ $g }}">
@@ -27,8 +27,12 @@
     <div class="inv" data-item data-grupo="{{ .grupo }}" data-linea="{{ delimit (.lineas | default slice) " " }}" data-texto="{{ .nombre }} {{ .apellidos }} {{ .afiliacion }}">
       <div class="ini" aria-hidden="true">{{ $ini }}</div>
       <div>
-        <div class="nom">{{ if .perfil }}<a href="{{ .perfil }}" target="_blank" rel="noopener">{{ .nombre }} {{ .apellidos }}</a>{{ else }}{{ .nombre }} {{ .apellidos }}{{ end }}</div>
+        <div class="nom">{{ .nombre }} {{ .apellidos }}</div>
         {{ with .afiliacion }}<div class="afi">{{ . }}</div>{{ end }}
+        {{ if or .perfil .orcid }}<div class="perfiles">
+          {{ with .perfil }}<a href="{{ . }}" target="_blank" rel="noopener" title="{{ i18n "perfilPortal" }}"><img src="{{ "img/icono-portal.svg" | relURL }}" alt="Portal Científico UPM" width="20" height="20"></a>{{ end }}
+          {{ with .orcid }}<a href="{{ . }}" target="_blank" rel="noopener" title="{{ i18n "perfilOrcid" }}"><img src="{{ "img/icono-orcid.svg" | relURL }}" alt="ORCID" width="20" height="20"></a>{{ end }}
+        </div>{{ end }}
         {{ with .lineas }}<div class="afi">{{ range $k, $n := . }}{{ if $k }} · {{ end }}{{ (index $lineas (sub $n 1)).corto }}{{ end }}</div>{{ end }}
       </div>
     </div>

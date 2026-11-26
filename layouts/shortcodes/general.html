@@ -1,7 +1,7 @@
 {{/* Caja de NORMATIVA GENERAL (Real Decreto / UPM).
    Uso:  {{< general fuente="RD 99/2011, art. 3" enlace="https://..." >}} texto en Markdown {{< /general >}} */}}
 <div class="caja caja-general">
-  <div class="caja-etq">Normativa general{{ with .Get "fuente" }} · {{ . }}{{ end }}</div>
+  <div class="caja-etq">{{ i18n "normaGeneral" }}{{ with .Get "fuente" }} · {{ . }}{{ end }}</div>
   <div class="caja-txt">{{ .Inner | .Page.RenderString }}</div>
-  {{ with .Get "enlace" }}<a class="caja-enlace" href="{{ . }}" target="_blank" rel="noopener">{{ $.Get "textoenlace" | default "Consultar la norma" }} ↗</a>{{ end }}
+  {{ with .Get "enlace" }}<a class="caja-enlace" href="{{ . }}" target="_blank" rel="noopener">{{ $.Get "textoenlace" | default (i18n "consultarNorma") }} ↗</a>{{ end }}
 </div>

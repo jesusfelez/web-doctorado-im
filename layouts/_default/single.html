@@ -4,9 +4,9 @@
   {{ partial "lateral.html" . }}
   <article class="contenido">
     {{ with .Params.resumen }}<div class="resumen">{{ . | markdownify }}</div>{{ end }}
-    {{ if .Params.leyenda }}<div class="leyenda"><span class="lg">Normativa general (Real Decreto y UPM)</span><span class="lp">Específico de nuestro programa</span></div>{{ end }}
+    {{ if .Params.leyenda }}<div class="leyenda"><span class="lg">{{ i18n "leyGeneral" }}</span><span class="lp">{{ i18n "leyPrograma" }}</span></div>{{ end }}
     {{ .Content }}
-    {{ if .Params.actualizado }}<p class="actualizado">Información revisada: {{ .Params.actualizado }}</p>{{ end }}
+    {{ if .Params.actualizado }}<p class="actualizado">{{ i18n "revisada" }} {{ .Params.actualizado }}</p>{{ end }}
   </article>
 </div>
 {{ end }}

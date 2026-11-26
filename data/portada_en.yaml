@@ -1,0 +1,41 @@
+# HOME PAGE content in English (editable from the panel: Portada (English))
+etiqueta: "Universidad Politécnica de Madrid · School of Industrial Engineering"
+titulo: "PhD Programme in Mechanical Engineering"
+lema: "We train high-level researchers in Mechanical Engineering, in one of the most highly rated mechanical engineering environments in Europe."
+botones:
+  - texto: "How to apply"
+    enlace: "/admision/"
+    principal: true
+  - texto: "Research lines"
+    enlace: "/programa/lineas/"
+    principal: false
+cifras:
+  - valor: "6"
+    texto: "research lines"
+  - valor: "25"
+    texto: "new places per year"
+  - valor: "40–60 %"
+    texto: "theses with international mention"
+  - valor: "4 years"
+    texto: "maximum full-time duration"
+  - valor: "100 %"
+    texto: "employment of our doctors"
+aviso:
+  mostrar: true
+  titulo: "New in 2026:"
+  texto: "the programme has been adapted to Royal Decree 576/2023, with a favourable report from Fundación Madri+d (September 2026). See the new [entry profiles](/en/admision/perfiles/), [training activities](/en/doctorandos/formacion/) and [thesis requirements](/en/tesis/requisitos/)."
+accesos:
+  - titulo: "Prospective students"
+    texto: "Requirements, entry profiles, admission criteria and enrolment."
+    enlace: "/admision/"
+  - titulo: "PhD students"
+    texto: "Research plan, training activities, mobility and funding."
+    enlace: "/doctorandos/"
+  - titulo: "Doctoral thesis"
+    texto: "Quality requirements, pre-assessment, submission and defence."
+    enlace: "/tesis/"
+  - titulo: "Researchers"
+    texto: "Programme faculty and collaborating researchers."
+    enlace: "/programa/profesorado/"
+internacional:
+  texto: "Between 40 % and 60 % of the theses defended each year obtain the international mention. Our PhD students carry out research stays at universities and centres in Europe, the Americas and Asia."

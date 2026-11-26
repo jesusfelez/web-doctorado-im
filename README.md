@@ -48,13 +48,16 @@ Los cambios que guardes en el panel se escriben directamente en los archivos de 
 |---|---|---|
 | **Dar de alta o de baja a un investigador** | Datos del programa → Investigadores | `data/investigadores.yaml` |
 | Añadir una tesis defendida | Datos del programa → Tesis defendidas | `data/tesis.yaml` |
-| Cambiar la CAPD o la CGC | Datos del programa → Comisiones | `data/comisiones.yaml` |
-| Publicar una noticia | Noticias → Nueva noticia | `content/noticias/AAAA-MM-DD-titulo.md` |
+| Cambiar la composición de la CAPD | Datos del programa → Comisión Académica | `data/comisiones.yaml` |
+| Añadir centros de estancias | Datos del programa → Centros de estancias | `data/estancias.yaml` |
+| Añadir enlaces a Portal Científico y ORCID | Datos del programa → Investigadores | `data/investigadores.yaml` (campos `perfil` y `orcid`) |
+| Publicar una noticia | Noticias (castellano) y Noticias (inglés), con el mismo «Identificador común» | `content/noticias/AAAA-MM-DD-titulo.es.md` y `.en.md` |
 | Cambiar cifras, aviso o botones de la portada | Datos del programa → Portada | `data/portada.yaml` |
-| Editar el texto de una página | Páginas | `content/…/*.md` |
+| Editar el texto de una página | Páginas (castellano) / Páginas (inglés) | `content/…/*.es.md` y `*.en.md` |
 | Añadir o quitar enlaces útiles | Datos del programa → Enlaces útiles | `data/enlaces.yaml` |
-| Cambiar el menú | — | `hugo.toml` (bloques `[[menus.main]]`) |
-| Cambiar colores o logotipo | — | `static/css/main.css` (variables `:root`) y `static/img/logo-upm.svg` |
+| Cambiar el menú | — | `hugo.toml` (bloques `[[languages.es.menus.main]]` y `[[languages.en.menus.main]]`) |
+| Cambiar textos fijos del diseño (botones, cabeceras de tablas…) | — | `i18n/es.yaml` e `i18n/en.yaml` |
+| Cambiar colores o logotipos | — | `static/css/main.css` (variables `:root`) y `static/img/logo-upm.png`, `logo-etsii.png` |
 
 ### Cajas de normativa en las páginas
 
@@ -95,12 +98,19 @@ Conviene concretarlo con el servicio de informática de la ETSII.
 
 ---
 
+## 3 bis. Web en dos idiomas (castellano e inglés)
+
+- El castellano está en la raíz (`/`) y el inglés en `/en/`. El selector **ES | EN** de la barra superior lleva a la misma página en el otro idioma.
+- Cada página tiene dos archivos: `pagina.es.md` y `pagina.en.md`. Si cambias una, actualiza también la otra. En la versión inglesa, los enlaces internos empiezan por `/en/`.
+- **Investigadores y tesis defendidas son comunes** a los dos idiomas: se editan una sola vez.
+- Portada, líneas, Comisión Académica, centros de estancias y enlaces útiles tienen versión inglesa (`data/*_en.yaml`, en el panel «… (inglés)»). Si falta un archivo `_en`, la web inglesa usa el castellano.
+
 ## 4. Estructura
 
 ```
 web-doctorado/
 ├── hugo.toml              Configuración y menú
-├── content/               Textos de las páginas (Markdown)
+├── content/               Textos de las páginas (Markdown): *.es.md y *.en.md
 │   ├── programa/          Presentación, líneas, profesorado, internacionalización
 │   ├── admision/          Requisitos, perfiles, criterios, matrícula
 │   ├── doctorandos/       Permanencia, seguimiento, formación, movilidad, industrial, ayudas
@@ -108,7 +118,8 @@ web-doctorado/
 │   ├── calidad/           Comisiones, SGIC, resultados
 │   ├── noticias/
 │   └── contacto.md
-├── data/                  Listados editables (investigadores, tesis, comisiones…)
+├── data/                  Listados editables (investigadores, tesis, comisiones…); *_en.yaml = inglés
+├── i18n/                  Textos fijos del diseño en cada idioma
 ├── layouts/               Plantillas HTML (diseño)
 └── static/                CSS, JS, imágenes y panel /admin
 ```

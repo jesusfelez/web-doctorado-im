@@ -5,7 +5,7 @@
     <p class="fecha">{{ .Date.Format "02/01/2006" }}</p>
     {{ with .Params.imagen }}<img src="{{ . | relURL }}" alt="{{ $.Params.imagen_alt | default "" }}" class="img-noticia">{{ end }}
     {{ .Content }}
-    <p style="margin-top:32px"><a class="ver-todo" href="{{ "noticias/" | relURL }}">Todas las noticias</a></p>
+    <p style="margin-top:32px"><a class="ver-todo" href="{{ "noticias/" | relLangURL }}">{{ i18n "todasNoticias" }}</a></p>
   </article>
 </div>
 {{ end }}

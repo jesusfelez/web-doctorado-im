@@ -15,16 +15,16 @@
     </div>
     <div class="pie-enlaces">
       <a href="https://www.upm.es/">UPM</a>
-      <a href="https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado">Escuela Internacional de Doctorado</a>
-      <a href="https://www.etsii.upm.es/">ETSI Industriales</a>
-      <a href="https://dimec.etsii.upm.es/">Dpto. de Ingeniería Mecánica</a>
+      <a href="https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado">{{ i18n "eidCorto" }}</a>
+      <a href="https://www.industriales.upm.es/">{{ i18n "etsii" }}</a>
+      <a href="https://dimec.etsii.upm.es/">{{ i18n "dptoIM" }}</a>
     </div>
     <div class="pie-legal">
       <span>© {{ now.Year }} {{ site.Params.universidad }} · {{ site.Params.departamento }}</span>
-      <nav aria-label="Enlaces legales">
-        <a href="https://www.upm.es/aviso_legal">Aviso legal</a>
-        <a href="https://www.upm.es/accesibilidad">Accesibilidad</a>
-        <a href="https://www.upm.es/UPM/ProteccionDatos">Protección de datos</a>
+      <nav aria-label="{{ i18n "legal" }}">
+        <a href="https://www.upm.es/aviso_legal">{{ i18n "avisoLegal" }}</a>
+        <a href="https://www.upm.es/accesibilidad">{{ i18n "accesibilidad" }}</a>
+        <a href="https://www.upm.es/UPM/ProteccionDatos">{{ i18n "proteccionDatos" }}</a>
       </nav>
     </div>
   </div>

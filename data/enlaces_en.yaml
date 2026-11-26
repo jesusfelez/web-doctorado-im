@@ -1,0 +1,110 @@
+# USEFUL LINKS – English version of data/enlaces.yaml (keep both files in step)
+enlaces:
+  # --- Admisión
+  - grupo: admision
+    titulo: "Access, admission and enrolment. Calendar"
+    url: "https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/informacion"
+    fuente: "UPM"
+  - grupo: admision
+    titulo: "Doctoral enrolment and admission regulations"
+    url: "http://www.upm.es/sfs/Rectorado/Vicerrectorado%20de%20Investigacion/Doctorado/Admision%20y%20Calendario/NORMATIVA%20MATRICULA%20DOCTORADO2.pdf"
+    fuente: "UPM"
+  - grupo: admision
+    titulo: "UPM doctoral programmes"
+    url: "https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/Programas_de_Doctorado"
+    fuente: "UPM"
+  - grupo: admision
+    titulo: "Royal Decree 99/2011 (consolidated text), arts. 6 and 7"
+    url: "https://www.boe.es/buscar/act.php?id=BOE-A-2011-2541"
+    fuente: "BOE"
+  - grupo: admision
+    titulo: "International Doctoral School FAQ and contact"
+    url: "https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/preguntas_frecuentes"
+    fuente: "UPM"
+  # --- Doctorandos
+  - grupo: doctorandos
+    titulo: "Annual research plans"
+    url: "https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/PlanesAnuales"
+    fuente: "UPM"
+  - grupo: doctorandos
+    titulo: "Transferable skills training at the International Doctoral School"
+    url: "https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/Actividades_formativas_Doctorado"
+    fuente: "UPM"
+  - grupo: doctorandos
+    titulo: "PhD student training and supervision agreement"
+    url: "https://www.upm.es/gsfs/SFS26180"
+    fuente: "UPM"
+  - grupo: doctorandos
+    titulo: "Regulations on continuation in doctoral studies"
+    url: "https://www.upm.es/gsfs/SFS12774"
+    fuente: "UPM"
+  - grupo: doctorandos
+    titulo: "Change of study mode procedure (full time / part time)"
+    url: "https://www.upm.es/gsfs/SFS12775"
+    fuente: "UPM"
+  - grupo: doctorandos
+    titulo: "Extension request procedure"
+    url: "https://www.upm.es/gsfs/SFS12777"
+    fuente: "UPM"
+  - grupo: doctorandos
+    titulo: "Temporary leave request procedure"
+    url: "https://www.upm.es/gsfs/SFS12778"
+    fuente: "UPM"
+  - grupo: doctorandos
+    titulo: "Doctoral and postdoctoral grants"
+    url: "https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/ayudas"
+    fuente: "UPM"
+  # --- Tesis
+  - grupo: tesis
+    titulo: "Doctoral thesis: procedures, forms and format"
+    url: "https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/Tesis"
+    fuente: "UPM"
+  - grupo: tesis
+    titulo: "Regulations on preparing and assessing the doctoral thesis"
+    url: "https://www.upm.es/gsfs/SFS57181"
+    fuente: "UPM"
+  - grupo: tesis
+    titulo: "Quality criteria for doctoral theses"
+    url: "https://www.upm.es/gsfs/SFS57179"
+    fuente: "UPM"
+  - grupo: tesis
+    titulo: "Amendment of the quality criteria (Governing Council, 26/01/2023)"
+    url: "https://www.upm.es/gsfs/SFS57180"
+    fuente: "UPM"
+  - grupo: tesis
+    titulo: "Thesis by compendium of publications"
+    url: "https://www.upm.es/gsfs/SFS57196"
+    fuente: "UPM"
+  - grupo: tesis
+    titulo: "Thesis confidentiality procedure"
+    url: "https://www.upm.es/gsfs/SFS57194"
+    fuente: "UPM"
+  - grupo: tesis
+    titulo: "Thesis co-supervision procedure"
+    url: "https://www.upm.es/gsfs/SFS57190"
+    fuente: "UPM"
+  - grupo: tesis
+    titulo: "Thesis cotutelle: procedure and agreement"
+    url: "https://www.upm.es/gsfs/SFS50878"
+    fuente: "UPM"
+  - grupo: tesis
+    titulo: "TESEO – Spanish doctoral theses database"
+    url: "https://aplicaciones.ciencia.gob.es/teseo/"
+    fuente: "Ministry"
+  - grupo: tesis
+    titulo: "UPM Digital Archive (published theses)"
+    url: "https://oa.upm.es/"
+    fuente: "UPM"
+  # --- Calidad
+  - grupo: calidad
+    titulo: "Fundación para el Conocimiento Madri+d (assessment and accreditation)"
+    url: "https://www.madrimasd.org/"
+    fuente: "Madri+d"
+  - grupo: calidad
+    titulo: "Register of Universities, Centres and Degrees (RUCT)"
+    url: "https://www.educacion.gob.es/ruct/"
+    fuente: "Ministry"
+  - grupo: calidad
+    titulo: "Programme record in the RUCT (code 5600706)"
+    url: "https://www.educacion.gob.es/ruct/estudio.action?codigoCiclo=SC&codigoTipo=D&CodigoEstudio=5600706&actual=estudios"
+    fuente: "Ministry"

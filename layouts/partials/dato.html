@@ -1,0 +1,6 @@
+{{/* Devuelve el archivo de datos en el idioma de la página.
+   Uso: {{ $d := partial "dato.html" "lineas" }}
+   En inglés usa data/<nombre>_en.yaml si existe; si no, el archivo en castellano. */}}
+{{ $d := index site.Data . }}
+{{ if ne site.Language.Lang "es" }}{{ with index site.Data (printf "%s_%s" . site.Language.Lang) }}{{ $d = . }}{{ end }}{{ end }}
+{{ return $d }}

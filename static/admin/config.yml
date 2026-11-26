@@ -13,7 +13,7 @@ media_folder: "static/uploads"
 public_folder: "/uploads"
 site_url: "https://dimec.etsii.upm.es/doctorado/"
 display_url: "https://dimec.etsii.upm.es/doctorado/"
-logo_url: "/img/logo-upm.svg"
+logo_url: "/img/logo-upm.png"
 
 collections:
   # ------------------------------------------------------------------
@@ -37,8 +37,8 @@ collections:
                 label: "Grupo"
                 widget: "select"
                 options:
-                  - { label: "Profesorado ETSII-UPM (Ing. Mecánica / Física Aplicada)", value: "nucleo" }
-                  - { label: "Otros investigadores participantes", value: "colab" }
+                  - { label: "UPM", value: "nucleo" }
+                  - { label: "Otras instituciones", value: "colab" }
               - { name: "afiliacion", label: "Institución", widget: "string", required: false }
               - name: "lineas"
                 label: "Líneas de investigación"
@@ -46,13 +46,14 @@ collections:
                 multiple: true
                 required: false
                 options:
-                  - { label: "1 · Dinámica computacional e ingeniería sísmica", value: 1 }
+                  - { label: "1 · Mecánica computacional e ingeniería sísmica", value: 1 }
                   - { label: "2 · Ingeniería acústica", value: 2 }
                   - { label: "3 · Ingeniería de fabricación", value: 3 }
                   - { label: "4 · Ingeniería de vehículos y transportes", value: 4 }
                   - { label: "5 · Ingeniería de máquinas y desarrollo de productos", value: 5 }
                   - { label: "6 · Ingeniería y aplicaciones del láser", value: 6 }
-              - { name: "perfil", label: "Enlace al perfil (Portal Científico UPM u otro)", widget: "string", required: false }
+              - { name: "perfil", label: "Perfil en el Portal Científico UPM (URL)", widget: "string", required: false }
+              - { name: "orcid", label: "Perfil ORCID (URL, p. ej. https://orcid.org/0000-0002-...)", widget: "string", required: false }
 
       - name: "tesis"
         label: "Tesis defendidas"
@@ -76,7 +77,7 @@ collections:
               - { name: "enlace", label: "Enlace (Archivo Digital UPM)", widget: "string", required: false }
 
       - name: "comisiones"
-        label: "Comisiones (CAPD y CGC)"
+        label: "Comisión Académica (CAPD)"
         file: "data/comisiones.yaml"
         fields:
           - name: "comisiones"
@@ -152,18 +153,17 @@ collections:
             fields:
               - { name: "texto", label: "Texto", widget: "text" }
 
-      - name: "colaboraciones"
-        label: "Instituciones colaboradoras"
-        file: "data/colaboraciones.yaml"
+      - name: "estancias"
+        label: "Centros de estancias (por país)"
+        file: "data/estancias.yaml"
         fields:
-          - name: "instituciones"
-            label: "Instituciones"
+          - name: "paises"
+            label: "Países"
             widget: "list"
-            summary: "{{fields.nombre}} ({{fields.pais}})"
+            summary: "{{fields.pais}}"
             fields:
-              - { name: "nombre", label: "Nombre", widget: "string" }
               - { name: "pais", label: "País", widget: "string" }
-              - { name: "tipo", label: "Tipo de colaboración", widget: "string" }
+              - { name: "centros", label: "Centros", widget: "list", field: { name: "centro", label: "Centro", widget: "string" } }
 
       - name: "enlaces"
         label: "Enlaces útiles"
@@ -182,16 +182,147 @@ collections:
               - { name: "url", label: "Dirección (URL)", widget: "string" }
               - { name: "fuente", label: "Fuente", widget: "string", required: false }
 
+      # ---------- Versiones en inglés de los datos con texto ----------
+      - name: "portada_en"
+        label: "Portada (inglés)"
+        file: "data/portada_en.yaml"
+        fields:
+          - { name: "etiqueta", label: "Top label", widget: "string" }
+          - { name: "titulo", label: "Title", widget: "string" }
+          - { name: "lema", label: "Intro text", widget: "text" }
+          - name: "botones"
+            label: "Buttons"
+            widget: "list"
+            fields:
+              - { name: "texto", label: "Text", widget: "string" }
+              - { name: "enlace", label: "Link (same as Spanish, e.g. /admision/)", widget: "string" }
+              - { name: "principal", label: "Main button", widget: "boolean", required: false }
+          - name: "cifras"
+            label: "Key figures"
+            widget: "list"
+            fields:
+              - { name: "valor", label: "Value", widget: "string" }
+              - { name: "texto", label: "Text", widget: "string" }
+          - name: "aviso"
+            label: "Highlighted notice"
+            widget: "object"
+            fields:
+              - { name: "mostrar", label: "Show notice", widget: "boolean" }
+              - { name: "titulo", label: "Title", widget: "string" }
+              - { name: "texto", label: "Text (Markdown; links start with /en/)", widget: "text" }
+          - name: "accesos"
+            label: "Quick links"
+            widget: "list"
+            fields:
+              - { name: "titulo", label: "Title", widget: "string" }
+              - { name: "texto", label: "Text", widget: "string" }
+              - { name: "enlace", label: "Link (same as Spanish)", widget: "string" }
+          - name: "internacional"
+            label: "International block"
+            widget: "object"
+            fields:
+              - { name: "texto", label: "Text", widget: "text" }
+
+      - name: "lineas_en"
+        label: "Líneas de investigación (inglés)"
+        file: "data/lineas_en.yaml"
+        fields:
+          - name: "lineas"
+            label: "Research lines (same order as in Spanish)"
+            widget: "list"
+            summary: "{{fields.titulo}}"
+            allow_add: false
+            fields:
+              - { name: "titulo", label: "Title", widget: "string" }
+              - { name: "corto", label: "Short name", widget: "string" }
+              - { name: "descripcion", label: "Short description", widget: "text", required: false }
+              - { name: "temas", label: "Topics", widget: "list", field: { name: "tema", label: "Topic", widget: "string" } }
+              - { name: "grupos", label: "Groups and centres", widget: "list", required: false, field: { name: "grupo", label: "Group", widget: "string" } }
+
+      - name: "comisiones_en"
+        label: "Comisión Académica (inglés)"
+        file: "data/comisiones_en.yaml"
+        fields:
+          - name: "comisiones"
+            label: "Committees"
+            widget: "list"
+            summary: "{{fields.nombre}}"
+            fields:
+              - { name: "id", label: "Identifier (no spaces)", widget: "string" }
+              - { name: "nombre", label: "Name", widget: "string" }
+              - { name: "descripcion", label: "Functions", widget: "text", required: false }
+              - { name: "actualizado", label: "Membership as of", widget: "string", required: false }
+              - name: "miembros"
+                label: "Members"
+                widget: "list"
+                summary: "{{fields.cargo}}: {{fields.nombre}}"
+                fields:
+                  - { name: "cargo", label: "Role", widget: "string" }
+                  - { name: "nombre", label: "Name", widget: "string" }
+                  - { name: "categoria", label: "Position", widget: "string", required: false }
+
+      - name: "estancias_en"
+        label: "Centros de estancias (inglés)"
+        file: "data/estancias_en.yaml"
+        fields:
+          - name: "paises"
+            label: "Countries"
+            widget: "list"
+            summary: "{{fields.pais}}"
+            fields:
+              - { name: "pais", label: "Country", widget: "string" }
+              - { name: "centros", label: "Institutions", widget: "list", field: { name: "centro", label: "Institution", widget: "string" } }
+
+      - name: "enlaces_en"
+        label: "Enlaces útiles (inglés)"
+        file: "data/enlaces_en.yaml"
+        fields:
+          - name: "enlaces"
+            label: "Links"
+            widget: "list"
+            summary: "[{{fields.grupo}}] {{fields.titulo}}"
+            fields:
+              - name: "grupo"
+                label: "Section"
+                widget: "select"
+                options: ["admision", "doctorandos", "tesis", "normativa", "calidad"]
+              - { name: "titulo", label: "Link text", widget: "string" }
+              - { name: "url", label: "URL", widget: "string" }
+              - { name: "fuente", label: "Source", widget: "string", required: false }
+
   # ------------------------------------------------------------------
   - name: "noticias"
-    label: "Noticias"
+    label: "Noticias (castellano)"
     label_singular: "noticia"
     folder: "content/noticias"
+    extension: "es.md"
+    format: "frontmatter"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     sortable_fields: ["date", "title"]
     fields:
       - { name: "title", label: "Título", widget: "string" }
+      - { name: "translationKey", label: "Identificador común con la versión en inglés (p. ej. nueva-web-2026)", widget: "string", required: false }
+      - { name: "date", label: "Fecha", widget: "datetime", format: "YYYY-MM-DD" }
+      - { name: "description", label: "Resumen (1-2 frases)", widget: "text", required: false }
+      - { name: "imagen", label: "Imagen", widget: "image", required: false }
+      - { name: "imagen_alt", label: "Descripción de la imagen (accesibilidad)", widget: "string", required: false }
+      - { name: "draft", label: "Borrador (no publicar)", widget: "boolean", default: false }
+      - { name: "body", label: "Texto", widget: "markdown" }
+
+
+  - name: "news_en"
+    label: "Noticias (inglés)"
+    label_singular: "news item (English)"
+    folder: "content/noticias"
+    extension: "en.md"
+    format: "frontmatter"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    sortable_fields: ["date", "title"]
+    fields:
+      - { name: "title", label: "Title", widget: "string" }
+      - { name: "translationKey", label: "Same identifier as the Spanish version", widget: "string", required: false }
       - { name: "date", label: "Fecha", widget: "datetime", format: "YYYY-MM-DD" }
       - { name: "description", label: "Resumen (1-2 frases)", widget: "text", required: false }
       - { name: "imagen", label: "Imagen", widget: "image", required: false }
@@ -201,10 +332,31 @@ collections:
 
   # ------------------------------------------------------------------
   - name: "paginas"
-    label: "Páginas"
+    label: "Páginas (castellano)"
     label_singular: "página"
     description: "Textos de las páginas. Las cajas de normativa usan códigos {{< general >}} y {{< programa >}}: no los borres."
     folder: "content"
+    extension: "es.md"
+    format: "frontmatter"
+    nested: { depth: 3 }
+    create: false
+    meta: { path: { widget: string, label: "Ruta", index_file: "_index" } }
+    fields:
+      - { name: "title", label: "Título", widget: "string" }
+      - { name: "subtitulo", label: "Subtítulo", widget: "string", required: false }
+      - { name: "description", label: "Descripción (buscadores y tarjetas)", widget: "string", required: false }
+      - { name: "resumen", label: "Mensaje clave (aparece destacado arriba)", widget: "text", required: false }
+      - { name: "actualizado", label: "Fecha de revisión", widget: "string", required: false }
+      - { name: "weight", label: "Orden", widget: "number", required: false }
+      - { name: "body", label: "Contenido (Markdown)", widget: "markdown", modes: ["raw"] }
+
+  - name: "pages_en"
+    label: "Páginas (inglés)"
+    label_singular: "page (English)"
+    description: "Textos de las páginas. English version of each page. Keep the {{< general >}} and {{< programa >}} codes; internal links start with /en/."
+    folder: "content"
+    extension: "en.md"
+    format: "frontmatter"
     nested: { depth: 3 }
     create: false
     meta: { path: { widget: string, label: "Ruta", index_file: "_index" } }

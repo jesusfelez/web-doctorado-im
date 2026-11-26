@@ -4,21 +4,12 @@
 # =====================================================================
 # Rutas relativas: la misma web funciona en local, en la raíz o en /doctorado/ sin cambios
 baseURL = "/"
-languageCode = "es-es"
 defaultContentLanguage = "es"
-title = "Programa de Doctorado en Ingeniería Mecánica"
+defaultContentLanguageInSubdir = false   # castellano en la raíz, inglés en /en/
 enableRobotsTXT = true
 # Enlaces relativos: la web funciona igual en local, en /doctorado/ o en otro dominio
 relativeURLs = true
 
-[params]
-  descripcion = "Programa de Doctorado en Ingeniería Mecánica de la Universidad Politécnica de Madrid. ETS de Ingenieros Industriales."
-  universidad = "Universidad Politécnica de Madrid"
-  centro = "ETS de Ingenieros Industriales"
-  departamento = "Departamento de Ingeniería Mecánica"
-  direccion = "C/ José Gutiérrez Abascal, 2 · 28006 Madrid"
-  email = "secretaria@dimf.etsii.upm.es"
-  codigoRUCT = ""          # código del título en el RUCT (pendiente)
 
 [markup.goldmark.renderer]
   unsafe = true   # permite HTML dentro del Markdown
@@ -28,161 +19,398 @@ relativeURLs = true
   endLevel = 3
 
 # ---------------------------------------------------------------------
-#  MENÚ PRINCIPAL  (para añadir una entrada, copia un bloque y cambia
-#  name / pageRef / weight; "parent" la convierte en submenú)
+#  IDIOMAS: castellano (principal) e inglés.
+#  Cada página tiene dos archivos: pagina.es.md y pagina.en.md
+#  Los textos fijos de las plantillas están en i18n/es.yaml e i18n/en.yaml
 # ---------------------------------------------------------------------
-[[menus.main]]
+[languages.es]
+  languageName = "Español"
+  languageCode = "es-es"
+  title = "Programa de Doctorado en Ingeniería Mecánica"
+  weight = 1
+  [languages.es.params]
+  descripcion = "Programa de Doctorado en Ingeniería Mecánica de la Universidad Politécnica de Madrid. ETS de Ingenieros Industriales."
+  universidad = "Universidad Politécnica de Madrid"
+  centro = "ETS de Ingenieros Industriales"
+  departamento = "Departamento de Ingeniería Mecánica"
+  direccion = "C/ José Gutiérrez Abascal, 2 · 28006 Madrid"
+  email = "ingenieriamecanica.industriales@upm.es"
+  codigoRUCT = "5600706"
+
+[languages.en]
+  languageName = "English"
+  languageCode = "en-gb"
+  title = "PhD Programme in Mechanical Engineering"
+  weight = 2
+  [languages.en.params]
+  descripcion = "PhD Programme in Mechanical Engineering at Universidad Politécnica de Madrid (UPM). School of Industrial Engineering (ETSII)."
+  universidad = "Universidad Politécnica de Madrid"
+  centro = "School of Industrial Engineering (ETSII)"
+  departamento = "Department of Mechanical Engineering"
+  direccion = "C/ José Gutiérrez Abascal, 2 · 28006 Madrid"
+  email = "ingenieriamecanica.industriales@upm.es"
+  codigoRUCT = "5600706"
+
+# ---------------------------------------------------------------------
+#  MENÚ PRINCIPAL (uno por idioma). Para añadir una entrada, copia un bloque
+#  y cambia name / pageRef / weight; "parent" la convierte en submenú
+# ---------------------------------------------------------------------
+[[languages.es.menus.main]]
   identifier = "programa"
   name = "El programa"
   pageRef = "/programa"
   weight = 10
-[[menus.main]]
+
+[[languages.es.menus.main]]
   parent = "programa"
   name = "Presentación"
   pageRef = "/programa"
   weight = 1
-[[menus.main]]
+
+[[languages.es.menus.main]]
   parent = "programa"
   name = "Líneas de investigación"
   pageRef = "/programa/lineas"
   weight = 2
-[[menus.main]]
+
+[[languages.es.menus.main]]
   parent = "programa"
   name = "Profesorado"
   pageRef = "/programa/profesorado"
   weight = 3
-[[menus.main]]
+
+[[languages.es.menus.main]]
   parent = "programa"
   name = "Internacionalización"
   pageRef = "/programa/internacionalizacion"
   weight = 4
 
-[[menus.main]]
+[[languages.es.menus.main]]
   identifier = "admision"
   name = "Acceso y admisión"
   pageRef = "/admision"
   weight = 20
-[[menus.main]]
+
+[[languages.es.menus.main]]
   parent = "admision"
   name = "Requisitos de acceso"
   pageRef = "/admision/requisitos"
   weight = 1
-[[menus.main]]
+
+[[languages.es.menus.main]]
   parent = "admision"
   name = "Perfil de ingreso y complementos"
   pageRef = "/admision/perfiles"
   weight = 2
-[[menus.main]]
+
+[[languages.es.menus.main]]
   parent = "admision"
   name = "Criterios de admisión"
   pageRef = "/admision/criterios"
   weight = 3
-[[menus.main]]
+
+[[languages.es.menus.main]]
   parent = "admision"
   name = "Preinscripción y matrícula"
   pageRef = "/admision/matricula"
   weight = 4
 
-[[menus.main]]
+[[languages.es.menus.main]]
   identifier = "doctorandos"
   name = "Doctorandos"
   pageRef = "/doctorandos"
   weight = 30
-[[menus.main]]
+
+[[languages.es.menus.main]]
   parent = "doctorandos"
   name = "Duración y permanencia"
   pageRef = "/doctorandos/permanencia"
   weight = 1
-[[menus.main]]
+
+[[languages.es.menus.main]]
   parent = "doctorandos"
   name = "Plan de investigación y seguimiento"
   pageRef = "/doctorandos/seguimiento"
   weight = 2
-[[menus.main]]
+
+[[languages.es.menus.main]]
   parent = "doctorandos"
   name = "Actividades formativas"
   pageRef = "/doctorandos/formacion"
   weight = 3
-[[menus.main]]
+
+[[languages.es.menus.main]]
   parent = "doctorandos"
   name = "Movilidad"
   pageRef = "/doctorandos/movilidad"
   weight = 4
-[[menus.main]]
+
+[[languages.es.menus.main]]
   parent = "doctorandos"
   name = "Doctorado industrial"
   pageRef = "/doctorandos/doctorado-industrial"
   weight = 5
-[[menus.main]]
+
+[[languages.es.menus.main]]
   parent = "doctorandos"
   name = "Ayudas y becas"
   pageRef = "/doctorandos/ayudas"
   weight = 6
 
-[[menus.main]]
+[[languages.es.menus.main]]
   identifier = "tesis"
   name = "Tesis doctoral"
   pageRef = "/tesis"
   weight = 40
-[[menus.main]]
+
+[[languages.es.menus.main]]
   parent = "tesis"
   name = "Tutela y dirección"
   pageRef = "/tesis/direccion"
   weight = 1
-[[menus.main]]
+
+[[languages.es.menus.main]]
   parent = "tesis"
   name = "Requisitos de calidad"
   pageRef = "/tesis/requisitos"
   weight = 2
-[[menus.main]]
+
+[[languages.es.menus.main]]
   parent = "tesis"
   name = "Depósito y defensa"
   pageRef = "/tesis/deposito-defensa"
   weight = 3
-[[menus.main]]
+
+[[languages.es.menus.main]]
   parent = "tesis"
   name = "Mención internacional y cotutela"
   pageRef = "/tesis/mencion-internacional"
   weight = 4
-[[menus.main]]
+
+[[languages.es.menus.main]]
   parent = "tesis"
   name = "Tesis defendidas"
   pageRef = "/tesis/defendidas"
   weight = 5
-[[menus.main]]
+
+[[languages.es.menus.main]]
   parent = "tesis"
   name = "Normativa"
   pageRef = "/tesis/normativa"
   weight = 6
 
-[[menus.main]]
+[[languages.es.menus.main]]
   identifier = "calidad"
   name = "Calidad"
   pageRef = "/calidad"
   weight = 50
-[[menus.main]]
+
+[[languages.es.menus.main]]
   parent = "calidad"
-  name = "Comisiones"
+  name = "Comisión Académica"
   pageRef = "/calidad/comisiones"
   weight = 1
-[[menus.main]]
+
+[[languages.es.menus.main]]
   parent = "calidad"
   name = "Sistema de garantía de calidad"
   pageRef = "/calidad/sgic"
   weight = 2
-[[menus.main]]
+
+[[languages.es.menus.main]]
   parent = "calidad"
   name = "Resultados e informes"
   pageRef = "/calidad/resultados"
   weight = 3
 
-[[menus.main]]
+[[languages.es.menus.main]]
   identifier = "noticias"
   name = "Noticias"
   pageRef = "/noticias"
   weight = 60
-[[menus.main]]
+
+[[languages.es.menus.main]]
   identifier = "contacto"
   name = "Contacto"
+  pageRef = "/contacto"
+  weight = 70
+
+[[languages.en.menus.main]]
+  identifier = "programa"
+  name = "The programme"
+  pageRef = "/programa"
+  weight = 10
+
+[[languages.en.menus.main]]
+  parent = "programa"
+  name = "Overview"
+  pageRef = "/programa"
+  weight = 1
+
+[[languages.en.menus.main]]
+  parent = "programa"
+  name = "Research lines"
+  pageRef = "/programa/lineas"
+  weight = 2
+
+[[languages.en.menus.main]]
+  parent = "programa"
+  name = "Faculty"
+  pageRef = "/programa/profesorado"
+  weight = 3
+
+[[languages.en.menus.main]]
+  parent = "programa"
+  name = "Internationalisation"
+  pageRef = "/programa/internacionalizacion"
+  weight = 4
+
+[[languages.en.menus.main]]
+  identifier = "admision"
+  name = "Admission"
+  pageRef = "/admision"
+  weight = 20
+
+[[languages.en.menus.main]]
+  parent = "admision"
+  name = "Entry requirements"
+  pageRef = "/admision/requisitos"
+  weight = 1
+
+[[languages.en.menus.main]]
+  parent = "admision"
+  name = "Entry profiles and bridging courses"
+  pageRef = "/admision/perfiles"
+  weight = 2
+
+[[languages.en.menus.main]]
+  parent = "admision"
+  name = "Admission criteria"
+  pageRef = "/admision/criterios"
+  weight = 3
+
+[[languages.en.menus.main]]
+  parent = "admision"
+  name = "Application and enrolment"
+  pageRef = "/admision/matricula"
+  weight = 4
+
+[[languages.en.menus.main]]
+  identifier = "doctorandos"
+  name = "PhD students"
+  pageRef = "/doctorandos"
+  weight = 30
+
+[[languages.en.menus.main]]
+  parent = "doctorandos"
+  name = "Duration and continuation"
+  pageRef = "/doctorandos/permanencia"
+  weight = 1
+
+[[languages.en.menus.main]]
+  parent = "doctorandos"
+  name = "Research plan and monitoring"
+  pageRef = "/doctorandos/seguimiento"
+  weight = 2
+
+[[languages.en.menus.main]]
+  parent = "doctorandos"
+  name = "Training activities"
+  pageRef = "/doctorandos/formacion"
+  weight = 3
+
+[[languages.en.menus.main]]
+  parent = "doctorandos"
+  name = "Mobility"
+  pageRef = "/doctorandos/movilidad"
+  weight = 4
+
+[[languages.en.menus.main]]
+  parent = "doctorandos"
+  name = "Industrial doctorate"
+  pageRef = "/doctorandos/doctorado-industrial"
+  weight = 5
+
+[[languages.en.menus.main]]
+  parent = "doctorandos"
+  name = "Grants and funding"
+  pageRef = "/doctorandos/ayudas"
+  weight = 6
+
+[[languages.en.menus.main]]
+  identifier = "tesis"
+  name = "Doctoral thesis"
+  pageRef = "/tesis"
+  weight = 40
+
+[[languages.en.menus.main]]
+  parent = "tesis"
+  name = "Tutors and supervisors"
+  pageRef = "/tesis/direccion"
+  weight = 1
+
+[[languages.en.menus.main]]
+  parent = "tesis"
+  name = "Quality requirements"
+  pageRef = "/tesis/requisitos"
+  weight = 2
+
+[[languages.en.menus.main]]
+  parent = "tesis"
+  name = "Submission and defence"
+  pageRef = "/tesis/deposito-defensa"
+  weight = 3
+
+[[languages.en.menus.main]]
+  parent = "tesis"
+  name = "International mention and cotutelle"
+  pageRef = "/tesis/mencion-internacional"
+  weight = 4
+
+[[languages.en.menus.main]]
+  parent = "tesis"
+  name = "Defended theses"
+  pageRef = "/tesis/defendidas"
+  weight = 5
+
+[[languages.en.menus.main]]
+  parent = "tesis"
+  name = "Regulations"
+  pageRef = "/tesis/normativa"
+  weight = 6
+
+[[languages.en.menus.main]]
+  identifier = "calidad"
+  name = "Quality"
+  pageRef = "/calidad"
+  weight = 50
+
+[[languages.en.menus.main]]
+  parent = "calidad"
+  name = "Academic Committee"
+  pageRef = "/calidad/comisiones"
+  weight = 1
+
+[[languages.en.menus.main]]
+  parent = "calidad"
+  name = "Quality assurance system"
+  pageRef = "/calidad/sgic"
+  weight = 2
+
+[[languages.en.menus.main]]
+  parent = "calidad"
+  name = "Results and reports"
+  pageRef = "/calidad/resultados"
+  weight = 3
+
+[[languages.en.menus.main]]
+  identifier = "noticias"
+  name = "News"
+  pageRef = "/noticias"
+  weight = 60
+
+[[languages.en.menus.main]]
+  identifier = "contacto"
+  name = "Contact"
   pageRef = "/contacto"
   weight = 70

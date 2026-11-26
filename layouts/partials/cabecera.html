@@ -2,21 +2,31 @@
   <div class="contenedor">
     <span>{{ site.Params.universidad }} · {{ site.Params.centro }}</span>
     <div class="enlaces">
-      <a href="https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado">Doctorado UPM</a>
-      <a href="https://www.upm.es/investigacion/">Investigación UPM</a>
-      <a href="https://www.etsii.upm.es/">ETSII</a>
+      <a href="https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado">{{ i18n "doctoradoUPM" }}</a>
+      <a href="https://www.upm.es/investigacion/">{{ i18n "investigacionUPM" }}</a>
+      <a href="https://www.industriales.upm.es/">ETSII</a>
+      {{/* Selector de idioma: enlaza a la misma página en el otro idioma (o a su portada) */}}
+      {{ $actual := . }}
+      <span class="idioma" role="navigation" aria-label="{{ i18n "cambiarIdioma" }}">
+      {{ range site.Home.AllTranslations }}
+        {{ $lang := .Language.Lang }}{{ $dest := .RelPermalink }}
+        {{ range $actual.AllTranslations }}{{ if eq .Language.Lang $lang }}{{ $dest = .RelPermalink }}{{ end }}{{ end }}
+        {{ if eq $lang site.Language.Lang }}<b aria-current="true" title="{{ .Language.LanguageName }}">{{ upper $lang }}</b>{{ else }}<a href="{{ $dest }}" hreflang="{{ $lang }}" lang="{{ $lang }}" title="{{ .Language.LanguageName }}">{{ upper $lang }}</a>{{ end }}
+      {{ end }}
+      </span>
     </div>
   </div>
 </div>
 <header class="cab">
   <div class="contenedor">
-    <a class="marca" href="{{ "/" | relURL }}" aria-label="Inicio del Programa de Doctorado">
-      <img class="logo" src="{{ "img/logo-upm.svg" | relURL }}" alt="Universidad Politécnica de Madrid">
+    <div class="marca">
+      <a href="https://www.upm.es/" class="logo-enlace" title="Universidad Politécnica de Madrid"><img class="logo logo-upm" src="{{ "img/logo-upm.png" | relURL }}" alt="Universidad Politécnica de Madrid"></a>
+      <a href="https://www.industriales.upm.es/" class="logo-enlace" title="ETS de Ingenieros Industriales"><img class="logo logo-etsii" src="{{ "img/logo-etsii.png" | relURL }}" alt="ETS de Ingenieros Industriales (UPM)"></a>
       <span class="sep" aria-hidden="true"></span>
-      <span class="tit"><small>Programa de Doctorado</small><strong>Ingeniería Mecánica</strong></span>
-    </a>
-    <button class="btn-menu" id="btnMenu" aria-expanded="false" aria-controls="menu">☰ Menú</button>
-    <nav class="principal" id="menu" aria-label="Navegación principal">
+      <a class="tit" href="{{ "/" | relLangURL }}" aria-label="{{ i18n "inicioPrograma" }}"><small>{{ i18n "programaDe" }}</small><strong>{{ i18n "ingMecanica" }}</strong></a>
+    </div>
+    <button class="btn-menu" id="btnMenu" aria-expanded="false" aria-controls="menu">☰ {{ i18n "menu" }}</button>
+    <nav class="principal" id="menu" aria-label="{{ i18n "navPrincipal" }}">
       <ul>
       {{ $actual := . }}
       {{ range site.Menus.main }}

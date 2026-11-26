@@ -1,0 +1,9 @@
+{{/* Centros de estancias por país (data/estancias.yaml) */}}
+<div class="rejilla r3">
+{{ range (partial "dato.html" "estancias").paises }}
+  <div class="tarjeta">
+    <h3>{{ .pais }}</h3>
+    <ul>{{ range .centros }}<li>{{ . }}</li>{{ end }}</ul>
+  </div>
+{{ end }}
+</div>

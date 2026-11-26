@@ -1,17 +1,17 @@
 {{/* Tabla de tesis defendidas a partir de data/tesis.yaml */}}
 {{ $t := sort site.Data.tesis.tesis "anio" "desc" }}
 <div class="filtros" data-filtro="tesis">
-  <input type="search" placeholder="Buscar por autor, título o director…" aria-label="Buscar tesis" data-busca>
-  <select aria-label="Filtrar por año" data-sel="anio">
-    <option value="">Todos los años</option>
+  <input type="search" placeholder="{{ i18n "buscarTesis" }}" aria-label="{{ i18n "buscarTesis" }}" data-busca>
+  <select aria-label="{{ i18n "filtrarAnio" }}" data-sel="anio">
+    <option value="">{{ i18n "todosAnios" }}</option>
     {{ $anios := slice }}{{ range $t }}{{ $anios = $anios | append .anio }}{{ end }}
     {{ range ($anios | uniq) }}<option value="{{ . }}">{{ . }}</option>{{ end }}
   </select>
 </div>
-<p class="contador" data-contador></p>
+<p class="contador" data-contador data-uno="{{ i18n "tesisUno" }}" data-varios="{{ i18n "tesisVarias" }}"></p>
 <div class="tabla-env">
 <table class="tabla-tesis">
-  <thead><tr><th>Año</th><th>Doctorando/a</th><th>Título</th><th>Dirección</th><th>Mención</th></tr></thead>
+  <thead><tr><th>{{ i18n "anio" }}</th><th>{{ i18n "doctorando" }}</th><th>{{ i18n "titulo" }}</th><th>{{ i18n "direccion" }}</th><th>{{ i18n "mencion" }}</th></tr></thead>
   <tbody>
   {{ range $t }}
   <tr data-item data-anio="{{ .anio }}" data-texto="{{ .autor }} {{ .titulo }} {{ .direccion }}">
@@ -19,7 +19,7 @@
     <td>{{ .autor }}</td>
     <td>{{ if .enlace }}<a href="{{ .enlace }}" target="_blank" rel="noopener">{{ .titulo }}</a>{{ else }}{{ .titulo }}{{ end }}</td>
     <td>{{ .direccion }}</td>
-    <td>{{ with .mencion }}<span class="etq-mini">{{ . }}</span>{{ end }}</td>
+    <td>{{ with .mencion }}<span class="etq-mini">{{ i18n . | default . }}</span>{{ end }}</td>
   </tr>
   {{ end }}
   </tbody>
