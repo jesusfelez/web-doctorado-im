@@ -207,7 +207,7 @@ investigadores:
     grupo: "nucleo"
     afiliacion: "UPM"
     lineas: [4]
-    perfil: ""
+    perfil: "https://portalcientifico.upm.es/es/ipublic/researcher/304569"
     orcid: "https://orcid.org/0000-0003-4962-2954"
   - nombre: "Álvaro"
     apellidos: "Guzmán Bautista"
@@ -242,7 +242,7 @@ investigadores:
     grupo: "nucleo"
     afiliacion: "UPM"
     lineas: [1]
-    perfil: ""
+    perfil: "https://portalcientifico.upm.es/es/ipublic/researcher/307044"
     orcid: "https://orcid.org/0000-0001-8521-3512"
   - nombre: "Monsur"
     apellidos: "Islam"
@@ -403,7 +403,7 @@ investigadores:
     grupo: "nucleo"
     afiliacion: "UPM"
     lineas: [4]
-    perfil: ""
+    perfil: "https://portalcientifico.upm.es/es/ipublic/researcher/311132"
     orcid: "https://orcid.org/0000-0002-4655-0505"
   - nombre: "Miguel"
     apellidos: "Panizo Laiz"
