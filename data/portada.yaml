@@ -1,7 +1,7 @@
 # Contenido de la PORTADA (editable desde el panel: Portada)
 etiqueta: "Universidad Politécnica de Madrid · ETS de Ingenieros Industriales"
 titulo: "Programa de Doctorado en Ingeniería Mecánica"
-lema: "Formamos investigadores de alto nivel en Ingeniería Mecánica, en ámbitos como el vehículo autónomo, el ferrocarril inteligente y la movilidad sostenible, la fabricación aditiva y la industria 4.0, el láser y la fotónica, la ingeniería biomédica, la acústica y la protección sísmica de estructuras, en uno de los entornos de ingeniería mecánica mejor valorados de Europa."
+lema: "Formamos investigadores de alto nivel en Ingeniería Mecánica, en ámbitos como el vehículo autónomo, el ferrocarril de nueva generación y la movilidad sostenible, la fabricación aditiva y la industria 4.0, el láser y la fotónica, la ingeniería biomédica, la acústica y la protección sísmica de estructuras, en uno de los entornos de ingeniería mecánica mejor valorados de Europa."
 botones:
   - texto: "Cómo acceder"
     enlace: "/admision/"
