@@ -1,0 +1,31 @@
+<footer class="pie">
+  <div class="contenedor">
+    <div class="pie-cols">
+      <div>
+        <h4>{{ site.Title }}</h4>
+        <p>{{ site.Params.departamento }}<br>{{ site.Params.centro }} · UPM<br>{{ site.Params.direccion }}</p>
+        <p><a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></p>
+      </div>
+      {{ range first 3 (where site.Menus.main "HasChildren" true) }}
+      <div>
+        <h4>{{ .Name }}</h4>
+        <ul>{{ range .Children }}<li><a href="{{ .URL }}">{{ .Name }}</a></li>{{ end }}</ul>
+      </div>
+      {{ end }}
+    </div>
+    <div class="pie-enlaces">
+      <a href="https://www.upm.es/">UPM</a>
+      <a href="https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado">Escuela Internacional de Doctorado</a>
+      <a href="https://www.etsii.upm.es/">ETSI Industriales</a>
+      <a href="https://dimec.etsii.upm.es/">Dpto. de Ingeniería Mecánica</a>
+    </div>
+    <div class="pie-legal">
+      <span>© {{ now.Year }} {{ site.Params.universidad }} · {{ site.Params.departamento }}</span>
+      <nav aria-label="Enlaces legales">
+        <a href="https://www.upm.es/aviso_legal">Aviso legal</a>
+        <a href="https://www.upm.es/accesibilidad">Accesibilidad</a>
+        <a href="https://www.upm.es/UPM/ProteccionDatos">Protección de datos</a>
+      </nav>
+    </div>
+  </div>
+</footer>

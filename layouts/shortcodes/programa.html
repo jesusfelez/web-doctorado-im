@@ -1,0 +1,6 @@
+{{/* Caja de REQUISITO ESPECÍFICO DEL PROGRAMA (lo que añade o concreta nuestro programa).
+   Uso:  {{< programa >}} texto en Markdown {{< /programa >}} */}}
+<div class="caja caja-programa">
+  <div class="caja-etq">{{ .Get "titulo" | default "Específico de nuestro programa" }}</div>
+  <div class="caja-txt">{{ .Inner | .Page.RenderString }}</div>
+</div>

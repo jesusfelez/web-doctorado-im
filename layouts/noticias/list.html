@@ -1,0 +1,19 @@
+{{ define "main" }}
+{{ partial "cab-pagina.html" . }}
+<div class="contenedor" style="padding-top:40px;padding-bottom:64px">
+  {{ .Content }}
+  <div class="lista-noticias">
+    {{ range .Pages.ByDate.Reverse }}
+    <article class="noticia-fila">
+      <div class="fecha">{{ .Date.Format "02/01/2006" }}</div>
+      <div>
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p>{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 200 }}{{ end }}</p>
+      </div>
+    </article>
+    {{ else }}
+    <p>No hay noticias publicadas.</p>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

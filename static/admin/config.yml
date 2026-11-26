@@ -1,0 +1,218 @@
+# =====================================================================
+#  Panel de edición (Decap CMS)
+#  En local:  "npx decap-server" + "hugo server"  →  http://localhost:1313/admin/
+#  En producción: cambiar "backend" según dónde se aloje el repositorio (ver README)
+# =====================================================================
+backend:
+  name: git-gateway        # producción: github / gitlab / git-gateway (ver README)
+  branch: main
+local_backend: true        # permite editar en local sin cuentas (npx decap-server)
+
+locale: es
+media_folder: "static/uploads"
+public_folder: "/uploads"
+site_url: "https://dimec.etsii.upm.es/doctorado/"
+display_url: "https://dimec.etsii.upm.es/doctorado/"
+logo_url: "/img/logo-upm.svg"
+
+collections:
+  # ------------------------------------------------------------------
+  - name: "datos"
+    label: "Datos del programa"
+    description: "Listados que cambian con frecuencia: investigadores, tesis, comisiones, portada…"
+    files:
+      - name: "investigadores"
+        label: "Investigadores (altas y bajas)"
+        file: "data/investigadores.yaml"
+        fields:
+          - name: "investigadores"
+            label: "Investigadores"
+            label_singular: "investigador/a"
+            widget: "list"
+            summary: "{{fields.apellidos}}, {{fields.nombre}} · {{fields.afiliacion}}"
+            fields:
+              - { name: "nombre", label: "Nombre", widget: "string" }
+              - { name: "apellidos", label: "Apellidos", widget: "string" }
+              - name: "grupo"
+                label: "Grupo"
+                widget: "select"
+                options:
+                  - { label: "Profesorado ETSII-UPM (Ing. Mecánica / Física Aplicada)", value: "nucleo" }
+                  - { label: "Otros investigadores participantes", value: "colab" }
+              - { name: "afiliacion", label: "Institución", widget: "string", required: false }
+              - name: "lineas"
+                label: "Líneas de investigación"
+                widget: "select"
+                multiple: true
+                required: false
+                options:
+                  - { label: "1 · Dinámica computacional e ingeniería sísmica", value: 1 }
+                  - { label: "2 · Ingeniería acústica", value: 2 }
+                  - { label: "3 · Ingeniería de fabricación", value: 3 }
+                  - { label: "4 · Ingeniería de vehículos y transportes", value: 4 }
+                  - { label: "5 · Ingeniería de máquinas y desarrollo de productos", value: 5 }
+                  - { label: "6 · Ingeniería y aplicaciones del láser", value: 6 }
+              - { name: "perfil", label: "Enlace al perfil (Portal Científico UPM u otro)", widget: "string", required: false }
+
+      - name: "tesis"
+        label: "Tesis defendidas"
+        file: "data/tesis.yaml"
+        fields:
+          - name: "tesis"
+            label: "Tesis"
+            label_singular: "tesis"
+            widget: "list"
+            summary: "{{fields.anio}} · {{fields.autor}}"
+            fields:
+              - { name: "anio", label: "Año de defensa", widget: "number", value_type: "int" }
+              - { name: "autor", label: "Doctorando/a (Apellidos, Nombre)", widget: "string" }
+              - { name: "titulo", label: "Título", widget: "text" }
+              - { name: "direccion", label: "Director/es", widget: "string", required: false }
+              - name: "mencion"
+                label: "Mención"
+                widget: "select"
+                required: false
+                options: ["", "Internacional", "Industrial", "Cotutela", "Internacional e Industrial"]
+              - { name: "enlace", label: "Enlace (Archivo Digital UPM)", widget: "string", required: false }
+
+      - name: "comisiones"
+        label: "Comisiones (CAPD y CGC)"
+        file: "data/comisiones.yaml"
+        fields:
+          - name: "comisiones"
+            label: "Comisiones"
+            widget: "list"
+            summary: "{{fields.nombre}}"
+            fields:
+              - { name: "id", label: "Identificador (sin espacios)", widget: "string" }
+              - { name: "nombre", label: "Nombre", widget: "string" }
+              - { name: "descripcion", label: "Funciones", widget: "text", required: false }
+              - { name: "actualizado", label: "Composición a fecha", widget: "string", required: false }
+              - name: "miembros"
+                label: "Miembros"
+                widget: "list"
+                summary: "{{fields.cargo}}: {{fields.nombre}}"
+                fields:
+                  - { name: "cargo", label: "Cargo", widget: "string" }
+                  - { name: "nombre", label: "Nombre", widget: "string" }
+
+      - name: "lineas"
+        label: "Líneas de investigación"
+        file: "data/lineas.yaml"
+        fields:
+          - name: "lineas"
+            label: "Líneas"
+            widget: "list"
+            summary: "{{fields.titulo}}"
+            fields:
+              - { name: "titulo", label: "Título", widget: "string" }
+              - { name: "corto", label: "Nombre corto", widget: "string" }
+              - { name: "descripcion", label: "Descripción breve", widget: "text", required: false }
+              - { name: "temas", label: "Temas", widget: "list", field: { name: "tema", label: "Tema", widget: "string" } }
+              - { name: "grupos", label: "Grupos y centros", widget: "list", required: false, field: { name: "grupo", label: "Grupo", widget: "string" } }
+
+      - name: "portada"
+        label: "Portada"
+        file: "data/portada.yaml"
+        fields:
+          - { name: "etiqueta", label: "Etiqueta superior", widget: "string" }
+          - { name: "titulo", label: "Título", widget: "string" }
+          - { name: "lema", label: "Texto de presentación", widget: "text" }
+          - name: "botones"
+            label: "Botones"
+            widget: "list"
+            fields:
+              - { name: "texto", label: "Texto", widget: "string" }
+              - { name: "enlace", label: "Enlace", widget: "string" }
+              - { name: "principal", label: "Botón principal", widget: "boolean", required: false }
+          - name: "cifras"
+            label: "Cifras destacadas"
+            widget: "list"
+            summary: "{{fields.valor}} {{fields.texto}}"
+            fields:
+              - { name: "valor", label: "Valor", widget: "string" }
+              - { name: "texto", label: "Texto", widget: "string" }
+          - name: "aviso"
+            label: "Aviso destacado"
+            widget: "object"
+            fields:
+              - { name: "mostrar", label: "Mostrar aviso", widget: "boolean" }
+              - { name: "titulo", label: "Título", widget: "string" }
+              - { name: "texto", label: "Texto (Markdown)", widget: "text" }
+          - name: "accesos"
+            label: "Accesos directos"
+            widget: "list"
+            fields:
+              - { name: "titulo", label: "Título", widget: "string" }
+              - { name: "texto", label: "Texto", widget: "string" }
+              - { name: "enlace", label: "Enlace", widget: "string" }
+          - name: "internacional"
+            label: "Bloque internacional"
+            widget: "object"
+            fields:
+              - { name: "texto", label: "Texto", widget: "text" }
+
+      - name: "colaboraciones"
+        label: "Instituciones colaboradoras"
+        file: "data/colaboraciones.yaml"
+        fields:
+          - name: "instituciones"
+            label: "Instituciones"
+            widget: "list"
+            summary: "{{fields.nombre}} ({{fields.pais}})"
+            fields:
+              - { name: "nombre", label: "Nombre", widget: "string" }
+              - { name: "pais", label: "País", widget: "string" }
+              - { name: "tipo", label: "Tipo de colaboración", widget: "string" }
+
+      - name: "enlaces"
+        label: "Enlaces útiles"
+        file: "data/enlaces.yaml"
+        fields:
+          - name: "enlaces"
+            label: "Enlaces"
+            widget: "list"
+            summary: "[{{fields.grupo}}] {{fields.titulo}}"
+            fields:
+              - name: "grupo"
+                label: "Sección"
+                widget: "select"
+                options: ["admision", "doctorandos", "tesis", "normativa", "calidad"]
+              - { name: "titulo", label: "Texto del enlace", widget: "string" }
+              - { name: "url", label: "Dirección (URL)", widget: "string" }
+              - { name: "fuente", label: "Fuente", widget: "string", required: false }
+
+  # ------------------------------------------------------------------
+  - name: "noticias"
+    label: "Noticias"
+    label_singular: "noticia"
+    folder: "content/noticias"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    sortable_fields: ["date", "title"]
+    fields:
+      - { name: "title", label: "Título", widget: "string" }
+      - { name: "date", label: "Fecha", widget: "datetime", format: "YYYY-MM-DD" }
+      - { name: "description", label: "Resumen (1-2 frases)", widget: "text", required: false }
+      - { name: "imagen", label: "Imagen", widget: "image", required: false }
+      - { name: "imagen_alt", label: "Descripción de la imagen (accesibilidad)", widget: "string", required: false }
+      - { name: "draft", label: "Borrador (no publicar)", widget: "boolean", default: false }
+      - { name: "body", label: "Texto", widget: "markdown" }
+
+  # ------------------------------------------------------------------
+  - name: "paginas"
+    label: "Páginas"
+    label_singular: "página"
+    description: "Textos de las páginas. Las cajas de normativa usan códigos {{< general >}} y {{< programa >}}: no los borres."
+    folder: "content"
+    nested: { depth: 3 }
+    create: false
+    meta: { path: { widget: string, label: "Ruta", index_file: "_index" } }
+    fields:
+      - { name: "title", label: "Título", widget: "string" }
+      - { name: "subtitulo", label: "Subtítulo", widget: "string", required: false }
+      - { name: "description", label: "Descripción (buscadores y tarjetas)", widget: "string", required: false }
+      - { name: "resumen", label: "Mensaje clave (aparece destacado arriba)", widget: "text", required: false }
+      - { name: "actualizado", label: "Fecha de revisión", widget: "string", required: false }
+      - { name: "weight", label: "Orden", widget: "number", required: false }
+      - { name: "body", label: "Contenido (Markdown)", widget: "markdown", modes: ["raw"] }

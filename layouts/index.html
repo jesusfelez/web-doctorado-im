@@ -1,0 +1,94 @@
+{{ define "main" }}
+{{ $c := site.Data.portada }}
+<section class="hero">
+  <div class="contenedor">
+    <span class="etq">{{ $c.etiqueta }}</span>
+    <h1>{{ $c.titulo }}</h1>
+    <p>{{ $c.lema }}</p>
+    <div class="botones">
+      {{ range $c.botones }}<a class="btn {{ if .principal }}btn-blanco{{ else }}btn-borde{{ end }}" href="{{ .enlace | relURL }}">{{ .texto }}</a>{{ end }}
+    </div>
+    <div class="cifras">
+      {{ range $c.cifras }}<div class="cifra"><b>{{ .valor }}</b><span>{{ .texto }}</span></div>{{ end }}
+    </div>
+  </div>
+</section>
+
+{{ with $c.aviso }}{{ if .mostrar }}
+<div class="banda-aviso"><div class="contenedor"><strong>{{ .titulo }}</strong> {{ .texto | markdownify }}</div></div>
+{{ end }}{{ end }}
+
+<section class="bloque">
+  <div class="contenedor">
+    <div class="cab-sec"><h2>Accesos directos</h2></div>
+    <div class="rejilla r4">
+      {{ range $c.accesos }}
+      <a class="tarjeta tarjeta-acceso" href="{{ .enlace | relURL }}"><h3>{{ .titulo }}</h3><p>{{ .texto }}</p></a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="bloque gris">
+  <div class="contenedor">
+    <div class="cab-sec"><h2>Líneas de investigación</h2><a class="ver-todo" href="{{ "programa/lineas/" | relURL }}">Ver todas</a></div>
+    <div class="rejilla r3">
+      {{ range $i, $l := site.Data.lineas.lineas }}
+      <div class="tarjeta">
+        <div class="icono">{{ add $i 1 }}</div>
+        <h3>{{ $l.titulo }}</h3>
+        <p>{{ delimit (first 3 $l.temas) " · " }}…</p>
+        <div class="pie"><a class="ver-todo" href="{{ "programa/lineas/" | relURL }}#linea-{{ add $i 1 }}">Más información</a></div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="bloque">
+  <div class="contenedor">
+    <div class="cab-sec"><h2>Noticias</h2><a class="ver-todo" href="{{ "noticias/" | relURL }}">Ver todas</a></div>
+    {{ $not := first 3 (where site.RegularPages "Section" "noticias").ByDate.Reverse }}
+    {{ if $not }}
+    <div class="noticias">
+      {{ range $i, $n := $not }}
+      <article class="noticia{{ if eq $i 0 }} dest{{ end }}">
+        <div class="cuerpo">
+          <div class="fecha">{{ $n.Date.Format "02/01/2006" }}</div>
+          <h3><a href="{{ $n.RelPermalink }}">{{ $n.Title }}</a></h3>
+          <p>{{ with $n.Description }}{{ . }}{{ else }}{{ $n.Summary | plainify | truncate 180 }}{{ end }}</p>
+        </div>
+      </article>
+      {{ end }}
+    </div>
+    {{ else }}<p>No hay noticias publicadas.</p>{{ end }}
+  </div>
+</section>
+
+<section class="bloque gris">
+  <div class="contenedor">
+    <div class="rejilla r2 ancla">
+      <div>
+        <h2>Un programa internacional</h2>
+        <p class="lead">{{ $c.internacional.texto }}</p>
+        <a class="btn btn-azul" href="{{ "programa/internacionalizacion/" | relURL }}">Movilidad y colaboraciones</a>
+      </div>
+      <div class="lista-chips">
+        {{ range site.Data.colaboraciones.instituciones }}<span class="chip">{{ .nombre }}</span>{{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bloque">
+  <div class="contenedor">
+    <div class="banda">
+      <div>
+        <h3>Escuela Internacional de Doctorado de la UPM</h3>
+        <p>Calendario, preinscripción, matrícula, normativa y trámites comunes a todos los programas de doctorado de la UPM.</p>
+      </div>
+      <a class="btn btn-blanco" href="https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado">Visitar</a>
+    </div>
+  </div>
+</section>
+{{ end }}

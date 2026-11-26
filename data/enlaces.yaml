@@ -1,0 +1,111 @@
+# ENLACES ÚTILES por sección (shortcode {{< enlaces grupo="..." >}})
+# grupos: admision, doctorandos, tesis, normativa, calidad
+enlaces:
+  # --- Admisión
+  - grupo: admision
+    titulo: "Acceso, admisión y matrícula. Calendario"
+    url: "https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/informacion"
+    fuente: "UPM"
+  - grupo: admision
+    titulo: "Normativa de matrícula y admisión en doctorado"
+    url: "http://www.upm.es/sfs/Rectorado/Vicerrectorado%20de%20Investigacion/Doctorado/Admision%20y%20Calendario/NORMATIVA%20MATRICULA%20DOCTORADO2.pdf"
+    fuente: "UPM"
+  - grupo: admision
+    titulo: "Programas de doctorado de la UPM"
+    url: "https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/Programas_de_Doctorado"
+    fuente: "UPM"
+  - grupo: admision
+    titulo: "Real Decreto 99/2011 (texto consolidado), art. 6 y 7"
+    url: "https://www.boe.es/buscar/act.php?id=BOE-A-2011-2541"
+    fuente: "BOE"
+  - grupo: admision
+    titulo: "Preguntas frecuentes y contacto de la Escuela Internacional de Doctorado"
+    url: "https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/preguntas_frecuentes"
+    fuente: "UPM"
+  # --- Doctorandos
+  - grupo: doctorandos
+    titulo: "Planes anuales de investigación"
+    url: "https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/PlanesAnuales"
+    fuente: "UPM"
+  - grupo: doctorandos
+    titulo: "Formación transversal de la Escuela Internacional de Doctorado"
+    url: "https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/Actividades_formativas_Doctorado"
+    fuente: "UPM"
+  - grupo: doctorandos
+    titulo: "Compromiso de formación y supervisión del doctorando"
+    url: "https://www.upm.es/gsfs/SFS26180"
+    fuente: "UPM"
+  - grupo: doctorandos
+    titulo: "Normativa de permanencia en estudios de doctorado"
+    url: "https://www.upm.es/gsfs/SFS12774"
+    fuente: "UPM"
+  - grupo: doctorandos
+    titulo: "Procedimiento de cambio de dedicación (tiempo completo / parcial)"
+    url: "https://www.upm.es/gsfs/SFS12775"
+    fuente: "UPM"
+  - grupo: doctorandos
+    titulo: "Procedimiento de solicitud de prórroga"
+    url: "https://www.upm.es/gsfs/SFS12777"
+    fuente: "UPM"
+  - grupo: doctorandos
+    titulo: "Procedimiento de solicitud de baja temporal"
+    url: "https://www.upm.es/gsfs/SFS12778"
+    fuente: "UPM"
+  - grupo: doctorandos
+    titulo: "Ayudas para doctorado y postdoctorado"
+    url: "https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/ayudas"
+    fuente: "UPM"
+  # --- Tesis
+  - grupo: tesis
+    titulo: "Tesis doctoral: trámites, impresos y formato"
+    url: "https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado/Tesis"
+    fuente: "UPM"
+  - grupo: tesis
+    titulo: "Reglamento de elaboración y evaluación de la tesis doctoral"
+    url: "https://www.upm.es/sfs/Rectorado/Vicerrectorado%20de%20Investigacion/Doctorado/Normativa/Documentos/Reglamento%20de%20Elaboraci%C3%B3n%20y%20Evaluacion%20de%20Tesis.pdf"
+    fuente: "UPM"
+  - grupo: tesis
+    titulo: "Criterios de calidad de las tesis doctorales"
+    url: "https://www.upm.es/sfs/Rectorado/Vicerrectorado%20de%20Investigacion/Doctorado/Normativa/Documentos/Criterios_calidad_Tesis_Doctorales.pdf"
+    fuente: "UPM"
+  - grupo: tesis
+    titulo: "Modificación de los criterios de calidad (Consejo de Gobierno 26/01/2023)"
+    url: "https://www.upm.es/sfs/Rectorado/Vicerrectorado%20de%20Investigacion/Doctorado/Normativa/Modificacion_criterios_calidad_tesis.pdf"
+    fuente: "UPM"
+  - grupo: tesis
+    titulo: "Tesis por compendio de publicaciones"
+    url: "https://www.upm.es/sfs/Rectorado/Vicerrectorado%20de%20Investigacion/Doctorado/Normativa/Documentos/Tesis%20por%20compendio.pdf"
+    fuente: "UPM"
+  - grupo: tesis
+    titulo: "Procedimiento de confidencialidad de la tesis"
+    url: "https://www.upm.es/sfs/Rectorado/Vicerrectorado%20de%20Investigacion/Doctorado/Normativa/Documentos/ProcedimientoConfidencialidadTesis18.pdf"
+    fuente: "UPM"
+  - grupo: tesis
+    titulo: "Procedimiento de codirección de tesis"
+    url: "https://www.upm.es/sfs/Rectorado/Vicerrectorado%20de%20Investigacion/ProgramaPropio/ProgramaPropio2021/Procedimiento_codirecciones_tesis.pdf"
+    fuente: "UPM"
+  - grupo: tesis
+    titulo: "Cotutela de tesis: procedimiento y convenio"
+    url: "https://www.upm.es/gsfs/SFS50878"
+    fuente: "UPM"
+  - grupo: tesis
+    titulo: "TESEO – Base de datos de tesis doctorales"
+    url: "https://www.educacion.gob.es/teseo"
+    fuente: "Ministerio"
+  - grupo: tesis
+    titulo: "Archivo Digital UPM (tesis publicadas)"
+    url: "https://oa.upm.es/"
+    fuente: "UPM"
+  # --- Calidad
+  - grupo: calidad
+    titulo: "Fundación para el Conocimiento Madri+d (evaluación y acreditación)"
+    url: "https://www.madrimasd.org/"
+    fuente: "Madri+d"
+  - grupo: calidad
+    titulo: "Registro de Universidades, Centros y Títulos (RUCT)"
+    url: "https://www.educacion.gob.es/ruct/"
+    fuente: "Ministerio"
+  - grupo: calidad
+    titulo: "Calidad en la ETSI Industriales"
+    url: "https://www.etsii.upm.es/"
+    fuente: "ETSII"

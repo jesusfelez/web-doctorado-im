@@ -1,0 +1,37 @@
+<div class="barra-sup">
+  <div class="contenedor">
+    <span>{{ site.Params.universidad }} · {{ site.Params.centro }}</span>
+    <div class="enlaces">
+      <a href="https://www.upm.es/Estudiantes/Estudios_Titulaciones/Estudios_Doctorado">Doctorado UPM</a>
+      <a href="https://www.upm.es/investigacion/">Investigación UPM</a>
+      <a href="https://www.etsii.upm.es/">ETSII</a>
+    </div>
+  </div>
+</div>
+<header class="cab">
+  <div class="contenedor">
+    <a class="marca" href="{{ "/" | relURL }}" aria-label="Inicio del Programa de Doctorado">
+      <img class="logo" src="{{ "img/logo-upm.svg" | relURL }}" alt="Universidad Politécnica de Madrid">
+      <span class="sep" aria-hidden="true"></span>
+      <span class="tit"><small>Programa de Doctorado</small><strong>Ingeniería Mecánica</strong></span>
+    </a>
+    <button class="btn-menu" id="btnMenu" aria-expanded="false" aria-controls="menu">☰ Menú</button>
+    <nav class="principal" id="menu" aria-label="Navegación principal">
+      <ul>
+      {{ $actual := . }}
+      {{ range site.Menus.main }}
+        {{ $activo := or ($actual.IsMenuCurrent "main" .) ($actual.HasMenuCurrent "main" .) }}
+        {{ with .Page }}{{ if and (not $activo) (eq .Section $actual.Section) (ne $actual.Section "") }}{{ $activo = true }}{{ end }}{{ end }}
+        <li>
+          <a class="n1{{ if $activo }} activo{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+          {{ if .HasChildren }}
+          <div class="sub">
+            {{ range .Children }}<a href="{{ .URL }}">{{ .Name }}</a>{{ end }}
+          </div>
+          {{ end }}
+        </li>
+      {{ end }}
+      </ul>
+    </nav>
+  </div>
+</header>

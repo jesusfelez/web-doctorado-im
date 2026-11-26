@@ -1,0 +1,23 @@
+{{ define "main" }}
+{{ partial "cab-pagina.html" . }}
+<div class="contenedor pag-cuerpo">
+  {{ partial "lateral.html" . }}
+  <article class="contenido">
+    {{ with .Params.resumen }}<div class="resumen">{{ . | markdownify }}</div>{{ end }}
+    {{ if .Params.leyenda }}<div class="leyenda"><span class="lg">Normativa general (Real Decreto y UPM)</span><span class="lp">Específico de nuestro programa</span></div>{{ end }}
+    {{ .Content }}
+    {{ $hijas := .Pages.ByWeight }}
+    {{ if $hijas }}
+    <h2>En esta sección</h2>
+    <div class="rejilla r2">
+      {{ range $hijas }}
+      <a class="tarjeta tarjeta-acceso" href="{{ .RelPermalink }}">
+        <h3>{{ .Title }}</h3>
+        <p>{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 140 }}{{ end }}</p>
+      </a>
+      {{ end }}
+    </div>
+    {{ end }}
+  </article>
+</div>
+{{ end }}

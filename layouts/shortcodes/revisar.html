@@ -1,0 +1,3 @@
+{{/* Nota interna de revisión: SOLO se ve al probar en local (hugo server), nunca en la web publicada.
+   Uso: {{< revisar >}}Confirmar dato con la CAPD{{< /revisar >}} */}}
+{{ if hugo.IsServer }}<div class="revisar"><strong>REVISAR (solo visible en local):</strong> {{ .Inner | .Page.RenderString }}</div>{{ end }}

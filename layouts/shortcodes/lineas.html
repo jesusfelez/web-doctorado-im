@@ -1,0 +1,12 @@
+{{/* Tarjetas de líneas de investigación (data/lineas.yaml) */}}
+<div class="rejilla r2">
+{{ range $i, $l := site.Data.lineas.lineas }}
+  <div class="tarjeta" id="linea-{{ add $i 1 }}">
+    <div class="icono">{{ add $i 1 }}</div>
+    <h3>{{ $l.titulo }}</h3>
+    {{ with $l.descripcion }}<p>{{ . }}</p>{{ end }}
+    <ul>{{ range $l.temas }}<li>{{ . }}</li>{{ end }}</ul>
+    {{ with $l.grupos }}<p class="mini"><strong>Grupos y centros:</strong> {{ delimit . ", " }}</p>{{ end }}
+  </div>
+{{ end }}
+</div>

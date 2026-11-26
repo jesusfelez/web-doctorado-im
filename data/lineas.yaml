@@ -1,0 +1,64 @@
+# LÍNEAS DE INVESTIGACIÓN (memoria verificada, apartado 6.1)
+# El orden importa: el número de cada línea (1, 2, 3...) se usa en investigadores.yaml
+lineas:
+  - titulo: "Dinámica computacional e ingeniería sísmica"
+    corto: "Dinámica e ing. sísmica"
+    temas:
+      - "Ingeniería sísmica y sismología"
+      - "Dinámica de suelos y estructuras"
+      - "Diseño sismorresistente y métodos de balance energético"
+      - "Caracterización de la acción sísmica"
+      - "Monitorización del daño estructural mediante técnicas dinámicas"
+      - "Estructuras con sistemas de control pasivo"
+      - "Simulación numérica del comportamiento dinámico y ensayos en mesa sísmica"
+    grupos: ["GI Ingeniería Sísmica: Dinámica de Suelos y Estructuras", "GI Modelado y Simulación en Ingeniería Mecánica"]
+  - titulo: "Ingeniería acústica"
+    corto: "Acústica"
+    temas:
+      - "Acústica aplicada"
+      - "Ruido industrial, ambiental y laboral"
+      - "Acústica arquitectónica"
+      - "Electroacústica y metrología acústica"
+      - "Instrumentación e instrumentación virtual"
+      - "Procesado de señales de audio"
+    grupos: ["GI Instrumentación y Acústica Aplicada (i2a2)", "CAEND (UPM-CSIC)"]
+  - titulo: "Ingeniería de fabricación"
+    corto: "Fabricación"
+    temas:
+      - "Sistemas ciberfísicos e IIoT para fabricación, calidad y mantenimiento"
+      - "Análisis, desarrollo y automatización de procesos; microfabricación"
+      - "Robótica colaborativa y aplicada"
+      - "Fabricación aditiva metálica"
+      - "Ingeniería concurrente, modelado de la información e integración CAD/CAM/CAE/PLM"
+      - "Lean manufacturing, MES, productividad y KPI"
+    grupos: ["GI Ingeniería de Fabricación"]
+  - titulo: "Ingeniería de vehículos y transportes"
+    corto: "Vehículos y transportes"
+    temas:
+      - "Seguridad en el transporte e investigación de accidentes"
+      - "Biomecánica del impacto y seguridad pasiva"
+      - "Sistemas de ayuda a la conducción (ADAS) y vehículo autónomo"
+      - "Sistemas de propulsión alternativos y emisiones"
+      - "Movilidad de personas con movilidad reducida"
+      - "Ferrocarriles: dinámica, vía, catenaria, señalización y simulación"
+    grupos: ["INSIA – GI Seguridad e Impacto Medioambiental de Vehículos y Transportes (GIVET)", "CITEF – GI Tecnologías Ferroviarias y Simulación Avanzada"]
+  - titulo: "Ingeniería de máquinas y desarrollo de productos"
+    corto: "Máquinas y producto"
+    temas:
+      - "Desarrollo de productos e ingeniería biomédica"
+      - "Tribología"
+      - "Seguridad, vibraciones y vibroacústica de máquinas"
+      - "Diseño y fabricación con plásticos"
+      - "Biomecánica y mantenimiento"
+      - "Almacenamiento de energía mecánica e historia de las máquinas"
+    grupos: ["GI Ingeniería de Máquinas (GI-IM)", "GI Análisis Biomecánico"]
+  - titulo: "Ingeniería y aplicaciones del láser"
+    corto: "Láser"
+    temas:
+      - "Interacción láser-materia y plasmas producidos por láser"
+      - "Aplicaciones industriales: soldadura, tratamientos superficiales y ondas de choque"
+      - "Microfabricación y micromecanizado con láser"
+      - "Procesado láser para dispositivos fotovoltaicos"
+      - "Micro/nanofotónica, biofotónica y biosensores"
+      - "Caracterización óptica avanzada y detección remota"
+    grupos: ["Centro Láser UPM", "GI Óptica, Fotónica y Biofotónica"]

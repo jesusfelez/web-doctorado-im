@@ -1,0 +1,10 @@
+{{/* Composición de comisiones (data/comisiones.yaml) */}}
+{{ range site.Data.comisiones.comisiones }}
+<h2 id="{{ .id }}">{{ .nombre }}</h2>
+{{ with .descripcion }}<p>{{ . }}</p>{{ end }}
+<div class="tabla-env"><table>
+  <thead><tr><th>Cargo</th><th>Nombre</th></tr></thead>
+  <tbody>{{ range .miembros }}<tr><td>{{ .cargo }}</td><td>{{ .nombre }}</td></tr>{{ end }}</tbody>
+</table></div>
+{{ with .actualizado }}<p class="actualizado">Composición a fecha: {{ . }}</p>{{ end }}
+{{ end }}

@@ -1,0 +1,38 @@
+{{/* Listado de investigadores a partir de data/investigadores.yaml (editable desde el panel) */}}
+{{/* Se respeta el orden del archivo (alfabético); en el panel se puede reordenar arrastrando */}}
+{{ $inv := site.Data.investigadores.investigadores }}
+{{ $lineas := site.Data.lineas.lineas }}
+<div class="filtros" data-filtro="inv">
+  <input type="search" placeholder="Buscar por nombre o institución…" aria-label="Buscar investigador" data-busca>
+  <select aria-label="Filtrar por línea" data-sel="linea">
+    <option value="">Todas las líneas</option>
+    {{ range $i, $l := $lineas }}<option value="{{ add $i 1 }}">{{ $l.titulo }}</option>{{ end }}
+  </select>
+  <select aria-label="Filtrar por grupo" data-sel="grupo">
+    <option value="">Todos</option>
+    <option value="nucleo">Profesorado UPM (ETSII)</option>
+    <option value="colab">Otros investigadores participantes</option>
+  </select>
+</div>
+<p class="contador" data-contador></p>
+{{ range slice (dict "id" "nucleo" "tit" "Profesorado del Dpto. de Ingeniería Mecánica y del Dpto. de Física Aplicada e Ingeniería de Materiales (ETSII-UPM)") (dict "id" "colab" "tit" "Otros investigadores participantes") }}
+{{ $g := .id }}
+{{ $lista := where $inv "grupo" $g }}
+<section class="grupo-inv" data-grupo="{{ $g }}">
+  <h2 class="h-grupo">{{ .tit }} <span class="num">({{ len $lista }})</span></h2>
+  <div class="lista-inv">
+  {{ range $lista }}
+    {{ $ap := "" }}{{ range split .apellidos " " }}{{ if and (eq $ap "") (ne (substr . 0 1) (lower (substr . 0 1))) }}{{ $ap = substr . 0 1 }}{{ end }}{{ end }}
+    {{ $ini := upper (printf "%s%s" (substr .nombre 0 1) $ap) }}
+    <div class="inv" data-item data-grupo="{{ .grupo }}" data-linea="{{ delimit (.lineas | default slice) " " }}" data-texto="{{ .nombre }} {{ .apellidos }} {{ .afiliacion }}">
+      <div class="ini" aria-hidden="true">{{ $ini }}</div>
+      <div>
+        <div class="nom">{{ if .perfil }}<a href="{{ .perfil }}" target="_blank" rel="noopener">{{ .nombre }} {{ .apellidos }}</a>{{ else }}{{ .nombre }} {{ .apellidos }}{{ end }}</div>
+        {{ with .afiliacion }}<div class="afi">{{ . }}</div>{{ end }}
+        {{ with .lineas }}<div class="afi">{{ range $k, $n := . }}{{ if $k }} · {{ end }}{{ (index $lineas (sub $n 1)).corto }}{{ end }}</div>{{ end }}
+      </div>
+    </div>
+  {{ end }}
+  </div>
+</section>
+{{ end }}

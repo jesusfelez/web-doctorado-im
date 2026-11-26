@@ -1,0 +1,12 @@
+{{/* Bloque de enlaces útiles tomado de data/enlaces.yaml.
+   Uso: {{< enlaces grupo="admision" >}} */}}
+{{ $g := .Get "grupo" }}
+{{ $lista := where site.Data.enlaces.enlaces "grupo" $g }}
+{{ with $lista }}
+<div class="enlaces-utiles">
+  <div class="caja-etq">Enlaces útiles</div>
+  <ul>
+  {{ range . }}<li><a href="{{ .url }}" target="_blank" rel="noopener">{{ .titulo }}</a>{{ with .fuente }} <span class="fuente">{{ . }}</span>{{ end }}</li>{{ end }}
+  </ul>
+</div>
+{{ end }}

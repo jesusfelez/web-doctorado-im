@@ -1,0 +1,41 @@
+# Contenido de la PORTADA (editable desde el panel: Portada)
+etiqueta: "Universidad Politécnica de Madrid · ETS de Ingenieros Industriales"
+titulo: "Programa de Doctorado en Ingeniería Mecánica"
+lema: "Formamos investigadores de alto nivel en máquinas, fabricación, vehículos, acústica, dinámica estructural y láser, en uno de los entornos de ingeniería mecánica mejor valorados de Europa."
+botones:
+  - texto: "Cómo acceder"
+    enlace: "/admision/"
+    principal: true
+  - texto: "Líneas de investigación"
+    enlace: "/programa/lineas/"
+    principal: false
+cifras:
+  - valor: "6"
+    texto: "líneas de investigación"
+  - valor: "25"
+    texto: "plazas de nuevo ingreso al año"
+  - valor: "40–60 %"
+    texto: "tesis con mención internacional"
+  - valor: "4 años"
+    texto: "duración máxima a tiempo completo"
+  - valor: "100 %"
+    texto: "inserción laboral de los doctores"
+aviso:
+  mostrar: true
+  titulo: "Novedad 2026:"
+  texto: "la memoria del programa se ha adaptado al Real Decreto 576/2023, con informe favorable de la Fundación Madri+d (septiembre de 2026). Consulta los nuevos [perfiles de acceso](/admision/perfiles/), [actividades formativas](/doctorandos/formacion/) y [requisitos de la tesis](/tesis/requisitos/)."
+accesos:
+  - titulo: "Futuros doctorandos"
+    texto: "Requisitos, perfiles de acceso, criterios de admisión y matrícula."
+    enlace: "/admision/"
+  - titulo: "Doctorandos"
+    texto: "Plan de investigación, actividades formativas, movilidad y ayudas."
+    enlace: "/doctorandos/"
+  - titulo: "Tesis doctoral"
+    texto: "Requisitos de calidad, evaluación previa, depósito y defensa."
+    enlace: "/tesis/"
+  - titulo: "Investigadores"
+    texto: "Profesorado del programa e investigadores colaboradores."
+    enlace: "/programa/profesorado/"
+internacional:
+  texto: "Entre el 40 % y el 60 % de las tesis defendidas cada año obtienen la mención internacional. El programa mantiene convenios de movilidad y colaboraciones estables con universidades y centros de investigación de Europa, América y Asia."

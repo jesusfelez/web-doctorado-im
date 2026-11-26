@@ -1,0 +1,25 @@
+{{/* Menú lateral: muestra las páginas de la sección actual tomadas del menú principal */}}
+{{ $actual := . }}
+{{ $sec := "" }}
+{{ range site.Menus.main }}
+  {{ if or ($actual.IsMenuCurrent "main" .) ($actual.HasMenuCurrent "main" .) }}{{ $sec = . }}{{ end }}
+  {{ with .Page }}{{ if and (eq $sec "") (eq .Section $actual.Section) (ne $actual.Section "") }}{{ $sec = index (where site.Menus.main "Identifier" $actual.Section) 0 }}{{ end }}{{ end }}
+{{ end }}
+{{ with $sec }}
+<aside class="lateral">
+  <nav aria-label="{{ .Name }}">
+    <div class="tit-lat">{{ .Name }}</div>
+    {{ if .HasChildren }}
+      {{ range .Children }}
+        <a href="{{ .URL }}"{{ if eq .Page $actual }} class="activo" aria-current="page"{{ end }}>{{ .Name }}</a>
+      {{ end }}
+    {{ else }}
+      <a href="{{ .URL }}" class="activo">{{ .Name }}</a>
+    {{ end }}
+  </nav>
+  <div class="lat-ayuda">
+    <strong>¿Dudas?</strong>
+    <p>Escribe a la secretaría del programa:<br><a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></p>
+  </div>
+</aside>
+{{ end }}

@@ -1,0 +1,9 @@
+<div class="cab-pag">
+  <div class="contenedor">
+    <nav class="miga" aria-label="Ruta de navegación">
+      {{ range .Ancestors.Reverse }}<a href="{{ .RelPermalink }}">{{ if .IsHome }}Inicio{{ else }}{{ .Title }}{{ end }}</a> › {{ end }}<span aria-current="page">{{ .Title }}</span>
+    </nav>
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.subtitulo }}<p class="subtit">{{ . }}</p>{{ end }}
+  </div>
+</div>

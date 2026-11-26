@@ -1,0 +1,188 @@
+# =====================================================================
+#  Web del Programa de Doctorado en Ingeniería Mecánica (UPM)
+#  Configuración general de Hugo
+# =====================================================================
+# Rutas relativas: la misma web funciona en local, en la raíz o en /doctorado/ sin cambios
+baseURL = "/"
+languageCode = "es-es"
+defaultContentLanguage = "es"
+title = "Programa de Doctorado en Ingeniería Mecánica"
+enableRobotsTXT = true
+# Enlaces relativos: la web funciona igual en local, en /doctorado/ o en otro dominio
+relativeURLs = true
+
+[params]
+  descripcion = "Programa de Doctorado en Ingeniería Mecánica de la Universidad Politécnica de Madrid. ETS de Ingenieros Industriales."
+  universidad = "Universidad Politécnica de Madrid"
+  centro = "ETS de Ingenieros Industriales"
+  departamento = "Departamento de Ingeniería Mecánica"
+  direccion = "C/ José Gutiérrez Abascal, 2 · 28006 Madrid"
+  email = "secretaria@dimf.etsii.upm.es"
+  codigoRUCT = ""          # código del título en el RUCT (pendiente)
+
+[markup.goldmark.renderer]
+  unsafe = true   # permite HTML dentro del Markdown
+
+[markup.tableOfContents]
+  startLevel = 2
+  endLevel = 3
+
+# ---------------------------------------------------------------------
+#  MENÚ PRINCIPAL  (para añadir una entrada, copia un bloque y cambia
+#  name / pageRef / weight; "parent" la convierte en submenú)
+# ---------------------------------------------------------------------
+[[menus.main]]
+  identifier = "programa"
+  name = "El programa"
+  pageRef = "/programa"
+  weight = 10
+[[menus.main]]
+  parent = "programa"
+  name = "Presentación"
+  pageRef = "/programa"
+  weight = 1
+[[menus.main]]
+  parent = "programa"
+  name = "Líneas de investigación"
+  pageRef = "/programa/lineas"
+  weight = 2
+[[menus.main]]
+  parent = "programa"
+  name = "Profesorado"
+  pageRef = "/programa/profesorado"
+  weight = 3
+[[menus.main]]
+  parent = "programa"
+  name = "Internacionalización"
+  pageRef = "/programa/internacionalizacion"
+  weight = 4
+
+[[menus.main]]
+  identifier = "admision"
+  name = "Acceso y admisión"
+  pageRef = "/admision"
+  weight = 20
+[[menus.main]]
+  parent = "admision"
+  name = "Requisitos de acceso"
+  pageRef = "/admision/requisitos"
+  weight = 1
+[[menus.main]]
+  parent = "admision"
+  name = "Perfil de ingreso y complementos"
+  pageRef = "/admision/perfiles"
+  weight = 2
+[[menus.main]]
+  parent = "admision"
+  name = "Criterios de admisión"
+  pageRef = "/admision/criterios"
+  weight = 3
+[[menus.main]]
+  parent = "admision"
+  name = "Preinscripción y matrícula"
+  pageRef = "/admision/matricula"
+  weight = 4
+
+[[menus.main]]
+  identifier = "doctorandos"
+  name = "Doctorandos"
+  pageRef = "/doctorandos"
+  weight = 30
+[[menus.main]]
+  parent = "doctorandos"
+  name = "Duración y permanencia"
+  pageRef = "/doctorandos/permanencia"
+  weight = 1
+[[menus.main]]
+  parent = "doctorandos"
+  name = "Plan de investigación y seguimiento"
+  pageRef = "/doctorandos/seguimiento"
+  weight = 2
+[[menus.main]]
+  parent = "doctorandos"
+  name = "Actividades formativas"
+  pageRef = "/doctorandos/formacion"
+  weight = 3
+[[menus.main]]
+  parent = "doctorandos"
+  name = "Movilidad"
+  pageRef = "/doctorandos/movilidad"
+  weight = 4
+[[menus.main]]
+  parent = "doctorandos"
+  name = "Doctorado industrial"
+  pageRef = "/doctorandos/doctorado-industrial"
+  weight = 5
+[[menus.main]]
+  parent = "doctorandos"
+  name = "Ayudas y becas"
+  pageRef = "/doctorandos/ayudas"
+  weight = 6
+
+[[menus.main]]
+  identifier = "tesis"
+  name = "Tesis doctoral"
+  pageRef = "/tesis"
+  weight = 40
+[[menus.main]]
+  parent = "tesis"
+  name = "Tutela y dirección"
+  pageRef = "/tesis/direccion"
+  weight = 1
+[[menus.main]]
+  parent = "tesis"
+  name = "Requisitos de calidad"
+  pageRef = "/tesis/requisitos"
+  weight = 2
+[[menus.main]]
+  parent = "tesis"
+  name = "Depósito y defensa"
+  pageRef = "/tesis/deposito-defensa"
+  weight = 3
+[[menus.main]]
+  parent = "tesis"
+  name = "Mención internacional y cotutela"
+  pageRef = "/tesis/mencion-internacional"
+  weight = 4
+[[menus.main]]
+  parent = "tesis"
+  name = "Tesis defendidas"
+  pageRef = "/tesis/defendidas"
+  weight = 5
+[[menus.main]]
+  parent = "tesis"
+  name = "Normativa"
+  pageRef = "/tesis/normativa"
+  weight = 6
+
+[[menus.main]]
+  identifier = "calidad"
+  name = "Calidad"
+  pageRef = "/calidad"
+  weight = 50
+[[menus.main]]
+  parent = "calidad"
+  name = "Comisiones"
+  pageRef = "/calidad/comisiones"
+  weight = 1
+[[menus.main]]
+  parent = "calidad"
+  name = "Sistema de garantía de calidad"
+  pageRef = "/calidad/sgic"
+  weight = 2
+[[menus.main]]
+  parent = "calidad"
+  name = "Resultados e informes"
+  pageRef = "/calidad/resultados"
+  weight = 3
+
+[[menus.main]]
+  identifier = "noticias"
+  name = "Noticias"
+  pageRef = "/noticias"
+  weight = 60
+[[menus.main]]
+  identifier = "contacto"
+  name = "Contacto"
+  pageRef = "/contacto"
+  weight = 70
