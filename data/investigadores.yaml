@@ -573,13 +573,6 @@ investigadores:
     lineas: [5]
     perfil: ""
     orcid: "https://orcid.org/0000-0002-1662-2459"
-  - nombre: "Jesús"
-    apellidos: "de Vicente y Oliva"
-    grupo: "nucleo"
-    afiliacion: "UPM"
-    lineas: [3]
-    perfil: ""
-    orcid: "https://orcid.org/0000-0001-5746-1543"
   - nombre: "Antonio"
     apellidos: "Vizán Idoipe"
     grupo: "nucleo"
