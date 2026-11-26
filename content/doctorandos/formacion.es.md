@@ -31,15 +31,22 @@ La formación doctoral no necesita estructurarse en créditos ECTS. Incluye form
 ### 1. Información y documentación científica
 Búsqueda y evaluación de información científica, bases de datos, gestores de referencias, revisión del estado del arte y difusión en artículos y congresos.
 
+{{< cursos actividad="1" >}}
+
 ### 2. Gestión de la I+D+i
 Planificación y financiación de la investigación, metodologías ágiles, vigilancia tecnológica, transferencia, propiedad intelectual e industrial, protección de datos y ética de la investigación.
+
+{{< cursos actividad="2" >}}
 
 ### 3. Difusión de resultados y promoción de la ciencia abierta
 Principios FAIR, publicación en abierto y repositorios (Zenodo, GitHub, GrabCAD…), licencias abiertas, impacto social y ciencia ciudadana.
 
+{{< cursos actividad="3" >}}
+
 {{< programa titulo="Cómo se acreditan" >}}
 - Sirven los cursos de la **Escuela Internacional de Doctorado**, de centros, departamentos y bibliotecas de la UPM, y los **cursos online de instituciones de prestigio** con certificado de aprovechamiento o dedicación.
 - Aporta el **certificado** y una **breve memoria** sobre el contenido y su relación con tu tesis. En la actividad 3, añade las evidencias: depósito en repositorios, plan de gestión de datos, etc.
+- Debajo de cada actividad tienes **cursos y seminarios recomendados**, gratuitos y en línea. Son orientativos: puedes proponer otros equivalentes. Los MOOC de la UPM dan un diploma gratuito; en Coursera y edX el certificado suele ser de pago.
 - Inclúyelas en tu **plan de investigación anual**. Tu director/a las avala y la Comisión Académica las evalúa.
 {{< /programa >}}
 
@@ -50,5 +57,7 @@ Al menos **480 horas (unos 3 meses)**, preferiblemente a partir del **2.º curso
 
 ### 5. Formación específica de la línea
 Seminarios o cursos especializados que propone tu director/a y aprueba la **Comisión Académica**: hasta 1 ECTS por seminario y un máximo de 6 ECTS.
+
+{{< cursos actividad="5" >}}
 
 {{< enlaces grupo="doctorandos" >}}

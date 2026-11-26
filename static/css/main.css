@@ -274,3 +274,11 @@ li > input[type="checkbox"]{margin-right:8px;accent-color:var(--verde)}
 .plataforma .pl-etq{font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:#5b6b7b;font-weight:600}
 .plataforma a{color:var(--azul)}
 .plataforma .pl-que p{display:inline;margin:0}
+/* Desplegable de cursos recomendados */
+details.cursos{border:1px solid var(--azul-claro);border-radius:var(--radio);margin:12px 0 22px;background:#fff}
+details.cursos summary{cursor:pointer;padding:10px 14px;font-weight:600;color:var(--azul);list-style-position:inside}
+details.cursos[open] summary{border-bottom:1px solid var(--azul-claro)}
+details.cursos ul{margin:0;padding:8px 14px 12px 32px}
+details.cursos li{margin:6px 0;line-height:1.4}
+details.cursos .c-meta{display:block;font-size:13px;color:#5b6b7b}
+details.cursos .c-comp{color:#1a7f37;font-weight:600}

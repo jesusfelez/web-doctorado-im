@@ -182,6 +182,23 @@ collections:
               - { name: "url", label: "Dirección (URL)", widget: "string" }
               - { name: "fuente", label: "Fuente", widget: "string", required: false }
 
+      - name: "cursos"
+        label: "Cursos recomendados (actividades formativas)"
+        file: "data/cursos.yaml"
+        fields:
+          - name: "cursos"
+            label: "Cursos"
+            widget: "list"
+            summary: "[{{fields.actividad}}] {{fields.nombre}}"
+            fields:
+              - { name: "actividad", label: "Actividad(es) (1, 2, 3 o 5)", widget: "list", field: { name: "a", label: "Actividad", widget: "number", value_type: "int" } }
+              - { name: "nombre", label: "Curso o seminario", widget: "string" }
+              - { name: "organiza", label: "Organiza / plataforma", widget: "string" }
+              - { name: "horas", label: "Horas (castellano)", widget: "string" }
+              - { name: "horas_en", label: "Horas (inglés)", widget: "string" }
+              - { name: "completa", label: "Cubre la actividad completa (≥ 25 h)", widget: "boolean", required: false }
+              - { name: "url", label: "Enlace", widget: "string" }
+
       # ---------- Versiones en inglés de los datos con texto ----------
       - name: "portada_en"
         label: "Portada (inglés)"

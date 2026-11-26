@@ -1,0 +1,15 @@
+{{/* Cursos recomendados de una actividad, en un desplegable.
+   Uso: {{< cursos actividad="1" >}}   Datos: data/cursos.yaml */}}
+{{ $a := int (.Get "actividad") }}{{ $en := eq site.Language.Lang "en" }}
+{{ $l := where site.Data.cursos.cursos "actividad" "intersect" (slice $a) }}
+{{ if $l }}
+<details class="cursos">
+  <summary>{{ i18n "cursosRec" }} ({{ len $l }})</summary>
+  <ul>
+  {{ range $l }}
+    <li><a href="{{ .url }}" target="_blank" rel="noopener">{{ .nombre }}</a>
+      <span class="c-meta">{{ .organiza }} · {{ if $en }}{{ .horas_en }}{{ else }}{{ .horas }}{{ end }}{{ if .completa }} · <span class="c-comp" title="{{ i18n "cubreTitle" }}">★ {{ i18n "cubre" }}</span>{{ end }}</span></li>
+  {{ end }}
+  </ul>
+</details>
+{{ end }}

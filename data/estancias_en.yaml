@@ -5,11 +5,11 @@ paises:
   - pais: "France"
     centros: ["ParisTech (Paris)", "Institut Laue-Langevin (Grenoble)"]
   - pais: "Germany"
-    centros: ["Laserzentrum, Hochschule München (Munich)"]
+    centros: ["Karlsruher Institut für Technologie – KIT (Karlsruhe)", "Laserzentrum, Hochschule München (Munich)"]
   - pais: "Ireland"
     centros: ["University of Galway (Galway)"]
   - pais: "Italy"
-    centros: ["Politecnico di Torino (Turin)", "Istituto di Ricerca sui Motori – CNR (Naples)"]
+    centros: ["Università degli Studi di Pavia (Pavia)", "Politecnico di Torino (Turin)", "Istituto di Ricerca sui Motori – CNR (Naples)"]
   - pais: "Japan"
     centros: ["Institute of Science Tokyo, formerly Tokyo Institute of Technology (Tokyo)"]
   - pais: "Netherlands"
@@ -17,10 +17,10 @@ paises:
   - pais: "Norway"
     centros: ["Simula Research Laboratory (Oslo)"]
   - pais: "Portugal"
-    centros: ["Universidade de Lisboa – Instituto Superior Técnico (Lisbon)"]
+    centros: ["HyperMetla Lda (company)", "Universidade de Lisboa – Instituto Superior Técnico (Lisbon)"]
   - pais: "South Korea"
     centros: ["KAIST (Daejeon)"]
   - pais: "United Kingdom"
     centros: ["University of Sheffield (Sheffield)", "University of Hull (Hull)"]
   - pais: "United States"
-    centros: ["Georgia Institute of Technology – Manufacturing Institute (Atlanta)", "Princeton University (Princeton)"]
+    centros: ["University of California, Berkeley (Berkeley)", "Massachusetts Institute of Technology – MIT (Cambridge)", "Georgia Institute of Technology – Manufacturing Institute (Atlanta)", "Princeton University (Princeton)"]
